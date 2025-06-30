@@ -1,0 +1,899 @@
+{
+  "spirit_gems": [
+    {
+      "name": "Herald of Ash",
+      "type": "Buff",
+      "tags": ["Persistent", "AoE", "Fire", "Duration", "Herald"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, enemies you sufficiently Overkill with non-Herald Attacks will cause an explosion that Ignites nearby enemies based on the Overkill damage dealt.",
+      "buff_effects": [
+        "Explosion radius is 1.2 metres",
+        "Ignite duration is 3 seconds",
+        "An additional +(16.67–23)% of Overkill damage contributes to base Ignite damage"
+      ],
+      "additional_quality_effects": [
+        "An additional +(0–5)% of Overkill damage contributes to base Ignite damage"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "An additional +(16.67–23)% of Overkill damage contributes to base Ignite damage"
+      }
+    },
+    {
+      "name": "Magma Barrier",
+      "type": "Buff",
+      "tags": [
+        "Attack",
+        "Persistent",
+        "AoE",
+        "Melee",
+        "Trigger",
+        "Fire",
+        "Duration"
+      ],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "Shields, Bucklers",
+      "description": "When you raise your Shield it is infused with magma for a short time. Blocking during this time will spray magma at the attacker and grant you an Endurance Charge.",
+      "buff_effects": [
+        "6 to 8 Added Fire Damage per 15 Armour on Shield",
+        "(6–177) to (10–265) Base Off Hand Fire Damage"
+      ],
+      "additional_quality_effects": [
+        "Raising your shield infuses it with magma for (0–0.2) seconds"
+      ],
+      "other_stats": {
+        "Critical Hit Chance": "5.00%",
+        "Attack Damage": "(130–471)% of base",
+        "Added Fire Damage": "6 to 8 Added Fire Damage per 15 Armour on Shield",
+        "Base Off Hand Fire Damage": "(6–177) to (10–265) Base Off Hand Fire Damage"
+      }
+    },
+    {
+      "name": "Scavenged Plating",
+      "type": "Buff",
+      "tags": ["Persistent", "Physical", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "",
+      "description": "While active, uses fragments of armour scavenged from enemies to bolster your own. Fully Breaking an enemy's Armour grants you stacks of Scavenged Plating for a duration based on the enemy's rarity, and you gain Armour and Thorns per stack. Normal enemies grant 1 stack, Magic enemies grant 2 stacks, Rare enemies grant 5 stacks and Unique enemies grant 10 stacks.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–2)% more Armour per Scavenged Plating"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Overwhelming Presence",
+      "type": "Buff",
+      "tags": ["Persistent", "Aura"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "",
+      "description": "While active, emits an Aura that makes enemies in your Presence easier to Stun and inflict Elemental Ailments upon.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Enemies in your Presence have (0–5)% reducedElemental Ailment ThresholdEnemies in your Presence have (0–5)% reduced Stun Threshold"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Time of Need",
+      "type": "Buff",
+      "tags": ["Persistent", "Duration"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "",
+      "description": "While active, periodically invokes divine blessings to heal you and remove Curses and Elemental Ailments from you.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Blessing recovers (0–40) Life and removes Curses and Elemental Ailments"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Berserk",
+      "type": "Buff",
+      "tags": [],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Str"
+      },
+      "weapon_requirements": "",
+      "description": "While active, strengthens your Rage and grants you Life Leech based on your Rage, but causes you to lose Life while Raging.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Grants (0–10)% increased Rage effect"],
+      "other_stats": {}
+    },
+    {
+      "name": "Herald of Thunder",
+      "type": "Buff",
+      "tags": ["Attack", "Persistent", "AoE", "Lightning", "Herald", "Payoff"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, killing Shocked enemies with a non-Herald Attack Hit will cause subsequent Attack Hits to release lightning bolts which deals Attack damage to all surrounding enemies.",
+      "buff_effects": [
+        "Supported Skills Cannot inflict Shock",
+        "Can't be Evaded",
+        "Bolt impact radius is 1.4 metres",
+        "100% of Bolt Physical DamageConverted to Lightning Damage"
+      ],
+      "additional_quality_effects": [
+        "Lightning Bolts strike the targets of your next (0–2) Attack Hitsafter Killing a Shocked Enemy with Attack Damage"
+      ],
+      "other_stats": {
+        "Attack Damage": "(35–143)%",
+        "Damage Stat 2": "100% of Bolt Physical DamageConverted to Lightning Damage"
+      }
+    },
+    {
+      "name": "Plague Bearer",
+      "type": "Buff",
+      "tags": ["Persistent", "AoE", "Physical", "Chaos", "Nova"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, stores all Poison Damage you deal. Using the Plague Nova skill unleashes the stored Poison.",
+      "buff_effects": [
+        "Always Poison on Hit",
+        "80% less Stun buildup",
+        "Stored Poison grants up to 600% more Area of Effect"
+      ],
+      "additional_quality_effects": ["Stores (0–2)% of Expected Poison damage"],
+      "other_stats": {}
+    },
+    {
+      "name": "Wind Dancer",
+      "type": "Buff",
+      "tags": ["Attack", "Persistent", "AoE", "Melee", "Staged"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, periodically grants stages of a buff that gives you more Evasion per stage. Being Hit by an Enemy while you have this buff consumes all stages to damage and Knock Back enemies around you.",
+      "buff_effects": [
+        "3 maximum stages",
+        "Gain a stage every (1.12–1.5) seconds",
+        "10% more Evasion Rating per stageOn being Hit by an Enemy, consume allstages to trigger Gale Force"
+      ],
+      "additional_quality_effects": ["+(0–0.4) metres to explosion radius"],
+      "other_stats": {
+        "Cooldown Time": "0.25 s",
+        "Attack Damage": "(40–163)% of base",
+        "Damage Stat 2": "50% more damage per stage"
+      }
+    },
+    {
+      "name": "Combat Frenzy",
+      "type": "Buff",
+      "tags": [],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, grants you a Frenzy Charge when you Freeze, Electrocute or Pin an enemy. This can only occur once every few seconds.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–20)% chance when you gain a Charge to gain an additional Charge"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Herald of Plague",
+      "type": "Buff",
+      "tags": ["Persistent", "Chaos", "Herald"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, killing a Poisoned enemy spreads its Poison to other nearby enemies, and has a chance to also Hinder them.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–20)% chance to Hinder enemies on spreading Poison to them"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Trail of Caltrops",
+      "type": "Attack",
+      "tags": [
+        "Buff",
+        "Persistent",
+        "AoE",
+        "Projectile",
+        "Physical",
+        "Duration",
+        "Hazard"
+      ],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, scatters caltrops in your wake when you dodge.",
+      "buff_effects": ["Scatters 3 caltrops when you dodge"],
+      "additional_quality_effects": [
+        "+(0–5) to maximum number of Caltrops allowed"
+      ],
+      "other_stats": {
+        "Critical Hit Chance": "5.00%",
+        "Attack Damage": "(35–143)% of base",
+        "Damage Stat 2": "(6–159) to (9–238) base Physical Damage",
+        "Damage Stat 3": "Increases and reductions to Thorns Damage apply to Hit Damage with this skill"
+      }
+    },
+    {
+      "name": "Alchemist's Boon",
+      "type": "Buff",
+      "tags": ["Persistent", "Aura"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, grants you Flask charges passively and causes Life and Mana recovery from your Flasks to also apply to Allies in your Presence.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Grants you (0–0.03) Flask charges per second"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Rhoa Mount",
+      "type": "Minion",
+      "tags": ["Buff", "Companion", "Persistent"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "Harnesses a Companion Rhoa that you can ride. While you're mounted on the Rhoa, you can only use Bow, thrown Spear and Mark Skills, you run at full speed when attacking, and Hits against you cause Heavy Stun buildup. While you aren't mounted, the Rhoa attacks your enemies alongside you with its beak, but can be damaged.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Minions have (0–20)% more Maximum Life"],
+      "other_stats": {}
+    },
+    {
+      "name": "Trinity",
+      "type": "Buff",
+      "tags": ["Persistent", "Lightning", "Cold", "Fire"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "100 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "Become attuned to all Elements building up Fire, Cold and Lightning Resonance based off the highest Elemental Damage type dealt by your Attack Hits. Your Elemental Damage with Attacks is greatly enhanced the more Resonance of any type you have.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–15)% increased Attack speed while total Resonance is over 250"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "On dealing Elemental Damage with an Attack Hit gain (5–13) Resonance of the highest Elemental Damage type and lose 3 Resonance of the other types",
+        "Damage Stat 2": "(1–6)% more Elemental Damage with Attacks per 30Resonance of any type"
+      }
+    },
+    {
+      "name": "Arctic Armour",
+      "type": "Buff",
+      "tags": ["Spell", "Persistent", "Sustained", "Cold", "Staged"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, conjures an icy barrier that gains stages over time. While the barrier has stages, Melee Attacks that hit you will remove a stage to cause a burst of ice that deals Cold Spell damage to the attacker.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Gains a Stage every  seconds, up to a maximum of (0–1) Stages"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "Deals (7–190) to (10–285) Cold Damage per Stage"
+      }
+    },
+    {
+      "name": "Convalescence",
+      "type": "Spell",
+      "tags": ["Buff", "Persistent", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, grants a skill that you can use to instantly begin Recharging Energy Shield and gain a Buff for a duration that prevents that Recharge being interrupted. The Buff is removed at maximum Energy Shield and the skill cannot be used while Energy Shield is full.",
+      "buff_effects": [],
+      "additional_quality_effects": ["+(0–0.5) seconds to Buff duration"],
+      "other_stats": {
+        "Cost": "20 Mana",
+        "Cooldown Time": "30.00 s",
+        "Cast Time": "0.50 sec"
+      }
+    },
+    {
+      "name": "Mana Remnants",
+      "type": "Buff",
+      "tags": ["Persistent", "Remnant"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "Conjure surging arcane energy to restore your Mana. While active, enemies you kill affected by Elemental Ailments have a chance to spawn a Mana Remnant, and Critically Hitting a target with Elemental Ailments spawns a Mana Remnant every few seconds. Picking up a Mana Remnant grants you Mana which can Overflow maximum Mana.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Each Remnant grants (0–30) Mana"],
+      "other_stats": {}
+    },
+    {
+      "name": "Raging Spirits",
+      "type": "Buff",
+      "tags": ["Minion", "Persistent", "Fire", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, Fire Spells you use yourself will also summon Raging Spirits, which are short-lived flaming skulls that rush at nearby enemies and rapidly Attack them. Enemies will not directly engage these Minions, and can pass through them.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Limit (0–1) Summoned Raging Spirit"],
+      "other_stats": {
+        "Damage Stat 1": "Minions from this skill convert 70% of Physical Damage to Fire Damage"
+      }
+    },
+    {
+      "name": "Withering Presence",
+      "type": "Buff",
+      "tags": ["Persistent", "Aura", "Chaos", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, emits an Aura that periodically Withers enemies in your Presence.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Withered duration is (0–1) second"],
+      "other_stats": {}
+    },
+    {
+      "name": "Blasphemy",
+      "type": "Buff",
+      "tags": ["Persistent", "AoE", "Aura", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "Turn socketed Curse skills into vile Auras, applying their effects to all nearby enemies.",
+      "buff_effects": [
+        "Supported Curses have (41–50)% less Magnitudes",
+        "Socketed Skills have +1 metres to base radius"
+      ],
+      "additional_quality_effects": ["(0–10)% reduced Reservation"],
+      "other_stats": {
+        "Damage Stat 1": "Socketed Skills have +1 metres to base radius"
+      }
+    },
+    {
+      "name": "Cast on Freeze",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Cold", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you Freeze enemies and triggers socketed spells on reaching maximum Energy.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      ],
+      "additional_quality_effects": ["(0–15)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      }
+    },
+    {
+      "name": "Cast on Ignite",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Fire", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you Ignite enemies and triggers socketed spells on reaching maximum Energy.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      ],
+      "additional_quality_effects": ["(0–15)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      }
+    },
+    {
+      "name": "Cast on Minion Death",
+      "type": "Buff",
+      "tags": ["Minion", "Persistent", "Trigger", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when one of your Persistent Minions is Killed, and triggers socketed Spells upon reaching maximum Energy. Very underlevelled Minions will incur an Energy generation penalty. Cannot socket Spells which create Minions.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      ],
+      "additional_quality_effects": ["(0–20)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      }
+    },
+    {
+      "name": "Cast on Shock",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Lightning", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you Shock enemies and triggers socketed spells on reaching maximum Energy.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      ],
+      "additional_quality_effects": ["(0–15)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      }
+    },
+    {
+      "name": "Archmage",
+      "type": "Buff",
+      "tags": ["Persistent", "Lightning"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "100 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, causes your Non-Channelling Spells to cost additional mana and deal extra Lightning damage, both based on your maximum Mana.",
+      "buff_effects": [],
+      "additional_quality_effects": ["(0–10)% reduced Reservation"],
+      "other_stats": {
+        "Damage Stat 1": "Non-Channelling Spells Gain 3% of Damage as extra Lightning damage for each 100 maximum Mana you have"
+      }
+    },
+    {
+      "name": "Blink",
+      "type": "Buff",
+      "tags": ["Spell", "Persistent", "Travel"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, replaces your dodge roll with a short-cooldown Spell that allows you to tunnel through space, instantly reappearing a medium distance away.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–10)% increased Cooldown Recovery Rate"
+      ],
+      "other_stats": {
+        "Cooldown Time": "(4.50–3.50) s",
+        "Cast Time": "0.70 sec"
+      }
+    },
+    {
+      "name": "Cast on Critical",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Meta"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "100 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you Critically Hit enemies and triggers socketed Spells on reaching maximum Energy.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells",
+        "Socketed Skills deal 20% less Damage"
+      ],
+      "additional_quality_effects": ["(0–10)% reduced Reservation"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells",
+        "Damage Stat 2": "Socketed Skills deal 20% less Damage"
+      }
+    },
+    {
+      "name": "Elemental Conflux",
+      "type": "Buff",
+      "tags": ["Persistent", "Lightning", "Cold", "Fire", "Duration"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "100 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "Tap into a current of raw and unpredictable Elemental power, causing you to deal greatly more damage of a randomly chosen Element. The Element affected changes frequently, though the same Element can be affected multiple times in succession.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Buff grants (0–10)% more damage with the affected Element"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "Buff grants (40–59)% more damage with the affected Element"
+      }
+    },
+    {
+      "name": "Sacrifice",
+      "type": "Minion",
+      "tags": ["Buff", "Persistent"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–205) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, your undead Reviving Minions can be used in place of Corpses by your skills, but your Minions Revive more slowly.",
+      "buff_effects": [],
+      "additional_quality_effects": ["Minions Revive +(0–5)% more quickly"],
+      "other_stats": {}
+    },
+    {
+      "name": "Ghost Dance",
+      "type": "Buff",
+      "tags": ["Persistent", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, causes you to periodically gain Ghost Shrouds. If you are Hit while you have a Ghost Shroud, it is immediately consumed to recover Energy Shield based on your Evasion.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Ghost Shrouds recover Energy Shield equal to +(0–2)% of your Evasion"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Herald of Blood",
+      "type": "Buff",
+      "tags": ["Attack", "Persistent", "AoE", "Physical", "Herald", "Payoff"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, killing an enemy with Blood Loss will cause a bloody explosion that deals Physical Attack damage to surrounding enemies based off the life of the exploded enemy, destroying their Corpse if the enemy was Normal or Magic. The explosion also has a chance to Aggravate Bleeding.",
+      "buff_effects": [
+        "Can't be Evaded",
+        "Cannot cause Bleeding",
+        "Explosion radius is 1.5 metres",
+        "(4–107) to (6–160) base Physical Damage",
+        "Deals +15% of exploded enemy's Blood Lossas unscalable Physical Attack Damage",
+        "(40–59)% chance to Aggravate Bleeding on Hit"
+      ],
+      "additional_quality_effects": [
+        "Deals +(0–4)% of exploded enemy's Blood Lossas unscalable Physical Attack Damage"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "(4–107) to (6–160) base Physical Damage",
+        "Damage Stat 2": "Deals +15% of exploded enemy's Blood Lossas unscalable Physical Attack Damage"
+      }
+    },
+    {
+      "name": "Herald of Ice",
+      "type": "Buff",
+      "tags": ["Attack", "Persistent", "AoE", "Cold", "Herald", "Payoff"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "Any Martial Weapon",
+      "description": "While active, Shattering an enemy with a non-Herald Attack Hit will cause an icy explosion that deals Attack damage to surrounding enemies.",
+      "buff_effects": [
+        "Can't be Evaded",
+        "Cannot Freeze",
+        "Explosion radius is 1.6 metres",
+        "100% of Explosion Physical DamageConverted to Cold Damage"
+      ],
+      "additional_quality_effects": ["Explosion radius is (0–0.4) metres"],
+      "other_stats": {
+        "Attack Damage": "(70–286)%",
+        "Damage Stat 2": "100% of Explosion Physical DamageConverted to Cold Damage"
+      }
+    },
+    {
+      "name": "War Banner",
+      "type": "Banner",
+      "tags": ["Buff", "Persistent", "AoE", "Aura", "Duration"],
+      "tier": 4,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, killing enemies with Attacks or standing near a Unique enemy generates Valour. Using this Skill consumes its Valour to place an inspiring Banner with an Aura that grants you and nearby Allies Attack damage and Accuracy while the Banner lasts. The Banner cannot gain Valour while placed, and you cannot place a Banner while you already have a Banner placed.",
+      "buff_effects": [
+        "Attack kills generates Valour equal to the enemy's PowerGains 1 Valour per second while aUnique enemy is in your Presence"
+      ],
+      "additional_quality_effects": ["+(0–2)% more Aura Magnitudes per Valour"],
+      "other_stats": {
+        "Damage Stat 1": "Aura grants (5–6)% more Attack damage"
+      }
+    },
+    {
+      "name": "Barrier Invocation",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when your Energy Shield is damaged by Enemy Hits. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy.",
+      "buff_effects": [
+        "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      ],
+      "additional_quality_effects": ["(0–15)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      }
+    },
+    {
+      "name": "Defiance Banner",
+      "type": "Banner",
+      "tags": ["Buff", "Persistent", "AoE", "Aura", "Duration"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, killing enemies with Attacks or standing near a Unique enemy generates Valour. Using this Skill consumes its Valour to place an inspiring Banner with an Aura that grants you and nearby Allies Armour, Evasion and movement speed while the Banner lasts. The Banner cannot gain Valour while placed, and you cannot place a Banner while you already have a Banner placed.",
+      "buff_effects": [
+        "Attack kills generates Valour equal to the enemy's PowerGains 1 Valour per second while aUnique enemy is in your Presence"
+      ],
+      "additional_quality_effects": ["+(0–2)% more Aura Magnitudes per Valour"],
+      "other_stats": {}
+    },
+    {
+      "name": "Elemental Invocation",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Lightning", "Cold", "Fire", "Meta"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you Freeze, Shock or Ignite an enemy. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy.",
+      "buff_effects": [
+        "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      ],
+      "additional_quality_effects": ["Maximum Energy is (0–100)"],
+      "other_stats": {
+        "Damage Stat 1": "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      }
+    },
+    {
+      "name": "Lingering Illusion",
+      "type": "Buff",
+      "tags": ["Persistent", "Duration"],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, creates a short-lived illusory copy of yourself whenever you dodge roll. The copy can be damaged by enemies, and copies that are destroyed by an enemy will grant you a Power Charge.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "(0–20)% chance to grant an additional Power Charge when killed"
+      ],
+      "other_stats": {
+        "Cost": "10 Mana"
+      }
+    },
+    {
+      "name": "Shard Scavenger",
+      "type": "Buff",
+      "tags": [
+        "Persistent",
+        "Physical",
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Duration"
+      ],
+      "tier": 8,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, Consuming Freeze, Shock, Ignite, or Fully Broken Armour on an enemy reloads your Crossbow, restores one cooldown use for your Grenades and grants a Buff causing Crossbow Attacks to not consume bolts for a duration. This can only occur once every few seconds.",
+      "buff_effects": [],
+      "additional_quality_effects": ["(0–5)% reduced Reservation"],
+      "other_stats": {}
+    },
+    {
+      "name": "Attrition",
+      "type": "Buff",
+      "tags": [],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, causes you to deal more Hit damage to Rare and Unique enemies the longer you've been fighting them, and gain Culling Strike against them once you've been fighting them for long enough.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "You have Culling Strike against Rare and Unique enemies that have been in your Presence for a total of at least (-5–0) seconds"
+      ],
+      "other_stats": {
+        "Damage Stat 1": "You deal 1% more Hit damage to Rare and Unique enemies for every 2 seconds they have ever been in your Presence, up to (40–59)%"
+      }
+    },
+    {
+      "name": "Cast on Dodge",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Meta"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "100 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you dodge roll and triggers socketed spells on reaching maximum Energy.",
+      "buff_effects": [
+        "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      ],
+      "additional_quality_effects": ["(0–10)% reduced Reservation"],
+      "other_stats": {
+        "Damage Stat 1": "Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed Spells"
+      }
+    },
+    {
+      "name": "Charge Infusion",
+      "type": "Buff",
+      "tags": [],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, you gain powerful Buffs based on your active Charges. However, maintaining the Buff Consumes Charges every few seconds.",
+      "buff_effects": [],
+      "additional_quality_effects": [
+        "Consumes one of each Charge every (0–0.8) seconds"
+      ],
+      "other_stats": {}
+    },
+    {
+      "name": "Dread Banner",
+      "type": "Banner",
+      "tags": ["Buff", "Persistent", "AoE", "Aura", "Duration"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "30 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Str, (1–109) Dex"
+      },
+      "weapon_requirements": "",
+      "description": "While active, killing enemies with Attacks or standing near a Unique enemy generates Valour. Using this Skill consumes its Valour to place an inspiring Banner with an Aura that grants you and nearby Allies Stun Threshold, Elemental Ailment Threshold and Flask charges while the Banner lasts. The Banner cannot gain Valour while placed, and you cannot place a Banner while you already have a Banner placed.",
+      "buff_effects": [
+        "Attack kills generates Valour equal to the enemy's PowerGains 1 Valour per second while aUnique enemy is in your Presence"
+      ],
+      "additional_quality_effects": ["+(0–2)% more Aura Magnitudes per Valour"],
+      "other_stats": {}
+    },
+    {
+      "name": "Reaper's Invocation",
+      "type": "Buff",
+      "tags": ["Persistent", "Trigger", "Meta"],
+      "tier": 14,
+      "level": "(1–20)",
+      "reservation": "60 Spirit",
+      "requirements": {
+        "requirements": "Level (1–90), (1–109) Dex, (1–109) Int"
+      },
+      "weapon_requirements": "",
+      "description": "While active, gains Energy when you kill an enemy with a Melee Attack. Using the Invocation once sufficient Energy is gathered will consume the Energy to trigger socketed Spells, and can trigger them multiple times if it has enough Energy.",
+      "buff_effects": [
+        "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      ],
+      "additional_quality_effects": ["(0–20)% increased Energy gained"],
+      "other_stats": {
+        "Damage Stat 1": "Socketed Spells consume 10 Energy per 0.1 seconds of base cast time when Triggered"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4180 @@
+{
+  "support_gems": [
+    {
+      "name": "Fire Infusion",
+      "type": "Support",
+      "tags": ["Attack", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks, causing them to Gain Fire Damage but deal less Cold and Lightning Damage.",
+      "effects": [
+        "Supported Attacks Gain 25% of Damage as extra Fire Damage",
+        "Supported Attacks deal 50% less Cold and Lightning Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lifetap",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit.",
+      "effects": ["Skill Mana Costs Converted to Life Costs"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bloodlust",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks, causing them to deal more damage against Bleeding enemies, but preventing them from inflicting Bleeding.",
+      "effects": [
+        "Supported Skills deal 30% more Melee Physical Damage against Bleeding enemies",
+        "Supported Attacks cannot cause Bleeding"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Brutality",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that deals damage, boosting its Physical damage at the expense of all other Damage Types.",
+      "effects": [
+        "Supported Skills deal 25% more Physical Damage",
+        "Supported Skills deal no Chaos Damage",
+        "Supported Skills deal no Elemental Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lacerate",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, giving it a chance to inflict Bleeding.",
+      "effects": ["Supported Skills have 50% chance to inflict Bleeding"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ignition",
+      "type": "Support",
+      "tags": ["Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, making it more likely to Ignite.",
+      "effects": ["Supported Skills have 100% more chance to Ignite"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Corrupting Cry",
+      "type": "Support",
+      "tags": ["Warcry", "Physical", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcries, causing them to inflict Corrupted Blood on enemies in their area of effect.",
+      "effects": [
+        "Supported Warcries have 30% less Area of Effect",
+        "Corrupted Blood deals 25% of your Strength asPhysical Damage per second",
+        "Corrupted Blood duration is 5 seconds",
+        "Supported Warcries inflict Corrupted Blood"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Double Barrel",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Crossbow Ammunition Skills, causing them to load an extra bolt at the cost of reload speed.",
+      "effects": [
+        "Supported Skills have 30% less Reload Speed",
+        "Supported Skills load an additional bolt"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Premeditation",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports skills that can Empower skills other than themselves, causing skills they Empower to deal more damage.",
+      "effects": ["Skills Empowered by Supported Skills deal 15% more Damage"],
+      "cost_multiplier": "130%"
+    },
+    {
+      "name": "Break Endurance",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, giving it a chance to gain an Endurance Charge when it Fully Breaks an enemy's Armour.",
+      "effects": [
+        "40% chance to gain an Endurance Charge when Supported Skills Fully Break Armour"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Execute",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing it to deal more damage against enemies on Low Life.",
+      "effects": [
+        "Supported Skills deal 50% more Damage with Hits against Enemies that are on Low Life"
+      ],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Expedite",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which Detonate after some amount of time has elapsed, shortening the time before Detonation.",
+      "effects": ["Supported Skills have 40% less Detonation Time"],
+      "cost_multiplier": "115%"
+    },
+    {
+      "name": "Fist of War",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Slam"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slams you use yourself, providing a powerful Ancestral Boost every few seconds.",
+      "effects": [
+        "Attacks with Supported Skill are Ancestrally Boosted, no more than once every 6 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Eternal Flame",
+      "type": "Support",
+      "tags": ["Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing its Ignites to be inflicted less often but last longer.",
+      "effects": [
+        "Supported Skills have 100% increased Ignite Duration on Enemies",
+        "Supported Skills have 25% less chance to Ignite"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Impact Shockwave",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Strike skills, causing them to create an Aftershock that damages enemies around the target when they Heavy Stun an enemy.",
+      "effects": [
+        "Supported Skills cause an Aftershock when they Heavy Stun an Enemy, dealing the same damage to enemies within (0–1.5) metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Inspiration",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill, making it cost less to use. Cannot support skills which reserve Spirit.",
+      "effects": ["Supported Skills have 30% less Cost"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Jagged Ground",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Melee", "Slam", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slam skills, granting them a chance to create patches of Jagged Ground.",
+      "effects": [
+        "Supported Skills have a 50% chance to create Jagged Ground",
+        "Jagged Ground lasts 4 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fast Forward",
+      "type": "Support",
+      "tags": ["Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that has a duration making that duration shorter.",
+      "effects": ["Supported Skills have 30% less Skill Effect Duration"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Meat Shield",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports skills which create Minions, granting them less damage taken but making them deal less damage. Cannot support skills which create undamageable Minions.",
+      "effects": [
+        "Minions from Supported Skills deal 35% less Damage",
+        "Minions from Supported Skills take 35% less Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Persistence",
+      "type": "Support",
+      "tags": ["Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that has a duration, making that duration longer.",
+      "effects": ["Supported Skills have (–40)% more Skill Effect Duration"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Overpower",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that hits enemies, causing it to build up Stun more quickly.",
+      "effects": ["Hits with Supported Skills cause 50% more Stun buildup"],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Rage",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks, causing them to grant Rage on Hit.",
+      "effects": ["Supported Skills grant (–3) Rage on Melee Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ruthless",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks, causing repeated uses to be more effective at Stunning enemies.",
+      "effects": [
+        "Every fifth use of Supported Attacks causes 500% more Stun Buildup"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Stomping Ground",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Trigger", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Travel skills, causing your footsteps to crack the earth and emit damaging shockwaves while using the skill.",
+      "effects": [
+        "Triggers a Shockwave when you take a step while using Supported Skills",
+        "Deals 100% to 150% of your Strength as Physical Damage",
+        "Shockwave radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Tireless",
+      "type": "Support",
+      "tags": ["Warcry"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcry Skills. Attacks Empowered by Supported Skills have a chance not to lower the Empowerment count of Supported Skills when they are used.",
+      "effects": [
+        "Attacks Empowered by Supported Skills have 30% chance to not lower Empowerment count"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Unabating",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Armour, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
+      "effects": [
+        "25% increased Armour while using Supported Skills per quarter second of Attack time of Supported Skill"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Unbreakable",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that you can use, making you harder to Stun while using it.",
+      "effects": [
+        "30% more Stun Threshold for Heavy Stuns while using Supported Skills",
+        "200% more Stun Threshold for Light Stuns while using Supported Skills"
+      ],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Unyielding",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills you use yourself. While using Supported Skills, a percentage of Damage taken is Recouped as Life, with the percentage scaling higher the longer the Attack time of the Supported Skill. Cannot Support Channelling Skills.",
+      "effects": [
+        "8% of Damage taken while using Supported Skills is Recouped as Life per quarter second of Attack time of Supported Skill"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Vitality",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing you to gain Life Regeneration while the Skill is active.",
+      "effects": [
+        "Regenerate 1% of maximum Life per second while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Aftershock",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Slam"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slams you use yourself, giving them a chance to create an Aftershock.",
+      "effects": ["Supported skills have 25% chance to cause an Aftershock"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ancestral Aid",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike", "Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Strikes you use yourself. Supported Skills cannot be used until you have Blocked a certain number of Hits, but will be Ancestrally Boosted when used. After use, this Blocked Hit counter will reset. Cannot Support Channelled Skills or Skills which already have a Condition for use.",
+      "effects": [
+        "Supported Strikes are Ancestrally Boosted",
+        "Supported Skills cannot be used until you have Blocked 3 Hits"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ancestral Call",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Strikes you use yourself, providing a powerful Ancestral Boost every few seconds. Cannot Support Channelled Skills.",
+      "effects": [
+        "Supported Strike Skills are Ancestrally Boostedonce every 6 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Splinter",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills that Hit Enemies, causing those Hits to Break Armour based on a portion of Physical Damage dealt.",
+      "effects": [
+        "Break Armour equal to 15% of Physical Damage dealt by Supported Skill"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Armour Explosion",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Trigger", "Fire", "Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks, causing them to trigger a Fiery explosion when they Fully Break an enemy's Armour.",
+      "effects": [
+        "Supported Skills trigger an Explosion when they Fully Break an enemy's Armour",
+        "Converts 100% of Physical Damage to Fire Damage",
+        "Cannot Break Armour",
+        "Explosion radius is 1.4 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Arms Length",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which Hit Enemies, causing Knockback from those Hits to be significantly more effective.",
+      "effects": ["Supported Skills have 40% more Knockback Distance"],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Auto Reload",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Crossbow Ammunition Skills, causing them to automatically reload when they Heavy Stun an enemy.",
+      "effects": [
+        "Supported Skills reload automatically onHeavy Stunning an enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Font of Blood",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which create stationary objects. Objects created by supported Skills generate a Font of Blood, creating an Aura which grants Life regeneration.",
+      "effects": [
+        "Fonts of Blood from Supported Skills grant 2% Life Regeneration per second to You and Your Allies",
+        "Objects created by Supported Skills create a Font of Blood with a 3 metre radius"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Brink",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills. Supported Skills deal more Damage against Heavily Stunned Enemies, but cannot themselves Stun.",
+      "effects": [
+        "Stun buildup caused by Supported Skills cannot reach 100%",
+        "Supported Skills deal 20% more Damage to Heavy Stunned Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Concoct",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Life Flask charges, inflicting more powerful Bleeding based on Life Flask charges consumed.",
+      "effects": [
+        "Supported Skills consume 20% of your maximum Life Flask charges on useSupported Skills have 3% more Magnitude of Bleeding they inflict per Life Flask charge consumed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Desperation",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills you use yourself. Insufficient Mana doesn't prevent Supported Skills from being used while Surrounded.",
+      "effects": [
+        "Insufficient Mana doesn't prevent the use of Supported Skills while Surrounded"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Devastate",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing them to apply Broken Armour to enemies when causing a Heavy Stun to enemies.",
+      "effects": [
+        "Supported Skills Fully Break Armour when inflicting a Heavy Stun"
+      ],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Direstrike",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing you to deal increased Attack Damage while on Low Life while the Supported Skill is active.",
+      "effects": [
+        "Deal 50% increased Attack Damage while on Low Life while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Domain",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which create Ground Surfaces, causing created Surfaces to only end when their duration expires.",
+      "effects": [
+        "Ground Surfaces created by Supported Skills cannot be destroyed except by expiring"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Exploit Weakness",
+      "type": "Support",
+      "tags": ["Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing them to deal more Damage against enemies with Broken Armour but preventing them from Breaking Armour themselves. Cannot support skills that Consume Broken Armour.",
+      "effects": [
+        "Supported Skills cannot Break Armour",
+        "Supported Skills Consume Enemy Fully Broken Armour to deal 40% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Figurehead",
+      "type": "Support",
+      "tags": ["Remnant"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills that generate Remnants, causing those Remnants to affect Allies in your Presence when collected instead of you.",
+      "effects": [
+        "Remnants from Supported Skills affect Allies in your Presence instead of you when collected"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fire Penetration",
+      "type": "Support",
+      "tags": ["Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, making those Hits Penetrate enemy Fire resistance.",
+      "effects": ["Supported Skills Penetrate 30% Fire Resistance"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "First Blood",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks. Supported Skills are far more likely to inflict Bleeding on Hitting full Life Enemies.",
+      "effects": [
+        "Supported Skills have 100% increased chance to inflict Bleeding against Enemies on full Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Flamepierce",
+      "type": "Support",
+      "tags": ["Projectile", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which can fire Projectiles. Initial Projectile created by Supported Skills will always Pierce Ignited Enemies, but Supported Skills cannot inflict Ignite themselves.",
+      "effects": [
+        "Supported Skills cannot Ignite",
+        "Projectiles from Supported Skills Pierce Ignited Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fresh Clip",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Crossbow Skills, granting them more damage for each bolt reloaded by that Skill in the last 6 seconds.",
+      "effects": [
+        "Supported Crossbow Skills deal 1% more Damage foreach bolt Reloaded by that skill in the past 6 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Herbalism",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing you to gain increased Life recovery from Flasks while the Skill is active.",
+      "effects": [
+        "30% Increased Recovery from Life Flasks while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Holy Descent",
+      "type": "Support",
+      "tags": ["AoE", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills that leap into the air, causing them to create Consecrated Ground when you land",
+      "effects": [
+        "Supported Skills create Consecrated Ground for 4 seconds on landing",
+        "Supported Skills create Consecrated Ground in an area of 1.4 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Demolisher",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill, causing Armour Break it inflicts to be stronger.",
+      "effects": ["Supported Skills Break 50% more Armour"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Infernal Legion",
+      "type": "Support",
+      "tags": ["Minion", "AoE", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports skills which create Minions which can be damaged, causing them and enemies near them to Burn. Damage dealt by the Burning is based off the Life of the supported Minion.",
+      "effects": [
+        "Minions from Supported Skills take 20% of their maximum Life as Fire Damage per second",
+        "Minions from Supported Skills Ignite Enemies within a radius of 1.5 metres as though dealing Base Fire Damage equal to 20% of Minion's Maximum Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ironwood",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which create Totems. Totems created by Supported Skills have additional Elemental Resistances.",
+      "effects": [
+        "Totems summoned by Supported Skills have +10% to all Maximum Elemental Resistances",
+        "Totems summoned by Supported Skills have +40% to all Elemental Resistances"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bludgeon",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing it to Knock Back enemies.",
+      "effects": ["Supported Skills Knock Enemies Back on Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Life Thief",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks, causing their Physical damage to Leech Life.",
+      "effects": [
+        "Leech 8% of Physical Attack Damage from Supported Skills as Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Heavy Swing",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks, boosting their Physical damage at the cost of Attack Speed.",
+      "effects": [
+        "Supported Skills deal 35% more Melee Physical Damage",
+        "Supported Skills have 10% less Attack Speed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Raging Cry",
+      "type": "Support",
+      "tags": ["Warcry"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcry skills, causing them to grant you Rage on use depending on counted monster Power.",
+      "effects": [
+        "Supported Skills grant 4 Rage per 5 Power of counted Enemies in range"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rally",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks you use yourself. Supported Skills Consume all Endurance Charge on use, causing you to restore a percentage of your maximum Life for each Charge Consumed.",
+      "effects": [
+        "Supported Skills Consume all Endurance Charges on useSupported Skills restore 10% of your maximum Life on use per Endurance Charge Consumed this way",
+        "Supported Skills cannot generate Endurance Charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rusted Spikes",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which deal Damage with Hits. When Supported Skills Pin an Enemy, they also Aggravate Bleeding on that Enemy.",
+      "effects": [
+        "Supported Skills Aggravate Bleeding on Enemies when Pinning them"
+      ],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Spar",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills. Supported Skills are more capable of Stunning Enemies the closer you are to being Heavily Stunned.",
+      "effects": [
+        "Hits from Supported Skills Stun Enemies as though dealing more Damage equivalent to thecurrent percentage of your Stun Bar"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Steadfast",
+      "type": "Support",
+      "tags": ["Channelling"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Channelling Skills you use yourself, granting you increased Ailment Threshold while Channelling them.",
+      "effects": [
+        "You have 100% increased Ailment Threshold while Channelling Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Thornskin",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing you to deal increased Thorns Damage while the Supported Skill is active.",
+      "effects": [
+        "Deal 40% increased Thorns Damage while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ancestral Urgency",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which place Totems, causing those skills to place Totems much more quickly.",
+      "effects": ["Supported Skills have 80% increased Totem Placement speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Primal Armament",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks that use a weapon, causing them to deal more weapon Elemental damage.",
+      "effects": ["Supported Skills deal 25% more Weapon Elemental Damage"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Barbs",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Strike Skills. Supported Skills deal your Thorns Damage on Hit after you've Retaliated with Thorns Damage.",
+      "effects": [
+        "Supported Skills deal your Thorns Damage on their next 4 Hits after you Retaliate with Thorns"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Battershout",
+      "type": "Support",
+      "tags": ["Warcry", "AoE", "Trigger", "Physical", "Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcry Skills. Supported Skills Consume Fully Broken Armour to trigger Physical Damage explosions on Enemies within their range but cannot themselves Break Armour.",
+      "effects": [
+        "Supported Skills cannot Break Armour",
+        "Supported Skills Consume Fully Broken Armour on Enemies within range to Trigger Battershout",
+        "+5% to Critical Hit Chance",
+        "Cannot Break Armour",
+        "Explosion radius is 2 metres",
+        "Deals Physical Damage equal to 20% Broken Armour of the target Triggered fromDoes not take into account Overbroken Armour"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Behead",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Strike skills, causing them to steal Modifiers from Rare monsters they kill.",
+      "effects": [
+        "Killing Blows from Supported Strike Skills against Rare monsters grant one of their Modifiers for 20 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cannibalism",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing you to recover Life on kill while the Skill is active.",
+      "effects": [
+        "2% of maximum Life recovered on Kill while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Clash",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills. Supported Skills deal more Damage while you have a lower percentage of your Life remaining than the target struck, but less Damage when the reverse is true.",
+      "effects": [
+        "Supported Skills deal 40% more Melee Damage against Enemies with a higher percentage of their Life remaining than you, but deal 20% less Melee Damage against Enemies with a lower percentage of their Life remaining than you"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cool Headed",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Persistent Buff Skills, causing Ignite applied to you to last for a shorter duration while the Supported Skill is active.",
+      "effects": [
+        "50% less Ignite duration on you while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Dauntless",
+      "type": "Support",
+      "tags": ["Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills you use yourself which can cause Damaging Hits. Supported Skills cannot be used unless you have been stationary for a certain duration, but deal increasingly more damage the longer you are stationary. Cannot support Skills which have a reservation, are Triggered, have a cooldown or have another usage Condition.",
+      "effects": [
+        "Supported Skills cannot be used unless you have been stationary for 1.5 secondsThis timer resets when you move",
+        "Supported Skills deal 3% more Damage with Hits for each quarter second you have been stationary, up to 45%This Damage bonus resets when you move"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Dazing Cry",
+      "type": "Support",
+      "tags": ["Warcry"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcries, causing them to Daze Enemies on use.",
+      "effects": ["Supported Skills Daze Enemies", "Daze lasts for 4 seconds"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Searing Flame",
+      "type": "Support",
+      "tags": ["Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing inflicted Ignites to deal more damage but its Hits to deal less damage.",
+      "effects": [
+        "Supported Skills deal 25% less Damage with Hits",
+        "75% more Magnitude of Ignite inflicted with Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deep Cuts",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing it to deal less damage but inflict more potent Bleeding.",
+      "effects": [
+        "75% more Magnitude of Bleeding inflicted with Supported Skills",
+        "Supported Skills deal 25% less Damage with Hits"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Defy",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attack Skills you use yourself. Hit Damage from Supported Skills is Lucky if you are Surrounded.",
+      "effects": [
+        "Attack Damage with Hits with Supported Skills is Lucky while you are Surrounded"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Enraged Warcry",
+      "type": "Support",
+      "tags": ["Attack", "Warcry"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Warcries, causing them to consume Rage to further boost Empowered Attacks.",
+      "effects": [
+        "Supported Warcries consume up to 10 Rage, causing Attacks Empowered by them to deal 30% more damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fire Exposure",
+      "type": "Support",
+      "tags": ["Fire", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any skill that Hits enemies, causing it to inflict Fire Exposure when Igniting.",
+      "effects": [
+        "Supported Skills inflict Fire Exposure for 8 seconds on Igniting a target"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Greatwood",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Totem Skills, limiting their active Totem count to one but granting significant benefits for supported Totems based on what their Totem Limit would have been without this restriction. Does not Support Skills used by Minions.",
+      "effects": [
+        "Supported Skills can only have one active Totem",
+        "Totem Limit instead grants 5% more Area of Effect for Totems per Limit to Supported Skills, up to 20%",
+        "Totem Limit instead grants 10% more Totem Damage per Limit to Supported Skills, up to 40%",
+        "Totem Limit instead grants 10% more Totem Life per Limit to Supported Skills, up to 40%"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Despoiler",
+      "type": "Support",
+      "tags": ["Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills that create Ground Surfaces, causing those surfaces to last longer.",
+      "effects": [
+        "50% increased duration of Ground Surfaces created by Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Haemocrystals",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attack Skills you use yourself which can cause Damaging Hits. Supported Skills Consume Bleeding on Hit to create explosive blood-filled crystals, but cannot themselves inflict Bleeding.",
+      "effects": [
+        "Supported Attacks cannot cause Bleeding",
+        "Supported Skills Consume Bleeding on Enemies they Hit, creating 4 Haemocrystals",
+        "Maximum 20 active Haemocrystals",
+        "Cannot cause Bleeding",
+        "Haemocrystal radius is 1 metre",
+        "Haemocrystals detonate after 1.5 seconds",
+        "Haemocrystals are randomly created within 2.5 metres of the Consumed Bleeding",
+        "Haemocrystals deal Damage equal to 8% of the expected remaining Damage of the Consumed Bleeding"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Heft",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which deal Damage, increasing the maximum Physical Damage of their Hits.",
+      "effects": ["Supported Skills deal 30% more Maximum Physical Hit Damage"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Immolate",
+      "type": "Support",
+      "tags": ["Fire", "Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attacks, granting them extra Fire damage against Ignited enemies but making them unable to Ignite enemies themselves.",
+      "effects": [
+        "Supported Skills cannot Ignite",
+        "Supported Attacks Gain 30% of Damage as extra Fire Damage against Ignited enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Incision",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attack Skills. Supported Skills inflict Incision on Hit, which causes Enemies to be increasingly more likely to be inflicted with Bleeding. All Incision is removed from a target on inflicting it with Bleeding.",
+      "effects": [
+        "Hits from Supported Skills inflict Incision",
+        "3% more Magnitude of Bleeding inflicted with Supported Skills per Incision consumed Recently, up to 30%"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Interlude",
+      "type": "Support",
+      "tags": ["Remnant"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills that generate Remnants, causing effects of those Remnants to be more powerful, but at the cost of a delay.",
+      "effects": [
+        "Effects of Remnants generated by Supported Skills occur 3 seconds after being collected",
+        "Remnants spawned by Supported Skills have25% increased effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Long Fuse",
+      "type": "Support",
+      "tags": ["Grenade"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which fire Grenades, causing those Grenades to have much higher Detonation Time and damage.",
+      "effects": [
+        "Supported Skills have 50% increased Detonation Time",
+        "Supported Grenade Skills cannot explode before the end of their Detonation Time",
+        "Supported Grenade Skills deal 30% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Quill Burst",
+      "type": "Support",
+      "tags": ["Attack", "AoE", "Melee", "Trigger", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills. Supported Skills trigger Quill Burst, which deals your Thorns Damage in an Area around the target struck. Quill Burst can only be triggered on Hit after you've\nRetaliated with Thorns Damage.",
+      "effects": [
+        "Supported Skills trigger Quill Burst on their next 3 Hits after you Retaliate with Thorns",
+        "Explosion radius is 1.5 metres",
+        "Deals Thorns Damage to other targets in an area around the Triggering target"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Font of Rage",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Skills which create stationary objects. Objects created by supported Skills generate a Font of Rage, creating an Aura which grants Rage over time, as well as preventing Rage loss.",
+      "effects": [
+        "Objects created by Supported Skills create a Font of Rage with a 3 metre radius",
+        "Fonts of Rage from Supported Skills grant 2 Rage Regeneration per second to You and Your Allies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rageforged",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports any damaging skill that you use or trigger yourself, causing it to consume Rage to deal more damage. If you don't have enough Rage to consume, the damage bonus will not apply.",
+      "effects": [
+        "Supported Skills consume 10 Rage if possible todeal 35% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Refraction",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Banner Skills, causing those affected by Auras they create to gain Refractive Plating, a Buff which causes Armour to partially apply to Elemental Hit Damage.",
+      "effects": [
+        "Those affected by Auras from Supported Skills gain Refractive PlatingRefractive Plating causes 20% of Armour to apply to Elemental Hit Damage taken",
+        "Placed Banners must have a minimum of 25 Valour to grant Refractive Plating"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Retaliate",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills you use yourself. Supported Skills gain much more damage the closer you are to being Heavily Stunned.",
+      "effects": [
+        "Supported Skills deal up to 40% more Attack Damage, scaling up as your Stun Bar increases"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Reverberate",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Slam"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slam Skills. Supported Skills have increased chance to cause Aftershocks the longer their Attack time.",
+      "effects": [
+        "Supported Skills have 15% increased chance to cause Aftershocks for every quarter second of Attack time"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rip",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Physical", "Duration", "Remnant"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills you use yourself. Killing Blows with Supported Skills on Bleeding enemies create a Blood Remnant. Blood Remnants increase your Life regeneration rate for a short while after being collected.",
+      "effects": [
+        "Remnants created by Supported Skills last for 8 seconds",
+        "Supported Skills create a Blood Remnant when dealing a killing blow to a Bleeding EnemyRemnants created this way increase Life regeneration rate by 10% for 5 seconds when collected, up to a maximum of 100%",
+        "Remnants are created within a 1.5 metre radius of the slain Enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rupture",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports skills that Hit Enemies. Supported skills Aggravate Bleeding on Hitting Heavily Stunned Enemies.",
+      "effects": [
+        "Supported Skills Aggravate Bleeding on Hitting Heavy Stunned Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "See Red",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Attack Skills. Bleeding inflicted with Supported Skills lasts significantly longer, but enemies you inflict Bleeding onto with Supported Skills will move and Attack faster.",
+      "effects": [
+        "Supported Attacks have 50% increased Bleeding Duration",
+        "Enemies you inflict Bleeding on with Supported Skills have 15% increased Attack Speed",
+        "Enemies you inflict Bleeding on with Supported Skills have 15% increased Movement Speed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Syzygy",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Slam", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slam Skills you use yourself. Hits from Supported Skills are considered Crushing Blows against Enemies which are both Ignited and Fully Armour Broken. Hits with Supported Skills that Heavily Stun Ignited and Fully Armour Broken Enemies will Intimidate them.",
+      "effects": [
+        "Hits from Supported Skills are considered Crushing Blows against Ignited and Fully Armour Broken Enemies",
+        "Heavily Stunning Enemies which are Ignited and Fully Armour Broken with Supported Skills will permanently Intimidate them"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Tear",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks you use yourself. On-Kill effects caused by Killing Blows with Supported Skills on Bleeding enemies have a chance to occur twice.",
+      "effects": [
+        "50% Chance for On-Kill Effects caused by killing blows on Bleeding Enemies with Supported Skills to occur twice"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Tremors",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Slam"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Slam Skills you use yourself. Supported Skills gain multiple independent chances to cause Aftershocks, but deal less Damage.",
+      "effects": [
+        "Supported Skills have 30% chance tocause an additional Aftershock",
+        "Supported Skills have 15% chance tocause two additional Aftershocks",
+        "Supported Skills have 10% chance to causethree additional Aftershocks",
+        "Supported Skills deal 35% less Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Unsteady Tempo",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attack Skills you use yourself. Attacking with Supported Skills will cycle through various effects, with the first Attack in sequence inflicting Hobble on you. The second and third Attacks in sequence will powerfully scale chance to Critically Hit and overall damage, respectively, at which point the cycle will reset. Cannot Support Channelling Skills.",
+      "effects": [
+        "First Attack in sequence with Supported Skill inflicts Hobble on you equal to 40% of your Life",
+        "Second Attack in sequence with Supported Skill has 30% more chance to Critically Hit",
+        "Third Attack in sequence withSupported Skill deals 20% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Upheaval",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Attacks which create fissures in the ground, causing them to create additional fissures at the cost of damage and attack speed.",
+      "effects": [
+        "Supported Skills create 2 additional fissures",
+        "Supported Skills have 20% less Attack Speed",
+        "Supported Skills deal 40% less Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Volcanic Eruption",
+      "type": "Support",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Melee",
+        "Strike",
+        "Projectile",
+        "Trigger",
+        "Fire"
+      ],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Str",
+      "description": "Supports Melee Strike Skills you use yourself. Supported Skills trigger Volcanic Eruption on Hit against Ignited Enemies.",
+      "effects": [
+        "Supported Strikes trigger Volcanic Eruption on Hitting Ignited Enemies",
+        "Converts 80% of Physical Damage to Fire Damage",
+        "Impact radius is 1 metre",
+        "Fires 4 Molten Projectiles"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lightning Infusion",
+      "type": "Support",
+      "tags": ["Attack", "Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to Gain Lightning Damage but deal less Cold and Fire Damage.",
+      "effects": [
+        "Supported Attacks Gain 25% of Damage as extra Lightning Damage",
+        "Supported Attacks deal 50% less Cold and Fire Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Adhere",
+      "type": "Support",
+      "tags": ["Grenade"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Grenade Skills. Grenades from Supported Skills do not bounce, instead halting movement where they intially land, but doing lower damage when they detonate.",
+      "effects": [
+        "Supported Grenade Skills stop where they initially land",
+        "Supported Grenade Skills deal 20% less Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ammo Conservation",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Crossbow Ammunition Skills, granting a chance to not consume a Bolt when firing.",
+      "effects": [
+        "Supported Crossbow Attacks have 25% chance to not consume a bolt"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Blindside",
+      "type": "Support",
+      "tags": ["Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which can cause Damaging Hits. Supported Skills are more likely to Critically Hit Blinded Enemies, and deal more Damage with Critical Hits against Blinded Enemies, but cannot themselves inflict Blind.",
+      "effects": [
+        "Supported Skills cannot inflict Blind",
+        "Supported Skills have 15% more Critical Damage Bonus with Hits against Blinded Enemies",
+        "Supported Skills have 15% more chance to Critically Hit Blinded Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Blood in the Eyes",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills that Hit Enemies, causing those Hits to Hobble Bleeding Enemies based on a portion of Physical Damage dealt.",
+      "effects": [
+        "Hobble equal to 15% of Physical Hit Damage dealt by Supported Skill against Bleeding Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Chain",
+      "type": "Support",
+      "tags": ["Projectile", "Chaining"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills and any other skills that Chain, causing them to Chain additional times.",
+      "effects": [
+        "Supported Skills Chain +1 times",
+        "Supported Skills Chain 100% more times",
+        "Supported Skills deal 50% less Damage with Hits"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Envenom",
+      "type": "Support",
+      "tags": ["Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, giving it a chance to Poison enemies.",
+      "effects": ["Supported Skills have 50% chance to Poison on Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Conduction",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, making it more likely to Shock.",
+      "effects": ["Supported Skills have 100% more chance to Shock"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Combo Finisher",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike", "Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Melee Attacks you use yourself. Supported Skills cannot be used until enough Combo has been built up, but deal massively more damage. Cannot support skills which already Combo, or Triggered Skills.",
+      "effects": [
+        "Supported Skills lose Combo if yougenerate no Combo for 4 seconds",
+        "Supported Skills deal 40% more Damage",
+        "Supported Skills require 5 Combo to use"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Corrosion",
+      "type": "Support",
+      "tags": ["Physical", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing Poison it applies to also Break enemy Armour. Cannot support skills that Consume Fully Broken Armour.",
+      "effects": [
+        "Poison applied by supported Skills alsoBreaks Armour equal to 80% of Poison damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Crescendo",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Strikes that perform a Final Strike at the end of a combination of attacks, allowing you to use the Final Strike twice in succession.",
+      "effects": [
+        "Final Strike of Supported Skills canbe performed twice in succession"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Murderous Intent",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that can Empower skills other than themselves, causing skills they Empower to Cull enemies.",
+      "effects": ["Skills Empowered by Supported Skills have Culling Strike"],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Encumbrance",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill, causing inflicted Slows to be more powerful.",
+      "effects": [
+        "Debuffs inflicted with Supported Skills have 15% increased Slow Magnitude"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Martial Tempo",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to Attack faster.",
+      "effects": ["Supported Skills have 20% more Attack Speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Acceleration",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills, making those Projectiles travel faster.",
+      "effects": ["Supported Skills have 40% more Projectile Speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Overabundance",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills which can have a Limited number of effects active at once, increasing that Limit at the cost of their duration. Only applies to restrictions that use the word \"Limit\".",
+      "effects": [
+        "Supported Skills have +1 to Limit",
+        "Supported Skills have 50% less Skill Effect Duration"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Innervate",
+      "type": "Support",
+      "tags": ["Attack", "Lightning", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks you use yourself. Killing a Shocked enemy with supported skills infuses all of your Attacks with Lightning damage for a short time.",
+      "effects": [
+        "Attacks gain 35% of Damage as Lightning Damage for 5 seconds on killing a Shocked enemy with Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Wind Wave",
+      "type": "Support",
+      "tags": ["AoE", "Trigger"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that you can use, triggering a blast of wind that Knocks Back enemies if you are Stunned while using it.",
+      "effects": [
+        "Trigger Wind Wave when Stunned while using Supported Skills",
+        "Knocks Back Enemies",
+        "Wave radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lasting Shock",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies or inflicts Shock, causing its Shocks to be inflicted less often but last longer.",
+      "effects": [
+        "Supported Skills have 100% increased Shock Duration",
+        "Supported Skills have 30% less chance to Shock"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Leverage",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which Hit Enemies. Supported Skills gain increased chance to Critically Hit against Immobilised Enemies.",
+      "effects": [
+        "Supported Skills have 50% increased Critical Hit Chance against Immobilised Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Life Drain",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing you to recover Life when it Culls an enemy.",
+      "effects": [
+        "Recover 12% of maximum Life over four seconds when Supported Skills Cull an Enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lockdown",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing any Pin buildup it inflicts to be stronger the closer the enemy is to you.",
+      "effects": [
+        "Supported Skills have 120% more Pin Buildup against enemies within 2 metres of you, scaling to no change at 12 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Profusion",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that can generate Charges, giving them a chance to generate an additional Charge when they do so.",
+      "effects": [
+        "Supported Skills have 50% chance togrant an additional Charge"
+      ],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Comorbidity",
+      "type": "Support",
+      "tags": ["Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, allowing it to inflict an extra Poison on enemies but shortening the duration of those Poisons.",
+      "effects": [
+        "Targets can be affected by +1 Poisons from Supported Skills at the same time",
+        "Supported Skills have 20% less Poison Duration"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Scattershot",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills, making them fire extra Projectiles. Also lowers Attack and Cast speed of supported skills, as well as lessening their damage.",
+      "effects": [
+        "Supported Skills deal 35% less Damage",
+        "Supported Skills fire 2 additional Projectiles",
+        "Supported Skills have 20% less Attack and Cast Speed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Outmaneuver",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills you use yourself which can cause Damaging Hits. Supported Skills Break Armour against Parried Enemies.",
+      "effects": [
+        "Supported Skills Break Armour on Hit against Parried Enemies equal to 25% Physical Damage dealt"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Perpetual Charge",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that consume Power, Frenzy or Endurance Charges on use, giving them a chance not to remove each Charge while still gaining the benefits of consuming them.",
+      "effects": [
+        "Supported Skills have 35% chance to not remove Charges but still count as consuming them"
+      ],
+      "cost_multiplier": "130%"
+    },
+    {
+      "name": "Pierce",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills, making their Projectiles Pierce an enemy but deal less damage after doing so.",
+      "effects": [
+        "Projectiles from Supported Skills Pierce an Enemy",
+        "Projectiles from Supported Skills deal 20% less Damage if they've Pierced an enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Pin",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, allowing its Physical damage to Pin enemies but making it unable to Stun.",
+      "effects": [
+        "Supported Skills do not cause Stun buildup",
+        "Physical Damage from Supported Skill is Pinning"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Precision",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Persistent Buff Skills, causing you to gain increased Accuracy while the Skill is active.",
+      "effects": [
+        "30% Increased Accuracy Rating while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Pursuit",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Melee Attacks. Supported Skills deal more Melee damage if you have struck with a Projectile Attack Hit in the last eight seconds, but cannot themselves deal Projectile Damage.",
+      "effects": [
+        "Supported Skills deal 25% more Melee Damage if you have Damaged an Enemy with a Projectile Attack Hit in the last eight seconds",
+        "Supported Skills deal no Projectile damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Retreat",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which create Projectiles. Supported Skills deal more damage with Projectiles if you have struck with a Melee Hit in the last eight seconds, but cannot themselves deal Melee Damage.",
+      "effects": [
+        "Supported Skills deal no Melee damage",
+        "Supported Skills deal 25% more Projectile Damage if you have Damaged an Enemy with a Melee Hit in the last eight seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Second Wind",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills with cooldowns, giving them extra uses of that cooldown.\nCannot support instant or triggered skills.",
+      "effects": [
+        "Supported Skills have 50% less Cooldown Recovery Rate",
+        "Supported Skills have twice as many Cooldown Uses"
+      ],
+      "cost_multiplier": "150%"
+    },
+    {
+      "name": "Deceleration",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills, making those Projectiles travel more slowly.",
+      "effects": ["Supported Skills have 30% less Projectile Speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bursting Plague",
+      "type": "Support",
+      "tags": ["AoE", "Trigger", "Physical", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that can Poison enemies, causing Poisoned enemies to gain Plague over time and explode in a Plague Burst on death. Cannot support the skills of Minions.",
+      "effects": [
+        "Poison from Supported Skills also adds 100% of Damage per Second to Enemy as Plague, up to a maximum of 20% of Enemy's maximum Life",
+        "+5% to Critical Hit Chance",
+        "Deals Physical Damage equal to 100% of Plague on Triggering Enemy",
+        "Has up to 100% more Area of Effect at maximum Plague",
+        "This Skill is Triggered when an Enemy Dies with Plague on it",
+        "Burst radius is 1.8 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Swift Affliction",
+      "type": "Support",
+      "tags": ["Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that deals damage, causing it to deal more damage over time but have a shorter duration.",
+      "effects": [
+        "Supported Skills deal 30% more non-Ailment Damage over Time",
+        "20% less Duration of Supported Skills and Damaging Ailments they inflict"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Untouchable",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills you use yourself. While using Supported Skills, you gain increased Evasion Rating, with the increase scaling higher the longer the Attack time of the supported Skill. Cannot Support Channelling Skills.",
+      "effects": [
+        "25% increased Evasion Rating while using Supported Skills per quarter second of Attack time of Supported Skill"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Window of Opportunity",
+      "type": "Support",
+      "tags": ["Channelling"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Channelling skills that have special effects if released with Perfect Timing, causing them to deal much more damage if released with Perfect Timing but reducing the Perfect Timing window.",
+      "effects": [
+        "Supported Skills have a 35% shorter Perfect Timing window",
+        "Supported Skills deal 35% more Damage when released with Perfect Timing"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bullseye",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to gain Accuracy.",
+      "effects": ["Supported Skills have 50% more Accuracy Rating"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Blind",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing them to Blind on Hit.",
+      "effects": ["Supported Skills Blind Enemies on Hit"],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Cadence",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks you use yourself. Supported Skills gain more Attack speed each time you use them, but will become unusable if used too frequently in a short time frame.",
+      "effects": [
+        "Supported Skills have 8% more Attack speed for each time they've been used Recently",
+        "Supported Skills are unusable for 10 seconds after being used 6 or more times within four seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Close Combat",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to deal more damage to enemies based on how close they are to you.",
+      "effects": [
+        "Supported Skills deal 25% more Attack Damage to enemies within 1 metre of you, scaling down tono bonus at 3.5 metres or further"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Commiserate",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills you use yourself which can cause Damaging Hits. Supported Skills inflict more powerful Ailments if you are afflicted with those Ailments when you inflict them, while also removing from you any Ailment that they inflict.",
+      "effects": [
+        "Ailments inflicted by Supported Skills have 30% increased Magnitude if you are afflicted with that Ailment when inflicting it",
+        "When inflicting an Ailment with Supported Skill, remove that Ailment from yourself"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ingenuity",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills with Cooldowns, increasing the rate at which those Cooldowns Recover.",
+      "effects": ["Supported Skills have 30% increased cooldown recovery rate"],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Break Posture",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to Daze Enemies when they fully Break Armour.",
+      "effects": [
+        "Supported Skills apply Daze when fully Breaking Armour",
+        "Daze lasts for 8 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Dazzle",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills. Supported Skills always hit Dazed Enemies, but Consume Daze on Hit, and cannot themselves inflict Daze.",
+      "effects": [
+        "Supported Skills cannot inflict Daze buildupSupported Skills cannot Daze",
+        "Dazed Enemies cannot Evade Hits from Supported SkillsSupported Skills Consume Daze on Hit"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Delayed Gratification",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which require some Condition to be met for use. Supported Skills can be used an additional time after their Condition has been met, but meeting that Condition is harder.",
+      "effects": [
+        "Supported Conditional Skills can be used an additional time within 10 seconds of using them after meeting their requirements",
+        "Conditional requirements of Supported Skills are 150% harder to meet"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Electrocute",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any Skill which can deal Damage. Lightning Damage from Supported Skills can inflict Electrocute, but Supported Skills cannot inflict Shock.",
+      "effects": [
+        "Supported Skills Cannot inflict Shock",
+        "Lightning Damage from Supported Skills Contributes to Electrocution Buildup"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Excoriate",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Melee Attack Skills. Supported Skills deal more Melee Damage for each Elemental Ailment on Enemies they hit, but cannot themselves inflict Elemental Ailments.",
+      "effects": [
+        "Supported Skills cannot inflict Elemental Ailments",
+        "Supported Skills deal 10% more Melee Damage for each Elemental Ailment on Enemies they Hit"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Longshot",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to deal more damage from farther away.",
+      "effects": [
+        "Supported Skills deal 30% more Attack Damage to enemies further than 7 metres from you, scaling down tono bonus at 3.5 metres or closer"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ferocity",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills that you use yourself. Supported Skills will consume a Frenzy Charge on use if possible, and will gain significant Skill Speed if they do. Supported Skills cannot generate Frenzy Charges.",
+      "effects": [
+        "Supported Skills cannot generate Frenzy Charges",
+        "Supported Skills will consume a Frenzy Charge on use if possibleSupported Skills have 40% more Skill Speed when consuming Frenzy Charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Flow",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which require Combo to use. Supported Skills lose their Combo stacks after a longer delay spent not gaining any Combo.",
+      "effects": ["Combo count loss for Supported Skills occurs 60% slower"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Hit and Run",
+      "type": "Support",
+      "tags": ["Attack", "Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills can only be used after you have moved a certain distance, but have massively increased Skill Speed. Cannot support Skills which have a Cooldown or that are Triggered.",
+      "effects": [
+        "Supported Skills become usable after you have moved 10 metresSupported Skills become unusable again after use",
+        "Supported Skills have 40% more Skill Speed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Inhibitor",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any Skill you use yourself or that you Trigger. Supported Skills cannot consume Charges by any means. Cannot Support Skills which require Charges to be used.",
+      "effects": [
+        "Supported Skills cannot consume Charges",
+        "Supported Skills deal 4% more Damage per different type of Charge on you"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lightning Penetration",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, making those Hits Penetrate enemy Lightning resistance.",
+      "effects": ["Supported Skills Penetrate 30% Lightning Resistance"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Maim",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to Maim enemies.",
+      "effects": ["Supported Attacks always Maim on Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Momentum",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any damaging skill that you use yourself, causing it to deal more damage if you move a sufficient distance while using the skill. Teleportation does not count towards the distance travelled.",
+      "effects": [
+        "After moving at least 2 metres during a single use of a Supported Skill, the rest of that use deals 40% more Damage"
+      ],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Overextend",
+      "type": "Support",
+      "tags": ["Attack", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills you use yourself. Supported Skills deal more Damage with Critical Hits, but Critically Hitting an Enemy with them will Daze you for a short time.",
+      "effects": [
+        "You are Dazed for 5 seconds on Critically Striking with Supported Skill",
+        "Supported Skills have 30% more Critical Damage Bonus"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Practiced Combo",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Strike"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Strike Skills. Supported Skills have a chance to build additional Combo on Hit. Cannot support Skills used by Minions.",
+      "effects": [
+        "Supported Strike Skills have a 40% chance to build an additional Combo on Hit"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Reach",
+      "type": "Support",
+      "tags": ["Attack", "AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills which deal Damage in an Area. Supported Skills have significantly increased Area of Effect, but are less Accurate against nearby targets.",
+      "effects": [
+        "Supported Skills have 80% less Accuracy Rating against Enemies within two metres",
+        "Supported Skills have 35% more Area of Effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rearm",
+      "type": "Support",
+      "tags": ["Hazard"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which create Hazards. Hazards created by Supported Skills have a chance to be rearmed a short duration after triggering.",
+      "effects": [
+        "Hazards created by Supported Skills have 25% chance to rearm after they are triggered"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Retort",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks you use yourself, causing them to Consume the Parried Debuff on Hit to grant you a Frenzy Charge. Cannot support Skills which already Consume the Parried Debuff.",
+      "effects": [
+        "Supported Skills Consume Parried Debuff on Hit to generate a Frenzy Charge"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Shocking Leap",
+      "type": "Support",
+      "tags": ["AoE", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills that leap into the air and deal damage, causing them to create Shocked Ground the first time they Critically Hit an enemy.",
+      "effects": [
+        "Supported Skills create Shocked Ground for 4 seconds when they Critically Hit, no more than once per Skill useShocked Ground created this way has a radius of 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Single Out",
+      "type": "Support",
+      "tags": ["Mark", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Mark Skills. Enemies affected by Supported Marks will have their Armour Broken by Physical Damage they take.",
+      "effects": [
+        "Enemies Marked by Supported Skills have Armour Broken equal to 10% of Physical Damage taken"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Stormchain",
+      "type": "Support",
+      "tags": ["Projectile", "Lightning", "Chaining"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile Skills and Skills which can Chain. Supported Skills always Chain when initially Hitting a Shocked Enemy, but cannot themselves inflict Shock. Does not support Skills which cannot Chain.",
+      "effects": [
+        "Supported Skills Cannot inflict Shock",
+        "Supported Skills Chain from Shocked Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ricochet",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any Skill which creates Projectiles, giving those Projectiles a chance to Chain when impacting terrain.",
+      "effects": [
+        "Projectiles from Supported Skills have 40% chance to Chain an additional time from terrain"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Twofold",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any Skill that Consumes Charges, granting a chance for benefits of that Consumption to be doubled.",
+      "effects": [
+        "Benefits from consuming Charges for Supported Skill have 20% chance to be doubled"
+      ],
+      "cost_multiplier": "115%"
+    },
+    {
+      "name": "Unerring Power",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills you use yourself. When Supported Attacks are Empowered, they have significantly lowered cost and raised Accuracy.",
+      "effects": [
+        "Supported Skills have 30% more Accuracy Rating if used while Empowered",
+        "Supported Skills cost 30% less if used while Empowered"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Volt",
+      "type": "Support",
+      "tags": ["Attack", "Projectile", "Lightning", "Chaining"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile Attack Skills you use yourself. Supported Skills gain Voltaic Charge as you move, up to a maximum. When used, Supported Skills expend that Charge to gain extra Lightning Damage and Chain.",
+      "effects": [
+        "Supported Skills gain 3 Voltaic Charge per Metre travelled",
+        "Supported Skills have 30 maximum Voltaic ChargeSupported Skills consume all Voltaic Charge on use",
+        "Supported Skills Chain 1 time per ten Voltaic Charge consumed",
+        "Supported Skills gain 5% of Damage as extra Lightning Damage per ten Voltaic Charge consumed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Alignment",
+      "type": "Support",
+      "tags": ["Attack", "Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Bow Attacks. Supported Skills indicate one of four directions, changing indicated direction when an Attack with Supported Skill matches that direction. Attacks from Supported Skills which match the indicated direction deal much more Damage. Cannot Support Channelled Skills.",
+      "effects": [
+        "Supported Skills indicate one of four directionsIndicated direction changes when an Attack with Supported Skill matches indicated direction",
+        "Supported Skills deal 30% more Projectile Damage when Attacking in indicated direction"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Caltrops",
+      "type": "Support",
+      "tags": [
+        "Attack",
+        "AoE",
+        "Projectile",
+        "Trigger",
+        "Physical",
+        "Duration",
+        "Hazard"
+      ],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Ranged Spear Attacks. Supported Skills create Caltrops when Projectiles they create reach the end of their flight.",
+      "effects": [
+        "Projectiles from Supported Skills trigger Caltrops when they reach the end of their flight",
+        "Increases and reductions to Thorns Damage apply to Hit Damage with this skill",
+        "Maim on Hit",
+        "Caltrop radius is 0.5 metres",
+        "Caltrops land within a 3 metre radius of Projectile impact",
+        "Creates 1 Caltrop",
+        "Caltrop duration is 8 seconds",
+        "Deals 60% of your Dexterity as Physical Damage on Hit"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Charged Shots",
+      "type": "Support",
+      "tags": ["Attack", "Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Bow Attacks. Every third shot with Supported Skills restores a portion of it's Mana cost and Gains Damage as extra Lightning Damage.",
+      "effects": [
+        "One in every 3 shots with Supported Skills is a Charged Shot",
+        "Charged Shots with Supported Skills Gain 30% of Damage as extra Lightning Damage",
+        "Charged Shots with Supported Skills recover 100% of their Mana cost when used"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Charm Bounty",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any Skill that Hits Enemies, causing Enemies it kills to grant more Charm charges.",
+      "effects": [
+        "Enemies killed by Hits from Supported Skills grant 100% more Charm charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Culling Strike",
+      "type": "Support",
+      "tags": ["Attack"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills, causing them to Cull Rare and Unique Enemies on Hit.",
+      "effects": [
+        "Supported Skills have Culling Strike against Rare or Unique Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Culmination",
+      "type": "Support",
+      "tags": ["Attack", "Melee", "Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills reset their Combo on use, dealing more Damage the higher Combo you had on use. Cannot support skills which already gain Combo. Cannot Support Skills used by Minions.",
+      "effects": [
+        "Supported Skills can gain ComboSupported Skills lose all Combo on use",
+        "Supported Skills lose Combo if yougenerate no Combo for 4 seconds",
+        "Supported Skills deal 3% more Damage per Combo"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Discombobulate",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to build up Daze based on a portion of Physical Damage dealt.",
+      "effects": [
+        "Supported Attacks cause Daze buildup equal to 100% of Physical Damage dealt"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deadly Herald",
+      "type": "Support",
+      "tags": ["Herald"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Herald Skills, making their triggered effects deal more damage at the expense of higher Spirit cost.",
+      "effects": ["Supported Skills deal 30% more Damage"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deadly Poison",
+      "type": "Support",
+      "tags": ["Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing it to deal less damage but inflict more potent Poison.",
+      "effects": [
+        "Supported Skills deal 25% less Damage with Hits",
+        "75% more Magnitude of Poison inflicted with Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Delayed Reaction",
+      "type": "Support",
+      "tags": ["Hazard"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which create Hazards, causing those Hazards to only be able to trigger immediately after creation or at the end of their duration. Created Hazards have significantly lowered duration, and deal more damage.",
+      "effects": [
+        "Hazards created by Supported Skills cannot be triggered by enemies unless triggered immediately on creationHazards created by Supported Skills trigger atthe end of their duration",
+        "Hazards created by Supported Skills deal 15% more Damage",
+        "Hazards created by Supported Skills have 70% less duration"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deliberation",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that can be used while moving, causing you to move slower while using them, but granting more damage in exchange.",
+      "effects": [
+        "Supported Skills deal 20% more Damage",
+        "30% more Movement Speed penalty whileusing Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fork",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Projectile skills, making their Projectiles Fork.",
+      "effects": [
+        "Projectiles from Supported Skills Fork",
+        "Projectiles from Supported Skills deal30% less Damage after Forking"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Gambleshot",
+      "type": "Support",
+      "tags": ["Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which fire Projectiles that are not ground targeted. Projectiles from Supported Skills randomly Fork, Chain or Pierce.",
+      "effects": [
+        "Projectiles fired by Supported Skills Fork, Chain an additional time, or Pierce an additional time at random",
+        "Projectiles from Supported Skills deal 15% less Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Impale",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attacks, causing them to Impale on Hit but making them unable to Extract Impale themselves.",
+      "effects": [
+        "Supported Skills cannot Extract Impale",
+        "Supported Skills Impale Enemies on Hit"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Life Bounty",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing enemies it kills to grant more Life Flask charges.",
+      "effects": [
+        "Enemies killed by Hits from Supported Skills grant 100% more Life Flask Charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lightning Exposure",
+      "type": "Support",
+      "tags": ["Lightning", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing it to inflict Lightning Exposure when inflicting Shock.",
+      "effects": [
+        "Supported Skills inflict Lightning Exposure for 8 seconds on Shocking a target"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Malady",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which can cause Damaging Hits, causing base chance to inflict Bleed with Supported Skills to instead apply to base chance to Poison, and causing base chance to Poison to instead apply to Bleed.",
+      "effects": [
+        "Base Bleeding chance insteadapplies to Poison for Supported Skills",
+        "Base Poison chance insteadapplies to Bleeding for Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Mana Bounty",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing enemies it kills to grant more Mana Flask charges.",
+      "effects": [
+        "Enemies killed by Hits from Supported Skills grant 100% more Mana Flask Charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Soul Drain",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, causing you to recover Mana when it Culls an enemy.",
+      "effects": [
+        "Recover 12% of maximum Mana over four seconds when Supported Skills Cull an Enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Mobility",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills that can be used while moving, allowing you to move faster while using them.",
+      "effects": [
+        "25% less Movement Speed penalty whileusing Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Neural Overload",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies. Nearby enemies are marked when they are Primed for Electrocution, and hitting a marked enemy with a supported skill will Electrocute them.",
+      "effects": ["Supported Skills Electrocute Primed enemies on Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Nimble Reload",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Crossbow Ammunition Skills, causing them to Reload bolts significantly faster.",
+      "effects": ["Supported Skills have 60% increased Crossbow Reload Speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Overcharge",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports any skill that Hits enemies, making its Shocks more effective but reflecting them back to you as well.",
+      "effects": [
+        "50% increased Magnitude of Shocks inflicted with Supported Skills",
+        "Shocks caused by Supported Skills are reflected back to you"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Payload",
+      "type": "Support",
+      "tags": ["Grenade"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills which fire Grenades, giving fired Grenades a chance to activate again, but lengthening their cooldowns.",
+      "effects": [
+        "Supported Skills have 70% reduced Cooldown Recovery Rate",
+        "Grenades fired by Supported Skills have 50% chance to activate a second time"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Perfection",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports skills which have a benefit for Perfectly Timing their use. On successfully executing Perfect Timing with Supported Skills, gain Perfection, which is a powerful damage buff. However, failing to execute any Perfect Timing (even with skills not supported by Perfection) will remove all Perfection on you.",
+      "effects": [
+        "Successfully executing Perfect Timing with Supported Skills grants PerfectionAll Perfection is lost on failing to execute any Perfect Timing"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Punch Through",
+      "type": "Support",
+      "tags": ["Attack", "Melee"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Melee Attack Skills. Supported Skills apply Easy Target when Knocking Back Enemies, causing the next Projectile Attack Hit they take to deal increased Damage.",
+      "effects": [
+        "Supported Skills apply Easy Target on KnockbackEasy Target applied this way has a magnitude of 3% per metre of Expected Knockback Distance"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Salvo",
+      "type": "Support",
+      "tags": ["Attack", "Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Attack Skills you use yourself which fire Projectiles. Supported Skills accumulate Seals over time, and consume them when used. For each Seal consumed, the Attack will fire additional Projectiles. Projectiles from Supported Skills are fired in random directions. Cannot Support Skills which require Combo, have a Cooldown or already gain Seals.",
+      "effects": [
+        "Projectiles from Supported Skills arefired in random directions",
+        "Supported Skills fire 2 additional Projectiles perseal consumedSupported Skills consume all Accumulated seals on use",
+        "Supported Skills have 3 maximum seals",
+        "Supported Skills Accumulate a seal every 2 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Spectral Volley",
+      "type": "Support",
+      "tags": ["Attack", "Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Bow or Spear Projectile Attacks you use yourself. Supported Skills deal lower damage initially, but generate Spectral Projectiles, which deal more damage when they fire. Spectral Projectiles linger and will fire a short duration after no new Spectral Projectiles have been created. Cannot support Channelling Skills, Leaping skills, or skills which rain Projectiles from above.",
+      "effects": [
+        "Attacks with Supported Skills create a Spectral Projectile",
+        "Spectral Projectiles will fire if no Spectral Projectiles have been created in the last 3 seconds",
+        "Supported Skills deal 60% less Damage when not fired from Spectral Projectiles",
+        "Supported Skills deal 20% more Damage when fired from Spectral Projectiles",
+        "Maximum 5 Spectral Projectiles"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Tumult",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Skills you use yourself which can cause Damaging Hits. Supported Skills consume a Frenzy Charge on use to powerfully Break Armour.",
+      "effects": [
+        "Supported Skills Consume a Frenzy Charge on use to Break Armour equal to 50% of Physical Damage dealt"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Warm Blooded",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Dex",
+      "description": "Supports Persistent Buff Skills, causing Freeze applied to you to last for a shorter duration while the Supported Skill is active.",
+      "effects": [
+        "50% less Freeze duration on you while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Shock Siphon",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing you to recover Energy Shield when it kills a Shocked enemy.",
+      "effects": [
+        "Recover 4% of maximum Energy Shield when a Supported Skill deals a Killing Blow to a Shocked Enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cold Infusion",
+      "type": "Support",
+      "tags": ["Attack", "Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Attacks, causing them to Gain Cold Damage but deal less Fire and Lightning Damage.",
+      "effects": [
+        "Supported Attacks Gain 25% of Damage as extra Cold Damage",
+        "Supported Attacks deal 50% less Fire and Lightning Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ambush",
+      "type": "Support",
+      "tags": ["Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, making it more likely to Critically Hit enemies on full life.",
+      "effects": [
+        "Supported Skill has 100% more Critical Hit Chance against Enemies that are on Full Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Arcane Surge",
+      "type": "Support",
+      "tags": ["Spell", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells you cast yourself, tracking the mana you spend to cast them. Spending enough mana grants a burst of Mana Regeneration and Cast Speed.",
+      "effects": [
+        "Gain Arcane Surge for 10 seconds after Spending a total of 100% of your Maximum Mana on Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Burgeon",
+      "type": "Support",
+      "tags": ["Channelling"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Channelling Skills you use yourself, causing them to deal more damage the longer they have been Channelled.",
+      "effects": [
+        "Supported Skills deal 10% more Damage per second spent Channelling, up to 40%"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Frost Nexus",
+      "type": "Support",
+      "tags": ["AoE", "Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing it to create patches of Chilled Ground around Frozen enemies.",
+      "effects": [
+        "Supported Skills create Chilled Ground for 8 seconds when they Freeze an Enemy"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Clarity",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Persistent Buff Skills, causing you to gain increased Mana Regeneration while the Skill is active.",
+      "effects": [
+        "30% Increased Mana Regeneration Rate while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Concentrated Effect",
+      "type": "Support",
+      "tags": ["AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill with an area of effect, causing that area to be smaller but any area damage it deals to be higher.",
+      "effects": [
+        "Supported Skills deal 30% more Area Damage",
+        "Supported Skills have 50% less Area of Effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Controlled Destruction",
+      "type": "Support",
+      "tags": ["Spell", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that Hit enemies, boosting their damage but preventing them from dealing Critical Hits.",
+      "effects": [
+        "Supported Spells deal 25% more Hit Damage",
+        "Supported Skills cannot deal Critical Hits"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Heightened Curse",
+      "type": "Support",
+      "tags": ["Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse Skills, magnifying their power.",
+      "effects": ["Supported Curses have 25% increased Magnitudes"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Decaying Hex",
+      "type": "Support",
+      "tags": ["Chaos", "Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse skills. Cursed enemies' bodies decay, taking Chaos damage over time.",
+      "effects": [
+        "Supported Skills inflict Decay, dealing 100% of Intelligence as Chaos damage per second for 8 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Elemental Army",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills which create Minions, bolstering the Elemental Resistances of those Minions.",
+      "effects": [
+        "Minions from Supported Skills have +30% to all Elemental Resistances"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Energy Barrier",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that you can use, causing Energy Shield recharge to begin immediately if you are Stunned while using it.",
+      "effects": [
+        "Energy Shield Recharge begins immediately and is not interrupted by Damage for 2 seconds when Stunned while using Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Essence Harvest",
+      "type": "Support",
+      "tags": ["Minion", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create Reviving Persistent Minions. When those Minions die, you restore a percentage of your maximum Mana.",
+      "effects": [
+        "Recover 4% of your maximum Mana when a Persistent Reviving Minion created by Supported Skill dies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Expanse",
+      "type": "Support",
+      "tags": ["AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Skill that you use yourself, granting it significantly higher Area of Effect but causing it to gain a long cooldown. Cannot support Skills which already have a cooldown.",
+      "effects": [
+        "Supported Skills have 50% more Area of Effect",
+        "Supported Skills have +8 seconds to Cooldown"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Arcane Tempo",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells, causing them to cast faster.",
+      "effects": ["Supported Skills have 20% more Cast Speed"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Glaciation",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, making it more effective at Freezing enemies.",
+      "effects": ["Supported Skills cause 50% more Freeze Buildup"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Hourglass",
+      "type": "Support",
+      "tags": ["Cooldown Time: 10.00 s"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any damaging skill that you use yourself, causing it to deal significantly more damage but gain a long cooldown. Cannot support Skills which already have a cooldown.",
+      "effects": [
+        "Supported Skills deal 30% more Damage",
+        "Supported Skills have +10 seconds to Cooldown"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ice Bite",
+      "type": "Support",
+      "tags": ["Attack", "Cold", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Attacks you use yourself. Freezing an enemy with supported skills infuses all of your Attacks with Cold damage for a short time.",
+      "effects": [
+        "Attacks Gain 35% of Damage as Cold Damage for 5 seconds on Freezing an enemy with Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Impending Doom",
+      "type": "Support",
+      "tags": ["Spell", "AoE", "Trigger", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse skills you cast yourself, causing them to trigger Doom Blast on Cursed enemies when the Curse expires.",
+      "effects": [
+        "Trigger Doom Blast when Curses from Supported Skills expire",
+        "Deals base Chaos Damage equal to 15% of your Current Mana",
+        "Blast radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Magnified Effect",
+      "type": "Support",
+      "tags": ["AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill with an area of effect, making it larger.",
+      "effects": ["Supported Skills have 30% more Area of Effect"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Last Gasp",
+      "type": "Support",
+      "tags": ["Minion", "Persistent", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills that create Persistent Minions, causing those Minions to fight on for a short duration before dying when they are fatally wounded.",
+      "effects": [
+        "Minions from Supported Skills die 4 seconds after their Life is reduced to 0"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deep Freeze",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing Freeze it inflicts to last longer.",
+      "effects": [
+        "Supported Skills have 50% increased Freeze Duration on Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Minion Instability",
+      "type": "Support",
+      "tags": ["Minion", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills which create Minions, causing them to violently explode when reduced to Low Life.",
+      "effects": [
+        "Minions from Supported Skills explode when reduced to Low Life, dealing 15% of their maximum Life as Fire Damage to surrounding Enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Minion Pact",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports damaging skills you use yourself, draining the life from one of your Minions on use in order to boost the skill's damage. Only takes effect if you have a Minion with enough life to drain the full amount.",
+      "effects": [
+        "Supported Skills remove 100% of your maximum Life from a nearby Minion on use to deal 30% more damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Profanity",
+      "type": "Support",
+      "tags": ["Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills you use yourself. Supported Skills consume a Corpse on use, dealing more Chaos Damage if they do. Cannot support Triggered Skills or Reservation Skills.",
+      "effects": [
+        "Supported Skills consume a Corpse within 5 metreson use, if possible",
+        "Supported Skills deal 30% moreChaos Damage if consuming a Corpse"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Sacrificial Lamb",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills which create Minions, causing your skills which can target Minions to prioritise targeting Minions from the Supported Skill.",
+      "effects": [
+        "Your Skills target Minions from Supported Skills within6 metres if possible"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Spell Cascade",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that affect an area around you or a target location, causing those Spells to also target additional areas on either side of the target area, along a randomly chosen axis. Cannot support Channelling skills or Remote skills.",
+      "effects": [
+        "Supported Skills have 20% less Area of Effect",
+        "Cascades from Supported Skills have 20% less Area of Effect",
+        "Supported Skills deal 30% less Damage",
+        "Supported Skills also affect Areas on either side of the targeted Area along a random axis"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Unbending",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spell Skills you use yourself. While using Supported Skills, a percentage of Damage taken is Recouped as Mana, with the percentage scaling higher the longer the Cast time of the Supported Skill. Cannot Support Channelling Skills.",
+      "effects": [
+        "8% of Damage taken while using Supported Skills is Recouped as Mana per quarter second of Cast time of Supported Skill"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Unleash",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells you cast yourself, making their effect reoccur when cast. Cannot support Channelling Skills or Skills with a Cooldown.",
+      "effects": [
+        "Supported Spells gain a Seal every 200% of cast time, to a maximum of 2 SealsSupported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost",
+        "Supported Skills deal 50% less Damage when Reoccurring"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fortress",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills that create walls in a line, causing them to be created in a circle instead but deal less Hit damage.",
+      "effects": [
+        "Supported Skills deal 50% less damage with Hits",
+        "Walls from Supported Skills are created in a Circle instead"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Withering Touch",
+      "type": "Support",
+      "tags": ["Chaos", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, giving it a chance to Wither enemies on Hit.",
+      "effects": [
+        "Withered lasts 4 seconds",
+        "Supported Skills deal 25% less Damage",
+        "Chance to inflict Withered on Hit with SupportedSkills can exceed 100%",
+        "Supported Skills have 1% chance to inflictWithered on Hit for every 0.57142857142857% of enemyAilment Threshold dealt as Chaos damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Zenith",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spell Skills. Supported Skills deal more damage while you are above 90% of your Maximum Mana. Does not Support Skills used by Minions.",
+      "effects": [
+        "Supported Spells deal 30% more Damage while you are above 90% of your Maximum Mana"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Abiding Hex",
+      "type": "Support",
+      "tags": ["Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse Skills you cast yourself. Supported Skills will consume Power Charges on use, gaining significant Curse duration if they do.",
+      "effects": [
+        "Supported Skills consume a Power Charge on useSupported Skills have 80% more duration when consuming a Power Charge"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Acrimony",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which can Damage Enemies. Enemies affected by Damage over time from Supported Skills which was not caused by a Damaging Ailment have reduced Life regeneration rate. Only the strongest instance of this Debuff will apply. Does not Support Skills used by Minions.",
+      "effects": [
+        "Enemies affected by non-Ailment Damage over time from Supported Skills have 50% reduced Life regeneration rate"
+      ],
+      "cost_multiplier": "110%"
+    },
+    {
+      "name": "Ambrosia",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills you use yourself which Damage enemies with Hits. Supported Skills consume a percentage of your maximum Mana Flask charges, Gaining a percentage of Damage as extra Lightning Damage per Mana Flask charge consumed.",
+      "effects": [
+        "Supported Skills consume 20% of your maximum Mana Flask charges on useSupported Skills Gain 3% of Damage as extra Lightning Damage per Mana Flask charge consumed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bidding",
+      "type": "Support",
+      "tags": ["Command", "Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Minion Skills. Supported Minions deal significantly more damage with their Command Skills.",
+      "effects": ["Supported Minions' Command Skills deal 30% more Damage"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Bone Shrapnel",
+      "type": "Support",
+      "tags": ["AoE", "Trigger", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Deal Physical Area Damage based off of the maximum Life of the Pinned target slain.",
+      "effects": [
+        "Supported Skills cannot cause Pin buildup",
+        "Supported Skills trigger Bone Shrapnel Explosions on killing Pinned Enemies",
+        "Deals 25% of Pinned target's Maximum Life as Physical Damage",
+        "Cannot cause Pin buildup",
+        "Explosion radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Catharsis",
+      "type": "Support",
+      "tags": ["Physical", "Chaos", "Conditional"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Skill you use yourself, causing supported Skill to detonate Volatility that is present on you. Supported Skill can only be used while you have a certain amount of Volatility and cannot support Skills which already have another Condition. Does not support Triggered Skills.",
+      "effects": [
+        "Supported Skill requires 20 Volatility on you to use",
+        "Using Supported Skills will detonate a random amount of Volatility on you"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cold Penetration",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, making those Hits Penetrate enemy Cold resistance.",
+      "effects": ["Supported Skills Penetrate 30% Cold Resistance"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Commandment",
+      "type": "Support",
+      "tags": ["Command", "Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Minions which have Command Skills. Supported Minions have massively increased cooldown recovery speed for Command Skills they use, but deal no damage with non-Command Skills.",
+      "effects": [
+        "Supported Minions have 100% increased Cooldown Recovery Rate for Command Skills",
+        "Supported Minions deal 100% less Damage with non-command Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Considered Casting",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spell Skills that Hit Enemies and you cast yourself, boosting Damage at the cost of Cast Speed.",
+      "effects": [
+        "Supported Spell Skills have 15% less Cast Speed",
+        "Supported Spells deal 35% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Corpse Conservation",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills that consume Corpses, giving them a chance to take effect without destroying the Corpse.",
+      "effects": [
+        "Corpses consumed by Supported Skills have 25% chance to not be destroyed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Coursing Current",
+      "type": "Support",
+      "tags": ["AoE", "Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, giving it a chance to also Shock nearby enemies when you Shock an enemy.",
+      "effects": [
+        "Shocking Hits from supported Skills have a 50% chance to also Shock enemies in a 2.5 metre radius"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Crackling Barrier",
+      "type": "Support",
+      "tags": ["Lightning", "Channelling"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Channelling Skills. While Channelling Supported Skills, you gain Lightning Thorns based off of your maximum Mana.",
+      "effects": [
+        "Gain 15% of your maximum Mana as Lightning Thorns Damage while Channelling Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Crazed Minions",
+      "type": "Support",
+      "tags": ["Minion", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Minion Skills which summon Reviving Minions. Supported Minions deal significantly more Damage if they have Revived Recently.",
+      "effects": [
+        "Supported Minions deal 30% more Damage if they have Revived Recently"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Deathmarch",
+      "type": "Support",
+      "tags": ["Minion", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create Persistent Minions. Supported Minions will restore Life to nearby Allied Minions on death, as well as removing Ailments from those Minions.",
+      "effects": [
+        "Minions from Supported Skills heal Allied Minions within 3 metres for 25% of Supported Minions' life on death, as well as removing all Ailments from those Minions"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Dissipate",
+      "type": "Support",
+      "tags": ["Remnant"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create Remnants. Created Remnants are more powerful, but vanish quickly.",
+      "effects": [
+        "Remnants spawned by Supported Skills have35% increased effect",
+        "Remnants created by Supported Skills vanish after 3 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Embitter",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which can Damage Enemies with Hits, causing all sources of Damage Gained to instead be treated as Damage Gained as extra Cold for Supported Skills.",
+      "effects": [
+        "If Supported Skills would gain extra Damage of any Type other than Cold, they gain extra Cold Damage instead"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Excise",
+      "type": "Support",
+      "tags": ["Cooldown Time: 8.00 s"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any damaging Skill that you use yourself, granting it significantly higher chance to Critically Hit, but causing it to gain a long cooldown. Cannot support Skills which already have a cooldown.",
+      "effects": [
+        "Supported Skills have 40% more chance to Critically Hit",
+        "Supported Skills have +8 seconds to Cooldown"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Feeding Frenzy",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports skills which create Minions, making them deal and take more damage. Cannot support skills which create undamageable Minions.",
+      "effects": [
+        "Minions from Supported Skills take 20% more Damage",
+        "Minions from Supported Skills deal 30% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fiery Death",
+      "type": "Support",
+      "tags": ["Spell", "AoE", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing enemies it Ignites to have a chance to explode on death.",
+      "effects": [
+        "Enemies Ignited by Supported Skills have 60% chance toexplode on death",
+        "Explosion deals base Fire Damage equal to 10% of the Corpse's Maximum Life",
+        "Explosion radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Focused Curse",
+      "type": "Support",
+      "tags": ["Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse skills, causing them to Curse enemies more quickly after being cast.",
+      "effects": [
+        "Curse zones from SupportedSkills erupt after 30% reduced delay"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Freezefork",
+      "type": "Support",
+      "tags": ["Projectile", "Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which can fire Projectiles. Projectiles from Supported Skills always Fork when the initial Projectile Hits Frozen Enemies, but Supported Skills cannot build up Freeze themselves.",
+      "effects": [
+        "Supported Skills Fork when hitting Frozen Enemies",
+        "Supported Skills cannot cause Freeze buildup"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Glacier",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Skill which creates Ice Crystals, causing them to be created with higher Life.",
+      "effects": [
+        "Ice Crystals created by Supported Skills have 100% more Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Hinder",
+      "type": "Support",
+      "tags": ["Spell", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that deal non-Ailment Chaos damage over time, causing damage over time they inflict to also Hinder enemies. Does not Support Skills used by Minions.",
+      "effects": [
+        "Chaos damage over time inflicted by Supported Skills also Hinders enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Icicle",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Skill which creates Ice Crystals, causing them to be created with lower Life.",
+      "effects": [
+        "Ice Crystals created by Supported Skills have 50% less Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Impetus",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Meta Skills. Supported Skills generate Energy significantly faster.",
+      "effects": ["Supported Skills gain 40% increased Energy"],
+      "cost_multiplier": "115%"
+    },
+    {
+      "name": "Inevitable Critical",
+      "type": "Support",
+      "tags": ["Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill you use yourself that Hits enemies, causing it to accumulate Critical Hit chance over time.",
+      "effects": [
+        "Supported Skills gain 25% increased Critical Hit Chance each second, up to 100%. This Critical Hit Chance is lost whenever a skill supported by Inevitable Critical Critically Hits"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Intense Agony",
+      "type": "Support",
+      "tags": ["Spell", "Duration"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that deal non-Ailment damage over time, causing them to have a shorter duration but deal substantially more damage over time with Debuffs inflicted against enemies on full life.",
+      "effects": [
+        "Damage over time with non-Ailment Debuffs inflicted on full-life enemies by Supported Skills deal 50% more damage",
+        "Supported Skills have 25% less Skill Effect Duration"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Loyalty",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills that create Companions which can be damaged. Minions created by Supported Skills take a portion of Hit Damage you would otherwise have taken, but have lowered maximum Life.",
+      "effects": [
+        "10% of Damage from Hits is taken from Supported Companion's Life before you",
+        "Minions from Supported Skills have 30% less maximum Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Mana Flare",
+      "type": "Support",
+      "tags": ["Spell", "AoE", "Trigger", "Fire", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Spell that Hits enemies, causing it to trigger a Mana Flare on Critical Hit. The Mana Flare consumes your Mana to deal Fire damage. Cannot support the skills of Minions.",
+      "effects": [
+        "Supported Skills trigger Mana Flare on Critical Hit",
+        "Consumes 25% of current Mana to deal that much Fire damage",
+        "Flare radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Font of Mana",
+      "type": "Support",
+      "tags": ["Totem"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create stationary objects. Objects created by supported Skills generate a Font of Mana, creating an Aura which grants Mana regeneration.",
+      "effects": [
+        "Fonts of Mana from Supported Skills grant 40% increased Mana Regeneration Rate to You and Your Allies",
+        "Objects created by Supported Skills create a Font of Mana with a 3 metre radius"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Soul Thief",
+      "type": "Support",
+      "tags": ["Attack", "Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Attacks, causing their Physical damage to Leech Mana.",
+      "effects": [
+        "Leech 8% of Physical Attack Damage from Supported Skills as Mana"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Muster",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which summon Minions. Supported Minions deal more Damage the more different kinds of Persistent Minions you have summoned.",
+      "effects": [
+        "Supported Minions deal 7% more Damage for each different type of Persistent Minion you have summoned"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Mysticism",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Persistent Buff Skills, causing you to deal increased Spell Damage while on full Energy Shield while the Supported Skill is active.",
+      "effects": [
+        "Deal 30% increased Spell Damage while on full Energy Shield while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Pinpoint Critical",
+      "type": "Support",
+      "tags": ["Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits Enemies, causing it to Critically Hit more often but deal less damage with Critical Hits.",
+      "effects": [
+        "Supported Skills have 60% more Critical Hit Chance",
+        "Supported Skills have 30% less Critical Damage Bonus"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Potential",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills that you use yourself. Supported Skills will consume a Power Charge on use if possible, and will be much more likely to Critically Hit if they do. Supported Skills cannot generate Power Charges.",
+      "effects": [
+        "Supported Skills cannot generate Power Charges",
+        "Supported Skills will consume a Power Charge on use if possibleSupported Skills have 40% more chance to Critically Hit when consuming Power Charges"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rime",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create Ground Surfaces, causing Enemies Chilled by those Surfaces to be more easily Frozen, but at the cost of some Chill magnitude.",
+      "effects": [
+        "Hits against Enemies in Chilled Ground created by Supported Skills build up Freeze as though dealing 20% more Damage",
+        "30% less effect of Chill inflicted by Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ritualistic Curse",
+      "type": "Support",
+      "tags": ["Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse skills, causing them to cover a larger area but take longer to Curse enemies.",
+      "effects": [
+        "Curse zones from SupportedSkills erupt after 30% increased delay",
+        "Supported Skills have 50% increased Area of Effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Spell Echo",
+      "type": "Support",
+      "tags": ["Spell", "AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that affect an area around you or a target location. Supported Spells echo, causing their effects to happen again after a short delay. Cannot support Channelling skills Remote skills or skills which are Triggered.",
+      "effects": [
+        "Supported Spells Echo once",
+        "Supported Skills have 30% less Cast Speed",
+        "Echoes from Supported Spells have 30% more Area of Effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Strip Away",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which apply Exposure to Enemies, increasing the effect of applied Exposure.",
+      "effects": [
+        "Exposure applied by Supported Skills has 20% increased effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Suffuse",
+      "type": "Support",
+      "tags": ["AoE"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills that create Ground Surfaces, causing those Surfaces to grow over time, up to a limit.",
+      "effects": [
+        "Ground Surfaces created by Supported Skills gain 20% increased Area of Effect per second, up to a maximum of 100%"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Rising Tempest",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which deal Damage, raising Elemental Damage dealt for each Skill used Recently of a different Elemental type. Cannot support Minion Skills.",
+      "effects": [
+        "Supported Skills deal 12% more Elemental Damage for eachSkill used Recently of a different Elemental type"
+      ],
+      "cost_multiplier": "120%"
+    },
+    {
+      "name": "Upwelling",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Persistent Buff Skills, causing your Minions to deal increased Damage while you are not on full Mana while the Supported Skill is active.",
+      "effects": [
+        "Your Minions deal 30% increased Damage while you are not on full Mana while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Wildfire",
+      "type": "Support",
+      "tags": ["AoE", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, Spreading Ignites it inflicts to nearby enemies after a delay.",
+      "effects": [
+        "Ignites inflicted by Supported Skills Spread to otherenemies that stay within (0–1.5) metres for 1 second"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Ablation",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Offering Skills. Supported Skills Sacrifice a portion of your life on use, but deal much more damage and have more powerful Buffs in return.",
+      "effects": [
+        "Supported Offering Skills have 30% increased Buff effect",
+        "Supported Skills Sacrifice 15% of Life on use",
+        "Supported Offering Skills deal 30% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Chaos Infusion",
+      "type": "Support",
+      "tags": ["Attack", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Attacks, causing them to Gain Chaos Damage but deal less Damage of other Types.",
+      "effects": [
+        "Supported Attacks Gain (–25)% of Damage as extra Chaos Damage",
+        "Supported Attacks deal (0–50)% less non-Chaos Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Astral Projection",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Nova Skills, causing those Skills to take place at the targeted location when used instead of around you.",
+      "effects": [
+        "Supported Skills Cast at the targeted location instead of around you",
+        "Supported Skills have 25% less Area of Effect"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Biting Frost",
+      "type": "Support",
+      "tags": ["Cold", "Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing them to deal more damage to Frozen enemies but consume their Freeze. Cannot support skills that Consume Freeze.",
+      "effects": [
+        "Supported Skills cannot cause Freeze buildup",
+        "Supported Skills Consume Freeze on enemies to deal 50% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Burning Inscription",
+      "type": "Support",
+      "tags": ["AoE", "Trigger", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Create Ignited Ground Igniting Enemies based on a percentage of your Maximum Mana.",
+      "effects": [
+        "Supported Skills trigger Burning Inscription after their Runic Inscriptions expire",
+        "Create Ignited Ground, Igniting enemies as though dealing Fire Damage equal to 20% of your Maximum Mana",
+        "Ignited Ground radius is 2 metres",
+        "Ignited Ground duration is 4 seconds"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Capacitor",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Invocation Skills which Trigger other Skills. Supported Skills have significantly higher Maximum Energy.",
+      "effects": ["Supported Meta Gems have 80% increased Maximum Energy"],
+      "cost_multiplier": "130%"
+    },
+    {
+      "name": "Chaos Mastery",
+      "type": "Support",
+      "tags": ["Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Chaos skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Chaos Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Chaotic Freeze",
+      "type": "Support",
+      "tags": ["Spell", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that deal non-Ailment Chaos damage over time. Enemies taking damage over time from Debuffs caused by supported skills will suffer Freeze build up from Chaos damage Hits from any source. Does not Support Skills used by Minions.",
+      "effects": [
+        "Chaos damage Contributes to Freeze buildup for Hits against targets taking damage over time from Supported Skills"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cold Exposure",
+      "type": "Support",
+      "tags": ["Cold", "Duration", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing it to inflict Cold Exposure when it Critically Hits an enemy.",
+      "effects": [
+        "Supported Skills inflict Cold Exposure for 8 seconds on Critical Hit with Cold Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cold Mastery",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Cold skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Cold Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Cursed Ground",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curse Skills. Supported Curse Skills no longer have an activation delay, instead creating areas which Curse Enemies so long as they are within them.",
+      "effects": [
+        "Supported Skills create Cursed GroundEnemies on the Cursed Ground from a Supported Skill are Cursed while within itMaximum 1 area of Cursed Ground"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Danse Macabre",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Offering Skills. Supported Skills have increased Buff effect and deal more damage, but will target an additional skeletal Minion when cast. If there is not an additional skeletal Minion to target, no damage or Buff effect will be granted.",
+      "effects": [
+        "Supported Offering Skills have 30% increased Buff effect",
+        "Supported Offering Skills target an additional skeletal MinionSupport Effects are only applied if an additional skeletal Minion is targeted",
+        "Supported Offering Skills deal 30% more Damage"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Derange",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which you use yourself which can deal damage. Supported Skills gain an Energy Shield cost equal to your Intelligence, while also dealing more non-Ailment Damage over time based off of your Intelligence. Cannot support Channelling Skills.",
+      "effects": [
+        "Supported Skills gain an Energy Shield costequal to your Intelligence",
+        "Supported Skills deal 8% morenon-Ailment Damage over time per 100 Intelligence"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Drain Ailments",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spells that deal non-Ailment damage over time, causing them to consume Ailments on enemies it applies damage over time Debuffs to in order to deal substantially more damage over time.",
+      "effects": [
+        "Supported Skills Consume all Ailments of a random type on the target when inflicting damage over time Debuffs, causing the Debuff to deal 35% more damage if any Ailments were consumed"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Elemental Discharge",
+      "type": "Support",
+      "tags": [
+        "Spell",
+        "AoE",
+        "Trigger",
+        "Lightning",
+        "Cold",
+        "Fire",
+        "Payoff"
+      ],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any Spell that Hits enemies, causing it to consume Elemental Ailments on hit to trigger an Elemental Discharge. Cannot support the skills of Minions.",
+      "effects": [
+        "Supported Skills Cannot inflict Freeze, Shock or Ignite",
+        "Supported Skills Consume Freeze, Shock and Ignite on hit to trigger Elemental Discharge",
+        "Consuming Freeze deals 80% to 120% ofyour Intelligence as Cold Damage",
+        "Consuming Ignite deals 40% to 60% ofyour Intelligence as Fire Damage",
+        "Consuming Shock deals 1% to 120% ofyour Intelligence as Lightning Damage",
+        "Discharge radius is 2 metres"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Elemental Focus",
+      "type": "Support",
+      "tags": [],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing it to deal more Elemental Damage but be unable to inflict Elemental Ailments.",
+      "effects": [
+        "Supported Skills deal 25% more Elemental Damage",
+        "Supported Skills cannot inflict Elemental Ailments"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Energy Retention",
+      "type": "Support",
+      "tags": ["Trigger"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Meta Skills. Supported Skills gain a chance to partially Refund a portion of Energy cost when Triggering or Invoking other Skills.",
+      "effects": [
+        "Skills Triggered by Supported Meta Skillshave 35% chance to refund half of their Energy cost"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Enormity",
+      "type": "Support",
+      "tags": ["Minion", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which summon Persistent Minions. Supported Minions are larger, have more Life, and deal more Damage, but cost significantly more Spirit.",
+      "effects": [
+        "Minions from Supported Skills have 20% increased size",
+        "Minions from Supported Skills deal 20% more Damage",
+        "Minions from Supported Skills have 20% more maximum Life"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Execrate",
+      "type": "Support",
+      "tags": ["Cooldown Time: 8.00 s"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any damaging Skill that you use yourself, granting it significantly higher chance to inflict Ailments on hit, but causing it to gain a long cooldown. Cannot support Skills which already have a cooldown.",
+      "effects": [
+        "Supported Skills have 100% more chance to inflict Ailments",
+        "Supported Skills have +8 seconds to Cooldown"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Extraction",
+      "type": "Support",
+      "tags": ["Spell"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spell Skills which cause Damaging Hits. Using supported Spells will cause you to Sacrifice a portion of your Life on use, gaining extra Chaos Damage in exchange. Does not support Persistent Skills, Minion Skills, or Triggered Skills.",
+      "effects": [
+        "Supported Skills Gain 35% of Damage as extra Chaos Damage",
+        "Supported Skills Sacrifice 10% of Life on use"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fire Mastery",
+      "type": "Support",
+      "tags": ["Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Fire skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Fire Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Fluke",
+      "type": "Support",
+      "tags": ["Trigger"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which Trigger other Skills. Skills Triggered by Supported Skills have their Damage randomly raised or lowered when Triggered, as well as recovering a random amount of their cost when Triggered.",
+      "effects": [
+        "Skills Triggered by Supported Skills deal between 40% less and 60% more Damage",
+        "Skills Triggered by Supported Skills recover between % and 20% of cost on use"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Frostfire",
+      "type": "Support",
+      "tags": ["Cold", "Fire", "Payoff"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing it to Consume Freeze on Igniting a Frozen enemy to boost the effect of the Ignite.",
+      "effects": [
+        "100% more Magnitude of Ignite inflicted on Frozen targets with Supported Skills",
+        "Supported Skills cannot cause Freeze buildup",
+        "Supported Skills Consume Freeze from Enemies they Ignite"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Hex Bloom",
+      "type": "Support",
+      "tags": ["AoE", "Curse"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Curses, spreading their effects when a Cursed enemy dies.",
+      "effects": [
+        "Curses from Supported Skills spread to enemies within 3 metres when a Cursed enemy dies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Supercritical",
+      "type": "Support",
+      "tags": ["Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, causing it to deal more damage with Critical Hits but have less Critical Hit chance.",
+      "effects": [
+        "Supported Skills have 100% increased Critical Damage Bonus",
+        "Supported Skills have 20% less Critical Hit chance"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Lightning Mastery",
+      "type": "Support",
+      "tags": ["Lightning"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Lightning skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Lightning Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Magnetism",
+      "type": "Support",
+      "tags": ["Additional Reservation: 10 Spirit"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which create Remnants, allowing those Remnants to be collected from further away.",
+      "effects": [
+        "Remnants created by Supported Skills can be collected from 100% further away"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Minion Mastery",
+      "type": "Support",
+      "tags": ["Minion"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Minion skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Minion Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Physical Mastery",
+      "type": "Support",
+      "tags": ["Physical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Physical skills, granting them an additional level.",
+      "effects": ["+1 to Level of Supported Physical Skills"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Stormfire",
+      "type": "Support",
+      "tags": ["Lightning", "Fire"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports any skill that Hits enemies, prolonging Shocks they inflict on Ignited enemies.",
+      "effects": [
+        "Shocks from Supported Skills do not expire on Ignited enemies"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Strong Hearted",
+      "type": "Support",
+      "tags": ["Buff", "Persistent"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Persistent Buff Skills, causing Shock applied to you to last for a shorter duration while the Supported Skill is active.",
+      "effects": [
+        "50% less Shock duration on you while a Supported Skill is active"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Verglas",
+      "type": "Support",
+      "tags": ["Cold"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills you use yourself which can Hit Enemies. Supported Skills Gain a percentage of their Damage as Cold Damage when you destroy Ice Crystals.",
+      "effects": [
+        "Destroying an Ice Crystal grants Supported Skills 1% of Damage Gained as extra Cold for 6 seconds, per two thousand maximum Life of the destroyed Ice Crystal"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Volatile Power",
+      "type": "Support",
+      "tags": ["Physical", "Chaos"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills which you use yourself. On using Supported Skills while they are Empowered, you gain Volatility.",
+      "effects": [
+        "Gain 5 Volatility on using Supported Skills while they are Empowered"
+      ],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Volatility",
+      "type": "Support",
+      "tags": ["Physical", "Chaos", "Critical"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Skills you use yourself which can cause Damaging Hits. Supported Skills grant Volatility on Critical Hit.",
+      "effects": ["Supported Skills grant Volatility on Critical Hit"],
+      "cost_multiplier": ""
+    },
+    {
+      "name": "Wildshards",
+      "type": "Support",
+      "tags": ["Spell", "Projectile"],
+      "tier": 1,
+      "level": 1,
+      "support_requirements": "+5 Int",
+      "description": "Supports Spell Skills that fire Projectiles. Supported Skills have a chance to fire many additional Projectiles in a circle.",
+      "effects": [
+        "Supported Skills have a 20% chance to fire 8 additional Projectiles in a circle"
+      ],
+      "cost_multiplier": ""
+    }
+  ]
+}
