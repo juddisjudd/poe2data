@@ -1,0 +1,736 @@
+[
+  {
+    "name": "Brynhand's Mark",
+    "base": "Wooden Club",
+    "modifiers": [
+      "Adds (10–14) to (16–20) Physical Damage",
+      "+(30–50) to Accuracy Rating",
+      "20% reduced Attack Speed",
+      "+(10–20) to Strength",
+      "Causes Double Stun Buildup"
+    ]
+  },
+  {
+    "name": "Wylund's Stake",
+    "base": "Smithing Hammer",
+    "modifiers": [
+      "local weapon implicit hidden % base damage is fire [50]",
+      "Adds (4–6) to (8–10) Physical Damage",
+      "Adds (4–6) to (8–10) Fire Damage",
+      "+(10–20) to Strength",
+      "+(20–30)% to Fire Resistance",
+      "Hits Break (30–50) Armour",
+      "Inflicts Fire Exposure when this Weapon Fully Breaks Armour"
+    ]
+  },
+  {
+    "name": "Frostbreath",
+    "base": "Slim Mace",
+    "modifiers": [
+      "Adds (8–12) to (16–20) Physical Damage",
+      "Adds (8–12) to (16–20) Cold Damage",
+      "+5% to Critical Hit Chance",
+      "All Damage from Hits with this Weapon Contributes to Freeze Buildup",
+      "Culling Strike against Frozen Enemies"
+    ]
+  },
+  {
+    "name": "Trenchtimbre",
+    "base": "Spiked Club",
+    "modifiers": [
+      "Adds (13–15) to (22–25) Physical Damage",
+      "(20–30)% increased Attack Speed",
+      "+(1–2) to Level of all Minion Skills",
+      "Increases and Reductions to Minion Attack Speed also affect you"
+    ]
+  },
+  {
+    "name": "Sculpted Suffering",
+    "base": "Warpick",
+    "modifiers": [
+      "+(10–15)% to Critical Damage Bonus",
+      "Adds (21–26) to (25–31) Physical Damage",
+      "(10–15)% increased Attack Speed",
+      "Breaks Armour equal to 40% of damage from Hits with this weapon",
+      "Fully Armour Broken enemies you kill with Hits Shatter"
+    ]
+  },
+  {
+    "name": "Seeing Stars",
+    "base": "Plated Mace",
+    "modifiers": [
+      "Adds (12–16) to (22–25) Cold Damage",
+      "Adds 1 to (40–45) Lightning Damage",
+      "(10–20)% increased Attack Speed",
+      "Energy Generation is doubled"
+    ]
+  },
+  {
+    "name": "Nebuloch",
+    "base": "Execratus Hammer",
+    "modifiers": [
+      "Adds (39–48) to (69–79) Physical Damage",
+      "+(20–30)% to Critical Damage Bonus",
+      "Adds (25–36) to (44–55) Chaos damage",
+      "Attacks consume an Endurance Charge to Critically Hit",
+      "Take 100 Chaos damage per second per Endurance Charge"
+    ]
+  },
+  {
+    "name": "Mjölner",
+    "base": "Torment Club",
+    "modifiers": [
+      "Grants Skill: Level 15 Thundergod's Wrath",
+      "+200 Intelligence Requirement",
+      "+100 Strength Requirement",
+      "(250–350)% increased Physical Damage",
+      "(10–20)% increased Attack Speed",
+      "+(2–4) to Level of all Lightning Skills"
+    ]
+  },
+  {
+    "name": "Olrovasara",
+    "base": "Torment Club",
+    "modifiers": [
+      "Adds 1 to (60–80) Lightning Damage",
+      "+(300–400) to Accuracy Rating",
+      "(5–30)% increased Attack Speed",
+      "On Hitting an enemy, gains maximum added Lightning damage equal to",
+      "the enemy's Power for 6 seconds, up to a total of 500"
+    ]
+  },
+  {
+    "name": "Hoghunt",
+    "base": "Felled Greatclub",
+    "modifiers": [
+      "Adds (16–20) to (23–27) Physical Damage",
+      "+15% to Critical Hit Chance",
+      "10% reduced Attack Speed",
+      "+10 to Strength",
+      "Maim on Critical Hit"
+    ]
+  },
+  {
+    "name": "Hrimnor's Hymn",
+    "base": "Oak Greathammer",
+    "modifiers": [
+      "Causes (30–50)% increased Stun Buildup",
+      "(80–120)% increased Physical Damage",
+      "+(10–15) to Strength",
+      "Gain (10–20) Life per Enemy Killed",
+      "Slam Skills you use yourself cause Aftershocks"
+    ]
+  },
+  {
+    "name": "Trephina",
+    "base": "Forge Maul",
+    "modifiers": [
+      "Adds (12–15) to (22–25) Physical Damage",
+      "(10–15)% increased Attack Speed",
+      "Causes (30–50)% increased Stun Buildup",
+      "Always deals Critical Hits against Heavy Stunned Enemies"
+    ]
+  },
+  {
+    "name": "Brain Rattler",
+    "base": "Studded Greatclub",
+    "modifiers": [
+      "Adds (18–22) to (24–28) Physical Damage",
+      "Adds 1 to (50–55) Lightning Damage",
+      "(10–15)% increased Attack Speed",
+      "All damage with this Weapon causes Electrocution buildup"
+    ]
+  },
+  {
+    "name": "The Empty Roar",
+    "base": "Cultist Greathammer",
+    "modifiers": [
+      "Strikes deal Splash damage to targets within 1.5 metres",
+      "Adds (25–35) to (40–50) Physical Damage",
+      "Leeches 10% of Physical Damage as Life",
+      "(10–20)% chance to cause Bleeding on Hit",
+      "All Attacks count as Empowered Attacks",
+      "Cannot use Warcries"
+    ]
+  },
+  {
+    "name": "Shyaba",
+    "base": "Temple Maul",
+    "modifiers": [
+      "+50 Dexterity Requirement",
+      "-15 Strength Requirement",
+      "(80–120)% increased Physical Damage",
+      "50% increased Attack Speed",
+      "(15–25)% increased Light Radius",
+      "Always Hits"
+    ]
+  },
+  {
+    "name": "Chober Chaber",
+    "base": "Leaden Greathammer",
+    "modifiers": [
+      "+100 Intelligence Requirement",
+      "Adds (58–65) to (102–110) Physical Damage",
+      "+(80–100) to maximum Mana",
+      "+50 to Spirit",
+      "Increases and Reductions to Minion Damage also affect you"
+    ]
+  },
+  {
+    "name": "Quecholli",
+    "base": "Crumbling Maul",
+    "modifiers": [
+      "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+      "(100–150)% increased Physical Damage",
+      "+(10–15) to all Attributes",
+      "Gain 30 Life per Enemy Killed",
+      "This Weapon's Critical Hit Chance is 100%",
+      "Critical Hits do not deal extra Damage"
+    ]
+  },
+  {
+    "name": "Tidebreaker",
+    "base": "Pointed Maul",
+    "modifiers": [
+      "(120–150)% increased Physical Damage",
+      "+(2–3) to Level of all Melee Skills",
+      "+(20–30) to Intelligence",
+      "Causes (150–200)% increased Stun Buildup",
+      "All Damage from Hits with this Weapon Contributes to Chill Magnitude"
+    ]
+  },
+  {
+    "name": "The Hammer of Faith",
+    "base": "Giant Maul",
+    "modifiers": [
+      "(250–300)% increased Physical Damage",
+      "10% reduced Attack Speed",
+      "+10% to all Elemental Resistances",
+      "50% increased Mana Regeneration Rate",
+      "local gain shrine buff every 10 seconds [1]"
+    ]
+  },
+  {
+    "name": "Splinter of Loratta",
+    "base": "Hardwood Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "Adds (2–3) to (6–8) Physical Damage",
+      "20% increased Melee Strike Range with this weapon",
+      "Any number of Poisons from this Weapon can affect a target at the same time",
+      "Always Poison on Hit with this weapon"
+    ]
+  },
+  {
+    "name": "Tyranny's Grip",
+    "base": "Ironhead Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "(150–200)% increased Physical Damage",
+      "(10–15)% reduced Attack Speed",
+      "+(15–30) to Strength",
+      "Strikes deal Splash damage to targets within 1.5 metres",
+      "Knocks Back Enemies on Hit",
+      "Cannot use Projectile Attacks"
+    ]
+  },
+  {
+    "name": "Chainsting",
+    "base": "Hunting Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "(15–25)% chance to Maim on Hit",
+      "Adds (13–17) to (22–28) Physical Damage",
+      "+(100–150) to Accuracy Rating",
+      "10% increased Attack Speed",
+      "All Damage from Hits with this Weapon Contributes to Pin Buildup",
+      "(20–30)% increased Projectile Speed with this Weapon"
+    ]
+  },
+  {
+    "name": "Skysliver",
+    "base": "Winged Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "No Physical Damage",
+      "Adds 1 to (80–120) Lightning Damage",
+      "(15–30)% increased Attack Speed",
+      "(50–100)% increased chance to Shock",
+      "Rolls only the minimum or maximum Damage value for each Damage Type"
+    ]
+  },
+  {
+    "name": "Daevata's Wind",
+    "base": "War Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "(25–35)% increased Projectile Speed with this Weapon",
+      "Adds (10–15) to (21–26) Physical Damage",
+      "+100 to Evasion Rating",
+      "(10–20)% increased Attack Speed",
+      "(30–60)% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds",
+      "(30–60)% increased Projectile Damage if you've dealt a Melee Hit in the past eight seconds"
+    ]
+  },
+  {
+    "name": "Tangletongue",
+    "base": "Forked Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "Adds (14–18) to (30–36) Physical Damage",
+      "+(10–20)% to Critical Hit Chance",
+      "+(15–25) to Intelligence",
+      "Forks Critical Hits",
+      "10% of Skill Mana Costs Converted to Life Costs"
+    ]
+  },
+  {
+    "name": "Saitha's Spear",
+    "base": "Barbed Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "Adds (14–26) to (27–32) Physical Damage",
+      "Adds (33–41) to (47–53) Fire Damage",
+      "(15–25)% chance to cause Bleeding on Hit",
+      "Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target",
+      "(25–40)% chance to Aggravate Bleeding on Hit"
+    ]
+  },
+  {
+    "name": "Spire of Ire",
+    "base": "Helix Spear",
+    "modifiers": [
+      "Grants Skill: Spear Throw",
+      "Grants Skill: Level 15 Chaotic Infusion",
+      "(15–20)% increased Attack Speed",
+      "Leeches (10–20)% of Physical Damage as Life",
+      "Adds (167–201) to (267–333) Chaos damage",
+      "When you Consume a Charge Trigger Chaotic Infusion to gain 2 Chaos Infusion",
+      "Life Leech recovers based on your Chaos damage instead of Physical damage"
+    ]
+  },
+  {
+    "name": "The Blood Thorn",
+    "base": "Wrapped Quarterstaff",
+    "modifiers": [
+      "Adds (8–12) to (16–18) Physical Damage",
+      "+(10–15) to Strength",
+      "Causes Bleeding on Hit",
+      "(4–5) to (8–10) Physical Thorns damage"
+    ]
+  },
+  {
+    "name": "Pillar of the Caged God",
+    "base": "Long Quarterstaff",
+    "modifiers": [
+      "16% increased Melee Strike Range with this weapon",
+      "1% increased Area of Effect for Attacks per 10 Intelligence",
+      "1% increased Attack Speed per 10 Dexterity",
+      "10% increased Weapon Damage per 10 Strength"
+    ]
+  },
+  {
+    "name": "The Sentry",
+    "base": "Gothic Quarterstaff",
+    "modifiers": [
+      "No Physical Damage",
+      "Adds (25–32) to (40–50) Fire Damage",
+      "+(30–50) to Accuracy Rating",
+      "+20% to Fire Resistance",
+      "100% increased chance to Ignite",
+      "30% increased Light Radius"
+    ]
+  },
+  {
+    "name": "Matsya",
+    "base": "Crescent Quarterstaff",
+    "modifiers": [
+      "Adds (6–9) to (10–15) Cold Damage",
+      "Adds 1 to (19–29) Lightning Damage",
+      "+(3–5)% to Critical Hit Chance",
+      "(15–20)% increased Attack Speed",
+      "(25–40)% increased Mana Regeneration Rate",
+      "Skills reserve 50% less Spirit"
+    ]
+  },
+  {
+    "name": "Nazir's Judgement",
+    "base": "Steelpoint Quarterstaff",
+    "modifiers": [
+      "Adds (30–36) to (75–81) Physical Damage",
+      "+(50–100) to Accuracy Rating",
+      "(10–20)% increased Stun Duration",
+      "Causes Daze buildup equal to 100% of Damage dealt"
+    ]
+  },
+  {
+    "name": "Collapsing Horizon",
+    "base": "Wyrm Quarterstaff",
+    "modifiers": [
+      "100% increased Elemental Damage with Attacks",
+      "+(5–10)% to Critical Hit Chance",
+      "+(2–4) to Level of all Elemental Skills",
+      "Trigger skills refund half of Energy spent"
+    ]
+  },
+  {
+    "name": "The Wicked Quill",
+    "base": "Withered Wand",
+    "modifiers": [
+      "Grants Skill: Chaos Bolt",
+      "(60–100)% increased Spell Damage",
+      "+(60–100) to maximum Mana",
+      "+(7–13)% to Chaos Resistance",
+      "Spells have a 25% chance to inflict Withered for 4 seconds on Hit"
+    ]
+  },
+  {
+    "name": "Sanguine Diviner",
+    "base": "Bone Wand",
+    "modifiers": [
+      "Grants Skill: Level 1 Bone Blast",
+      "(80–100)% increased Spell Damage",
+      "Gain (10–15) Life per Enemy Killed",
+      "25% chance to inflict Bleeding on Hit",
+      "25% of Spell Mana Cost Converted to Life Cost"
+    ]
+  },
+  {
+    "name": "Lifesprig",
+    "base": "Attuned Wand",
+    "modifiers": [
+      "Grants Skill: Level 1 Mana Drain",
+      "+(10–20) to maximum Mana",
+      "+(1–3) to Level of all Spell Skills",
+      "(5–10)% increased Cast Speed",
+      "Leeches 1% of maximum Life when you Cast a Spell"
+    ]
+  },
+  {
+    "name": "Adonia's Ego",
+    "base": "Siphoning Wand",
+    "modifiers": [
+      "Grants Skill: Level 4 Power Siphon",
+      "Grants Skill: Level 15 Pinnacle of Power",
+      "+(100–150) to maximum Mana",
+      "+3 to Level of all Spell Skills",
+      "(15–30)% increased Cast Speed",
+      "-10% to all Elemental Resistances per Power Charge",
+      "(-1–1) to Maximum Power Charges",
+      "power siphon unique elemental art variation [1]",
+      "visual use power charges elemental epk [1]"
+    ]
+  },
+  {
+    "name": "Enezun's Charge",
+    "base": "Volatile Wand",
+    "modifiers": [
+      "Grants Skill: Level 5 Volatile Dead",
+      "(80–100)% increased Spell Damage",
+      "(30–50)% increased Critical Hit Chance for Spells",
+      "Gain (10–15) Mana per Enemy Killed",
+      "25% chance to not destroy Corpses when Consuming Corpses"
+    ]
+  },
+  {
+    "name": "Cursecarver",
+    "base": "Acrid Wand",
+    "modifiers": [
+      "Grants Skill: Level 9 Decompose",
+      "(80–100)% increased Spell Damage",
+      "(10–20)% increased Cast Speed",
+      "Lose 10 Life per Enemy Killed",
+      "(30–50)% increased Mana Regeneration Rate",
+      "+4 to Level of [Random Curse] Skills"
+    ]
+  },
+  {
+    "name": "Dusk Vigil",
+    "base": "Ashen Staff",
+    "modifiers": [
+      "Grants Skill: Firebolt",
+      "Grants Skill: Ember Fusillade",
+      "(60–80)% increased Spell Damage",
+      "Gain (5–10) Life per Enemy Killed",
+      "25% increased Mana Regeneration Rate",
+      "Trigger Ember Fusillade Skill on casting a Spell"
+    ]
+  },
+  {
+    "name": "Taryn's Shiver",
+    "base": "Gelid Staff",
+    "modifiers": [
+      "Grants Skill: Level 1 Freezing Shards",
+      "(80–120)% increased Cold Damage",
+      "(10–20)% increased Cast Speed",
+      "100% increased Freeze Buildup",
+      "Enemies Frozen by you take 50% increased Damage"
+    ]
+  },
+  {
+    "name": "Earthbound",
+    "base": "Voltaic Staff",
+    "modifiers": [
+      "Grants Skill: Level 1 Lightning Bolt",
+      "Grants Skill: Level 1 Spark",
+      "(80–120)% increased Lightning Damage",
+      "(10–20)% increased Cast Speed",
+      "(20–30)% increased Mana Regeneration Rate",
+      "Trigger Spark Skill on killing a Shocked Enemy"
+    ]
+  },
+  {
+    "name": "The Searing Touch",
+    "base": "Pyrophyte Staff",
+    "modifiers": [
+      "Grants Skill: Level 5 Living Bomb",
+      "(80–120)% increased Fire Damage",
+      "(10–20)% increased Cast Speed",
+      "100% increased chance to Ignite",
+      "100% increased Magnitude of Ignite you inflict"
+    ]
+  },
+  {
+    "name": "Sire of Shards",
+    "base": "Chiming Staff",
+    "modifiers": [
+      "Grants Skill: Level 7 Sigil of Power",
+      "(80–120)% increased Spell Damage",
+      "(10–20)% increased Cast Speed",
+      "+(5–10)% to all Elemental Resistances",
+      "20% increased Light Radius",
+      "Spells fire 4 additional Projectiles",
+      "Spells fire Projectiles in a circle"
+    ]
+  },
+  {
+    "name": "The Burden of Shadows",
+    "base": "Chiming Staff",
+    "modifiers": [
+      "Grants Skill: Level 7 Sigil of Power",
+      "(20–30)% increased Cast Speed",
+      "Skill Mana Costs Converted to Life Costs",
+      "Skills gain 1% of Damage as Chaos Damage per 3 Life Cost"
+    ]
+  },
+  {
+    "name": "The Whispering Ice",
+    "base": "Permafrost Staff",
+    "modifiers": [
+      "Grants Skill: Level 17 Heart of Ice",
+      "Grants Skill: Level 17 Icestorm",
+      "+(2–4) to Level of all Cold Spell Skills",
+      "(10–20)% reduced Cast Speed",
+      "(5–15)% increased Intelligence",
+      "4% increased Spell Damage per 10 Intelligence",
+      "Inflict Cold Exposure on Hit, lowering Total Cold Resistance by (20–30)%"
+    ]
+  },
+  {
+    "name": "Widowhail",
+    "base": "Crude Bow",
+    "modifiers": [
+      "(150–250)% increased bonuses gained from Equipped Quiver"
+    ]
+  },
+  {
+    "name": "Quill Rain",
+    "base": "Shortbow",
+    "modifiers": [
+      "100% increased Attack Speed",
+      "+(10–20) to Dexterity",
+      "(50–100)% increased Arrow Speed",
+      "40% less Attack Damage"
+    ]
+  },
+  {
+    "name": "Splinterheart",
+    "base": "Recurve Bow",
+    "modifiers": [
+      "(120–160)% increased Physical Damage",
+      "+(50–70) to Accuracy Rating",
+      "(20–30)% increased Projectile Speed",
+      "Projectiles Split towards +2 targets"
+    ]
+  },
+  {
+    "name": "Doomfletch",
+    "base": "Composite Bow",
+    "modifiers": [
+      "Adds (5–7) to (10–12) Physical Damage",
+      "+10 to Dexterity",
+      "(30–50)% increased Mana Regeneration Rate",
+      "Attacks with this Weapon gain 50% of Physical damage as Extra damage of each Element"
+    ]
+  },
+  {
+    "name": "Death's Harp",
+    "base": "Dualstring Bow",
+    "modifiers": [
+      "Bow Attacks fire an additional Arrow",
+      "+(30–40)% to Critical Damage Bonus",
+      "Bow Attacks fire 3 additional Arrows",
+      "Gain (20–30) Life per Enemy Killed",
+      "Gain (12–18) Mana per Enemy Killed"
+    ]
+  },
+  {
+    "name": "Slivertongue",
+    "base": "Zealot Bow",
+    "modifiers": [
+      "Adds (40–48) to (65–72) Physical Damage",
+      "+(4–6)% to Critical Hit Chance",
+      "Leeches (5–8)% of Physical Damage as Life",
+      "Leeches (4–7)% of Physical Damage as Mana",
+      "Arrows Fork",
+      "Arrows Pierce all targets after Forking"
+    ]
+  },
+  {
+    "name": "Lioneye's Glare",
+    "base": "Heavy Bow",
+    "modifiers": [
+      "(150–240)% increased Physical Damage",
+      "+(300–500) to Accuracy Rating",
+      "10% increased Attack Speed",
+      "+(20–30) to Dexterity",
+      "+2 metres to Dodge Roll distance if you haven't Dodge Rolled Recently",
+      "-1 metre to Dodge Roll distance if you've Dodge Rolled Recently",
+      "Barrageable Attacks with this Bow Repeat +1 time if no enemies are in your Presence",
+      "enable lioneyes glow task [1]"
+    ]
+  },
+  {
+    "name": "Mist Whisper",
+    "base": "Makeshift Crossbow",
+    "modifiers": [
+      "Adds (8–10) to (13–15) Cold Damage",
+      "Gain 5 Mana per Enemy Killed",
+      "(30–50)% increased Freeze Buildup",
+      "30% increased Chill Duration on Enemies",
+      "Attacks Chain 2 additional times"
+    ]
+  },
+  {
+    "name": "Rampart Raptor",
+    "base": "Tense Crossbow",
+    "modifiers": [
+      "(20–30)% increased Bolt Speed",
+      "(40–60)% increased Physical Damage",
+      "(30–40)% increased Attack Speed",
+      "100% chance to not consume a bolt if you've Reloaded Recently",
+      "30% reduced Reload Speed"
+    ]
+  },
+  {
+    "name": "The Dark Defiler",
+    "base": "Rattling Sceptre",
+    "modifiers": [
+      "Grants Skill: Skeletal Warrior",
+      "+(20–30) to maximum Mana",
+      "+(5–10) to Intelligence",
+      "(10–30)% increased Mana Regeneration Rate",
+      "Gain 5% of Damage as Chaos Damage per Undead Minion"
+    ]
+  },
+  {
+    "name": "Font of Power",
+    "base": "Omen Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 5 Malice",
+      "(30–50)% increased Spirit",
+      "+(40–60) to maximum Mana",
+      "(20–30)% increased Mana Regeneration Rate",
+      "When a Party Member in your Presence Casts a Spell, you",
+      "Sacrifice 20% of Mana and they Leech that Mana"
+    ]
+  },
+  {
+    "name": "Sacred Flame",
+    "base": "Shrine Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 8 Purity of Fire",
+      "Gain (40–60)% of Damage as Extra Fire Damage",
+      "Allies in your Presence Gain (20–30)% of Damage as Extra Fire Damage",
+      "Allies in your Presence Regenerate (2–3)% of their Maximum Life per second",
+      "Enemies in your Presence Resist Elemental Damage based on their Lowest Resistance"
+    ]
+  },
+  {
+    "name": "Guiding Palm of the Heart",
+    "base": "Shrine Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 8 Purity of Fire",
+      "Gain 25% of Damage as Extra Fire Damage",
+      "Allies in your Presence deal (15–23) to (28–35) added Attack Fire Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20–30) to Strength",
+      "25% increased Light Radius",
+      "Grants effect of Guided Meteoric Shrine"
+    ]
+  },
+  {
+    "name": "Guiding Palm of the Eye",
+    "base": "Shrine Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 8 Purity of Ice",
+      "Gain 25% of Damage as Extra Cold Damage",
+      "Allies in your Presence deal (15–23) to (28–35) added Attack Cold Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20–30) to Intelligence",
+      "25% increased Light Radius",
+      "Grants effect of Guided Freezing Shrine"
+    ]
+  },
+  {
+    "name": "Guiding Palm of the Mind",
+    "base": "Shrine Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 8 Purity of Lightning",
+      "Gain 25% of Damage as Extra Lightning Damage",
+      "Allies in your Presence deal 1 to (56–70) added Attack Lightning Damage",
+      "50% of your Base Life Regeneration is granted to Allies in your Presence",
+      "+(20–30) to Dexterity",
+      "25% increased Light Radius",
+      "Grants effect of Guided Tempest Shrine"
+    ]
+  },
+  {
+    "name": "Palm of the Dreamer",
+    "base": "Shrine Sceptre",
+    "modifiers": [
+      "Grants Skill: Level 8 Impurity",
+      "Allies in your Presence deal (13–17) to (25–37) added Attack Chaos Damage",
+      "+(7–13) to all Attributes",
+      "23% reduced Light Radius",
+      "(-13–13)% reduced Skill Effect Duration",
+      "Gain 27% of Damage as Extra Chaos Damage",
+      "Grants effect of Dreaming Gloom Shrine"
+    ]
+  },
+  {
+    "name": "Voltaxic Rift",
+    "base": "Fanatic Bow",
+    "modifiers": [
+      "local weapon implicit hidden % base damage is chaos [100]",
+      "Adds 1 to (200–300) Lightning Damage",
+      "(10–15)% increased Attack Speed",
+      "100% of Lightning Damage Converted to Chaos Damage",
+      "Chaos Damage from Hits also Contributes to Shock Chance"
+    ]
+  },
+  {
+    "name": "The Last Lament",
+    "base": "Desolate Crossbow",
+    "modifiers": [
+      "Grants Skill: Level 13 Requiem",
+      "(250–300)% increased Physical Damage",
+      "(10–20)% increased Attack Speed",
+      "Leeches (5–10)% of Physical Damage as Life",
+      "(10–20)% chance to load a bolt into all Crossbow skills on Kill",
+      "Sacrifice 300 Life to not consume the last bolt when firing",
+      "(40–60)% reduced Reload Speed",
+      "enable grand design clip handling [1]"
+    ]
+  }
+]

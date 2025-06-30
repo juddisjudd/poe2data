@@ -1,0 +1,2250 @@
+[
+  {
+    "name": "Bramblejack",
+    "base": "Rusted Cuirass",
+    "modifiers": [
+      "+(60–100) to maximum Life",
+      "+(60–100) to Stun Threshold",
+      "Cannot Evade Enemy Attacks",
+      "250% of Melee Physical Damage taken reflected to Attacker",
+      "Regenerate 5% of maximum Life per second while Surrounded"
+    ]
+  },
+  {
+    "name": "Blackbraid",
+    "base": "Fur Plate",
+    "modifiers": [
+      "+(40–60) to Armour",
+      "+(5–15) to Strength",
+      "+(5–15) to Intelligence",
+      "+10% to all Elemental Resistances",
+      "+(40–60) to Stun Threshold",
+      "Armour applies to Elemental Damage"
+    ]
+  },
+  {
+    "name": "Edyrn's Tusks",
+    "base": "Iron Cuirass",
+    "modifiers": [
+      "(120–160)% increased Armour",
+      "50% chance to inflict Bleeding on Hit",
+      "50% reduced Slowing Potency of Debuffs on You",
+      "(15–20) to (25–30) Physical Thorns damage"
+    ]
+  },
+  {
+    "name": "The Road Warrior",
+    "base": "Raider Plate",
+    "modifiers": [
+      "+(10–15) to all Attributes",
+      "+(15–30)% to Fire Resistance",
+      "+(15–30)% to Lightning Resistance",
+      "(10–15) Life Regeneration per second",
+      "Moving while Bleeding doesn't cause you to take extra damage"
+    ]
+  },
+  {
+    "name": "Titanrot Cataphract",
+    "base": "Maraketh Cuirass",
+    "modifiers": [
+      "(400–500)% increased Armour",
+      "(15–30)% increased Strength",
+      "10% reduced Dexterity",
+      "10% reduced Intelligence",
+      "You have no Life Regeneration"
+    ]
+  },
+  {
+    "name": "Wandering Reliquary",
+    "base": "Steel Plate",
+    "modifiers": [
+      "(50–100)% increased Armour",
+      "+(40–60) to maximum Mana",
+      "+(10–20) to Strength",
+      "+(60–80) to Stun Threshold",
+      "50% of Physical Damage prevented Recouped as Life"
+    ]
+  },
+  {
+    "name": "Kingsguard",
+    "base": "Full Plate",
+    "modifiers": [
+      "+(60–80) to maximum Life",
+      "+(40–60) to maximum Mana",
+      "+(5–10)% to all Elemental Resistances",
+      "25% reduced Endurance Charge Duration",
+      "Recover 5% of maximum Life for each Endurance Charge consumed"
+    ]
+  },
+  {
+    "name": "Greed's Embrace",
+    "base": "Vaal Cuirass",
+    "modifiers": [
+      "50% increased Strength Requirement",
+      "20% reduced Movement Speed",
+      "(100–150)% increased Armour",
+      "(30–50)% increased Rarity of Items found",
+      "+(20–30)% to Fire Resistance"
+    ]
+  },
+  {
+    "name": "The Brass Dome",
+    "base": "Champion Cuirass",
+    "modifiers": [
+      "(400–500)% increased Armour",
+      "(-5–-1)% to all Maximum Elemental Resistances",
+      "+(200–300) to Stun Threshold",
+      "Take no Extra Damage from Critical Hits"
+    ]
+  },
+  {
+    "name": "Kaom's Heart",
+    "base": "Conqueror Plate",
+    "modifiers": [
+      "(30–40)% increased Stun Threshold",
+      "+1500 to maximum Life",
+      "You have no Spirit"
+    ]
+  },
+  {
+    "name": "Bristleboar",
+    "base": "Leather Vest",
+    "modifiers": [
+      "50% reduced Evasion Rating",
+      "+(40–60) to maximum Life",
+      "(3–5) Life Regeneration per second",
+      "Gain 10 Rage when Critically Hit by an Enemy",
+      "Gain 5 Rage when Hit by an Enemy"
+    ]
+  },
+  {
+    "name": "Foxshade",
+    "base": "Quilted Vest",
+    "modifiers": [
+      "+(50–70) to Evasion Rating",
+      "+(20–30) to Dexterity",
+      "10% increased Movement Speed when on Full Life",
+      "100% increased Evasion Rating when on Full Life"
+    ]
+  },
+  {
+    "name": "Ashrend",
+    "base": "Pathfinder Coat",
+    "modifiers": [
+      "+(40–60) to maximum Life",
+      "+(10–20) to Strength",
+      "+(30–40)% to Fire Resistance",
+      "Cannot be Ignited",
+      "-10 Physical Damage taken from Attack Hits"
+    ]
+  },
+  {
+    "name": "Sands of Silk",
+    "base": "Shrouded Vest",
+    "modifiers": [
+      "Grants Skill: Level 5 Blink",
+      "(50–100)% increased Evasion Rating",
+      "+(50–80) to maximum Mana",
+      "+(10–20) to Dexterity",
+      "+(10–20) to Intelligence",
+      "+(10–15)% to Fire Resistance",
+      "(15–30)% increased Cooldown Recovery Rate",
+      "dodge roll is replaced by blink [1]"
+    ]
+  },
+  {
+    "name": "Briskwrap",
+    "base": "Rhoahide Coat",
+    "modifiers": [
+      "(60–100)% increased Evasion Rating",
+      "(40–60)% increased Flask Life Recovery rate",
+      "(40–60)% increased Flask Mana Recovery rate",
+      "+(20–30) to Dexterity",
+      "+(20–30)% to Cold Resistance"
+    ]
+  },
+  {
+    "name": "Dustbloom",
+    "base": "Studded Vest",
+    "modifiers": [
+      "(100–150)% increased Evasion Rating",
+      "+(20–30)% to Cold Resistance",
+      "Maximum 10 Fragile Regrowth",
+      "0.5% of maximum Life Regenerated per second per Fragile Regrowth",
+      "10% increased Mana Regeneration Rate per Fragile Regrowth",
+      "Lose all Fragile Regrowth when Hit",
+      "Gain 1 Fragile Regrowth each second"
+    ]
+  },
+  {
+    "name": "The Rat Cage",
+    "base": "Scout's Vest",
+    "modifiers": [
+      "(100–150)% increased Evasion Rating",
+      "+300 to maximum Life",
+      "25% reduced Attribute Requirements",
+      "100% of Fire Damage from Hits taken as Physical Damage"
+    ]
+  },
+  {
+    "name": "Quatl's Molt",
+    "base": "Serpentscale Coat",
+    "modifiers": [
+      "(60–80)% increased Evasion Rating",
+      "+(60–80) to maximum Life",
+      "+(17–23)% to Chaos Resistance",
+      "(10–20) Life Regeneration per second",
+      "Cannot be Poisoned"
+    ]
+  },
+  {
+    "name": "Queen of the Forest",
+    "base": "Smuggler Coat",
+    "modifiers": [
+      "(100–150)% increased Evasion Rating",
+      "(-15–-10)% to Fire Resistance",
+      "+(25–30)% to Cold Resistance",
+      "+(10–15)% to Lightning Resistance",
+      "1% increased Movement Speed per 800 Evasion Rating",
+      "Other Modifiers to Movement Speed do not apply"
+    ]
+  },
+  {
+    "name": "Yriel's Fostering",
+    "base": "Strider Vest",
+    "modifiers": [
+      "(100–150)% increased Evasion Rating",
+      "+(80–120) to maximum Life",
+      "+(10–30) to Spirit",
+      "(40–60)% reduced Bleeding Duration on you",
+      "(40–60)% reduced Poison Duration on you",
+      "You can have two Companions of different types"
+    ]
+  },
+  {
+    "name": "Hyrri's Ire",
+    "base": "Armoured Vest",
+    "modifiers": [
+      "(30–40)% increased Elemental Ailment Threshold",
+      "(100–130)% increased Evasion Rating",
+      "Adds (13–20) to (21–31) Cold damage to Attacks",
+      "+(30–40) to Dexterity",
+      "25% increased Chill Duration on Enemies",
+      "Can Evade all Hits if you have not been Hit Recently"
+    ]
+  },
+  {
+    "name": "Ghostwrithe",
+    "base": "Tattered Robe",
+    "modifiers": [
+      "+100 to maximum Energy Shield",
+      "+(29–37)% to Chaos Resistance",
+      "25% of Maximum Life Converted to Energy Shield"
+    ]
+  },
+  {
+    "name": "Bitterbloom",
+    "base": "Feathered Robe",
+    "modifiers": [
+      "(50–100)% increased Energy Shield",
+      "+(50–100) to maximum Mana",
+      "50% increased Energy Shield Recharge Rate",
+      "Energy Shield Recharge starts when you use a Mana Flask"
+    ]
+  },
+  {
+    "name": "The Black Doubt",
+    "base": "Hexer's Robe",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(10–30) to Intelligence",
+      "+(10–20)% to Cold Resistance",
+      "Damage over Time bypasses your Energy Shield",
+      "While not on Full Life, Sacrifice 10% of maximum Mana per Second to Recover that much Life"
+    ]
+  },
+  {
+    "name": "Necromantle",
+    "base": "Bone Raiment",
+    "modifiers": [
+      "+(40–60) to maximum Life",
+      "+(30–50) to maximum Mana",
+      "Minions have +(17–23)% to Chaos Resistance",
+      "Minions gain (20–30)% of their maximum Life as Extra maximum Energy Shield",
+      "Minions Revive 50% faster"
+    ]
+  },
+  {
+    "name": "Cloak of Flame",
+    "base": "Silk Robe",
+    "modifiers": [
+      "+(30–50)% to Fire Resistance",
+      "(30–50)% reduced Ignite Duration on you",
+      "40% of Physical Damage taken as Fire Damage",
+      "25 to 35 Fire Thorns damage"
+    ]
+  },
+  {
+    "name": "Temporalis",
+    "base": "Silk Robe",
+    "modifiers": [
+      "+(100–150) to maximum Energy Shield",
+      "+(10–20)% to all Elemental Resistances",
+      "(5–30)% of Damage taken Recouped as Life",
+      "(5–30)% of Damage taken Recouped as Mana",
+      "Skills have (-2–-1) seconds to Cooldown"
+    ]
+  },
+  {
+    "name": "Prayers for Rain",
+    "base": "Keth Raiment",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(10–15) to Intelligence",
+      "+(10–20)% to Lightning Resistance",
+      "30% slower start of Energy Shield Recharge",
+      "Energy Shield Recharge is not interrupted by Damage if Recharge began Recently"
+    ]
+  },
+  {
+    "name": "Tetzlapokal's Desire",
+    "base": "Votive Raiment",
+    "modifiers": [
+      "(100–150)% increased Energy Shield",
+      "+(20–30) to Strength",
+      "+(20–30) to Intelligence",
+      "+(17–23)% to Chaos Resistance",
+      "Life Recharges"
+    ]
+  },
+  {
+    "name": "The Covenant",
+    "base": "Altar Robe",
+    "modifiers": [
+      "(50–100)% increased Energy Shield",
+      "+(100–150) to maximum Life",
+      "5% of Spell Damage Leeched as Life",
+      "Skills gain a Base Life Cost equal to 50% of Base Mana Cost"
+    ]
+  },
+  {
+    "name": "Gloamgown",
+    "base": "Elementalist Robe",
+    "modifiers": [
+      "(100–140)% increased Energy Shield",
+      "+(30–40) to Spirit",
+      "+(25–35)% to Cold Resistance",
+      "1000% increased Energy Shield Recharge Rate",
+      "Your base Energy Shield Recharge Delay is 10 seconds"
+    ]
+  },
+  {
+    "name": "Vis Mortis",
+    "base": "Plated Raiment",
+    "modifiers": [
+      "(70–100)% increased Energy Shield",
+      "+(70–100) to maximum Mana",
+      "Minions have 50% reduced maximum Life",
+      "Minions have Unholy Might"
+    ]
+  },
+  {
+    "name": "Cloak of Defiance",
+    "base": "Havoc Raiment",
+    "modifiers": [
+      "(50–100)% increased Energy Shield",
+      "+(100–150) to maximum Mana",
+      "50% increased Mana Regeneration Rate",
+      "30% of Damage is taken from Mana before Life"
+    ]
+  },
+  {
+    "name": "Silks of Veneration",
+    "base": "Enlightened Robe",
+    "modifiers": [
+      "(40–50)% increased Mana Regeneration Rate",
+      "+(30–50) to Spirit",
+      "+(20–30) to Intelligence",
+      "+(10–20)% to all Elemental Resistances",
+      "(30–50)% increased Energy Shield Recharge Rate",
+      "Current Energy Shield also grants Elemental Damage reduction"
+    ]
+  },
+  {
+    "name": "Coat of Red",
+    "base": "Chain Mail",
+    "modifiers": [
+      "(80–100)% increased Armour and Evasion",
+      "+(80–100) to maximum Life",
+      "+(75–150) to Stun Threshold",
+      "25% chance to be inflicted with Bleeding when Hit"
+    ]
+  },
+  {
+    "name": "The Barrow Dweller",
+    "base": "Rogue Armour",
+    "modifiers": [
+      "(60–100)% increased Armour and Evasion",
+      "(-20–-10)% to Fire Resistance",
+      "+50% to Cold Resistance",
+      "Damage of Enemies Hitting you is Unlucky while you are on Low Life",
+      "50% chance to Avoid Death from Hits"
+    ]
+  },
+  {
+    "name": "Irongrasp",
+    "base": "Vagabond Armour",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "+(20–30) to Strength",
+      "+(100–150) to Stun Threshold",
+      "Iron Grip",
+      "Iron Will"
+    ]
+  },
+  {
+    "name": "Pariah's Embrace",
+    "base": "Cloaked Mail",
+    "modifiers": [
+      "(50–80)% increased Armour and Evasion",
+      "+50 to Spirit",
+      "+(10–15) to all Attributes",
+      "(10–15) Life Regeneration per second",
+      "20% reduced Mana Cost of Skills"
+    ]
+  },
+  {
+    "name": "Belly of the Beast",
+    "base": "Explorer Armour",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "+(100–150) to maximum Life",
+      "+(100–150) to Stun Threshold",
+      "Life Recovery from Flasks is instant",
+      "(25–30) to (35–40) Physical Thorns damage"
+    ]
+  },
+  {
+    "name": "Pragmatism",
+    "base": "Explorer Armour",
+    "modifiers": [
+      "(200–300)% increased Armour and Evasion",
+      "+(10–20)% to all Elemental Resistances",
+      "-17% to Chaos Resistance",
+      "Charms use no Charges"
+    ]
+  },
+  {
+    "name": "Doryani's Prototype",
+    "base": "Scale Mail",
+    "modifiers": [
+      "(50–100)% increased Armour and Evasion",
+      "+(60–80) to maximum Life",
+      "Armour also applies to Lightning damage taken from Hits",
+      "Enemies in your Presence have Lightning Resistance equal to yours",
+      "Lightning Resistance does not affect Lightning damage taken"
+    ]
+  },
+  {
+    "name": "Widow's Reign",
+    "base": "Knight Armour",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "+(100–150) to maximum Life",
+      "+(17–23)% to Chaos Resistance",
+      "+(200–300) to Ailment Threshold",
+      "Life that would be lost by taking Damage is instead Reserved",
+      "until you take no Damage to Life for 5 seconds"
+    ]
+  },
+  {
+    "name": "Perfidy",
+    "base": "Knight Armour",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "(10–40)% chance to Avoid Physical Damage from Hits",
+      "(10–40)% chance to Avoid Chaos Damage from Hits",
+      "Enemies in your Presence are Intimidated"
+    ]
+  },
+  {
+    "name": "The Fallen Formation",
+    "base": "Lamellar Mail",
+    "modifiers": [
+      "(100–200)% increased Armour and Evasion",
+      "+(20–30) to Strength",
+      "+(20–30) to Dexterity",
+      "(8–12) Life Regeneration per second",
+      "-20 to maximum Valour",
+      "Banners always have maximum Valour"
+    ]
+  },
+  {
+    "name": "The Coming Calamity",
+    "base": "Heroic Armour",
+    "modifiers": [
+      "Grants Skill: Level 15 Herald of Ash",
+      "Grants Skill: Level 15 Herald of Ice",
+      "Grants Skill: Level 15 Herald of Thunder",
+      "+(60–80) to maximum Life",
+      "+(30–40)% to all Elemental Resistances",
+      "Enemies in your Presence have no Elemental Resistances"
+    ]
+  },
+  {
+    "name": "Enfolding Dawn",
+    "base": "Pilgrim Vestments",
+    "modifiers": [
+      "(50–100)% increased Armour and Energy Shield",
+      "+100 to Spirit",
+      "+(5–15)% to all Elemental Resistances",
+      "Gain no inherent bonus from Intelligence"
+    ]
+  },
+  {
+    "name": "Icetomb",
+    "base": "Mail Vestments",
+    "modifiers": [
+      "+(20–30) to Strength",
+      "+(20–30) to Intelligence",
+      "+(30–40)% to Cold Resistance",
+      "Freeze as though dealing Cold damage equal to 10% of your maximum Mana when Hit"
+    ]
+  },
+  {
+    "name": "Husk of Dreams",
+    "base": "Shaman Mantle",
+    "modifiers": [
+      "(100–150)% increased Armour and Energy Shield",
+      "-10% to Fire Resistance",
+      "+(17–23)% to Chaos Resistance",
+      "(20–30)% increased Flask Charges used",
+      "50% chance for Flasks you use to not consume Charges"
+    ]
+  },
+  {
+    "name": "Voll's Protector",
+    "base": "Ironclad Vestments",
+    "modifiers": [
+      "(100–150)% increased Armour and Energy Shield",
+      "25% reduced maximum Mana",
+      "+(13–17)% to Chaos Resistance",
+      "25% chance to gain a Power Charge on Critical Hit"
+    ]
+  },
+  {
+    "name": "Soul Mantle",
+    "base": "Sacrificial Mantle",
+    "modifiers": [
+      "(80–120)% increased Armour and Energy Shield",
+      "+10 to Strength",
+      "+15 to Intelligence",
+      "(20–30)% reduced Totem Life",
+      "+1 to maximum number of Summoned Totems",
+      "Inflicts a random Curse on you when your Totems die, ignoring Curse limit"
+    ]
+  },
+  {
+    "name": "The Mutable Star",
+    "base": "Cleric Vestments",
+    "modifiers": [
+      "(100–150)% increased Armour and Energy Shield",
+      "(50–100)% increased Energy Shield Recharge Rate",
+      "(25–35) Life Regeneration per second",
+      "(30–50)% reduced Bleeding Duration on you",
+      "(30–50)% reduced Ignite Duration on you",
+      "Defend against Hits as though you had 1% more Armour per 1% current Energy Shield"
+    ]
+  },
+  {
+    "name": "Waveshaper",
+    "base": "Tideseer Mantle",
+    "modifiers": [
+      "+(100–200) to maximum Energy Shield",
+      "+(20–40) to Spirit",
+      "+(25–35)% to Fire Resistance",
+      "+(25–35)% to Cold Resistance",
+      "Increases and Reductions to Mana Regeneration Rate also",
+      "apply to Energy Shield Recharge Rate",
+      "Gain (30–50)% of Maximum Mana as Armour"
+    ]
+  },
+  {
+    "name": "Couture of Crimson",
+    "base": "Gilded Vestments",
+    "modifiers": [
+      "(50–100)% increased Armour and Energy Shield",
+      "25% reduced maximum Life",
+      "(40–60)% reduced Bleeding Duration on you",
+      "Life Leech can Overflow Maximum Life"
+    ]
+  },
+  {
+    "name": "Sacrosanctum",
+    "base": "Corvus Mantle",
+    "modifiers": [
+      "+(20–30) to Spirit",
+      "(80–120)% increased Armour and Energy Shield",
+      "+(20–30) to Strength",
+      "+(20–30) to Intelligence",
+      "+(17–23)% to Chaos Resistance",
+      "(5–10)% of Damage taken Recouped as Life",
+      "Damage taken Recouped as Life is also Recouped as Energy Shield"
+    ]
+  },
+  {
+    "name": "Apron of Emiran",
+    "base": "Hermit Garb",
+    "modifiers": [
+      "(30–50)% increased Evasion and Energy Shield",
+      "+(10–20) to Dexterity",
+      "(40–60)% reduced Bleeding Duration on you",
+      "Bleeding you inflict is Aggravated"
+    ]
+  },
+  {
+    "name": "Gloomform",
+    "base": "Waxed Jacket",
+    "modifiers": [
+      "(100–150)% increased Evasion Rating",
+      "+(10–20) to Dexterity",
+      "+(10–20)% to Fire Resistance",
+      "20% reduced Light Radius",
+      "You have a Smoke Cloud around you while stationary"
+    ]
+  },
+  {
+    "name": "Sierran Inheritance",
+    "base": "Marabout Garb",
+    "modifiers": [
+      "(50–80)% increased Evasion and Energy Shield",
+      "-15% to Cold Resistance",
+      "+(30–40)% to Lightning Resistance",
+      "(30–50)% faster start of Energy Shield Recharge",
+      "The Effect of Chill on you is reversed"
+    ]
+  },
+  {
+    "name": "The Dancing Mirage",
+    "base": "Wayfarer Jacket",
+    "modifiers": [
+      "(150–200)% increased Evasion and Energy Shield",
+      "+(10–20)% to Lightning Resistance",
+      "20% less Damage taken if you have not been Hit Recently",
+      "100% increased Evasion Rating if you have been Hit Recently"
+    ]
+  },
+  {
+    "name": "Redflare Conduit",
+    "base": "Anchorite Garb",
+    "modifiers": [
+      "+(50–70) to maximum Mana",
+      "+(20–30)% to Lightning Resistance",
+      "20% chance to gain a Power Charge on Hit",
+      "Lose all Power Charges on reaching maximum Power Charges",
+      "Shocks you when you reach maximum Power Charges"
+    ]
+  },
+  {
+    "name": "Zerphi's Serape",
+    "base": "Scalper's Jacket",
+    "modifiers": [
+      "(60–80)% increased Evasion and Energy Shield",
+      "+(40–60) to maximum Mana",
+      "50% increased Attribute Requirements",
+      "(-30–30)% reduced Life Regeneration rate",
+      "(-30–30)% reduced Mana Regeneration Rate",
+      "Soul Eater"
+    ]
+  },
+  {
+    "name": "Wings of Caelyn",
+    "base": "Rusted Greathelm",
+    "modifiers": [
+      "+20 to Armour",
+      "(5–15)% increased Rarity of Items found",
+      "+(20–30) to Dexterity",
+      "Gain 1 Rage on Melee Hit",
+      "Every Rage also grants 1% increased Stun Threshold"
+    ]
+  },
+  {
+    "name": "Horns of Bynden",
+    "base": "Rusted Greathelm",
+    "modifiers": [
+      "+20 to Armour",
+      "(5–15)% increased Rarity of Items found",
+      "+(20–30) to Strength",
+      "Every Rage also grants 1% increased Armour",
+      "Gain 1 Rage on Melee Hit"
+    ]
+  },
+  {
+    "name": "Ezomyte Peak",
+    "base": "Soldier Greathelm",
+    "modifiers": [
+      "(50–100)% increased Armour",
+      "+(50–80) to maximum Life",
+      "(3–6) Life Regeneration per second",
+      "(10–20)% increased Area of Effect",
+      "Unwavering Stance"
+    ]
+  },
+  {
+    "name": "Black Sun Crest",
+    "base": "Wrapped Greathelm",
+    "modifiers": [
+      "(50–80)% increased Armour",
+      "20% reduced Light Radius",
+      "(5–15)% increased Strength",
+      "(5–15)% increased Dexterity",
+      "(5–15)% increased Intelligence"
+    ]
+  },
+  {
+    "name": "Thrillsteel",
+    "base": "Spired Greathelm",
+    "modifiers": [
+      "Onslaught"
+    ]
+  },
+  {
+    "name": "Deidbell",
+    "base": "Elite Greathelm",
+    "modifiers": [
+      "(60–100)% increased Armour",
+      "+(10–20) to Strength",
+      "(20–30)% increased Warcry Speed",
+      "Warcries Explode Corpses dealing 10% of their Life as Physical Damage",
+      "Warcry Skills have (20–30)% increased Area of Effect"
+    ]
+  },
+  {
+    "name": "Corona of the Red Sun",
+    "base": "Warrior Greathelm",
+    "modifiers": [
+      "+(100–150) to Accuracy Rating",
+      "+(60–80) to maximum Life",
+      "+(20–25)% to Fire Resistance",
+      "25% increased Light Radius",
+      "When you Leech Life from a Hit, Allies in your Presence also Leech the same amount of Life"
+    ]
+  },
+  {
+    "name": "Blood Price",
+    "base": "Fierce Greathelm",
+    "modifiers": [
+      "(80–120)% increased Armour",
+      "(10–15) Life Regeneration per second",
+      "+(100–150) to Stun Threshold",
+      "(30–60)% increased Presence Area of Effect",
+      "Enemies in your Presence have at least 10% of Life Reserved"
+    ]
+  },
+  {
+    "name": "Innsmouth",
+    "base": "Shabby Hood",
+    "modifiers": [
+      "+(20–30) to Evasion Rating",
+      "25% reduced maximum Mana",
+      "+(10–20)% to Cold Resistance",
+      "+(13–19)% to Chaos Resistance",
+      "100% increased Mana Regeneration Rate"
+    ]
+  },
+  {
+    "name": "Goldrim",
+    "base": "Felt Cap",
+    "modifiers": [
+      "+(30–50) to Evasion Rating",
+      "10% increased Rarity of Items found",
+      "+(25–35)% to all Elemental Resistances"
+    ]
+  },
+  {
+    "name": "Radiant Grief",
+    "base": "Lace Hood",
+    "modifiers": [
+      "(80–100)% increased Evasion Rating",
+      "+(15–25)% to Fire Resistance",
+      "30% increased Light Radius",
+      "Enemies in your Presence are Ignited as though dealt 100 Base Fire Damage"
+    ]
+  },
+  {
+    "name": "Elevore",
+    "base": "Hunter Hood",
+    "modifiers": [
+      "(50–80)% increased Evasion Rating",
+      "+(20–30) to Dexterity",
+      "Charms gain 0.5 charges per Second",
+      "+1 Charm Slot"
+    ]
+  },
+  {
+    "name": "Constricting Command",
+    "base": "Viper Cap",
+    "modifiers": [
+      "+(80–120) to maximum Life",
+      "+(10–15) to all Attributes",
+      "(8–12) Life Regeneration per second",
+      "Pin Enemies which are Primed for Pinning"
+    ]
+  },
+  {
+    "name": "The Black Insignia",
+    "base": "Corsair Cap",
+    "modifiers": [
+      "(70–100)% increased Evasion Rating",
+      "(10–20)% increased Rarity of Items found",
+      "+(15–25)% to Lightning Resistance",
+      "Gain Tailwind on Critical Hit, no more than once per second",
+      "Lose all Tailwind when Hit"
+    ]
+  },
+  {
+    "name": "Starkonja's Head",
+    "base": "Leatherbound Hood",
+    "modifiers": [
+      "(100–200)% increased Evasion Rating",
+      "(15–25)% increased Critical Hit Chance",
+      "+(30–40) to Dexterity",
+      "150% increased Global Evasion Rating when on Low Life",
+      "15% of Damage from Hits is taken from your Damageable Companion's Life before you"
+    ]
+  },
+  {
+    "name": "Heatshiver",
+    "base": "Velvet Cap",
+    "modifiers": [
+      "(50–70)% increased Evasion Rating",
+      "+(60–100) to maximum Mana",
+      "+(20–30)% to Fire Resistance",
+      "+(20–30)% to Cold Resistance",
+      "Gain 1% of Cold damage as Extra Fire damage per 1% Chill Magnitude on enemy"
+    ]
+  },
+  {
+    "name": "Myris Uxor",
+    "base": "Covert Hood",
+    "modifiers": [
+      "(40–60)% increased Evasion Rating",
+      "+(100–150) to Accuracy Rating",
+      "+(40–60) to maximum Mana",
+      "100% increased Culling Strike Threshold"
+    ]
+  },
+  {
+    "name": "Alpha's Howl",
+    "base": "Armoured Cap",
+    "modifiers": [
+      "(80–100)% increased Evasion Rating",
+      "+100 to Spirit",
+      "+(50–75)% to Cold Resistance",
+      "Presence Radius is doubled"
+    ]
+  },
+  {
+    "name": "Crown of Thorns",
+    "base": "Twig Circlet",
+    "modifiers": [
+      "+(100–150) to maximum Energy Shield",
+      "Lose 5 Life when you use a Skill",
+      "(3–5) to (6–10) Physical Thorns damage",
+      "Pain Attunement"
+    ]
+  },
+  {
+    "name": "The Devouring Diadem",
+    "base": "Wicker Tiara",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(40–60) to maximum Life",
+      "+(10–20) to Intelligence",
+      "+(13–19)% to Chaos Resistance",
+      "Every 3 seconds, Consume a nearby Corpse to Recover 20% of maximum Life"
+    ]
+  },
+  {
+    "name": "Visage of Ayah",
+    "base": "Beaded Circlet",
+    "modifiers": [
+      "(50–80)% increased Energy Shield",
+      "(10–15)% increased Rarity of Items found",
+      "(20–30)% increased Critical Hit Chance",
+      "+(10–20)% to Lightning Resistance",
+      "Eldritch Battery"
+    ]
+  },
+  {
+    "name": "Forbidden Gaze",
+    "base": "Chain Tiara",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(3–5)% to Maximum Cold Resistance",
+      "+(30–50)% to Cold Resistance",
+      "25% reduced Light Radius"
+    ]
+  },
+  {
+    "name": "Sandstorm Visage",
+    "base": "Chain Tiara",
+    "modifiers": [
+      "+(80–120) to maximum Energy Shield",
+      "+(20–30) to Dexterity",
+      "Enemies in your Presence are Blinded",
+      "Every second, inflicts Critical Weakness on enemies in your Presence for 15 seconds"
+    ]
+  },
+  {
+    "name": "Mask of the Stitched Demon",
+    "base": "Feathered Tiara",
+    "modifiers": [
+      "(120–160)% increased Energy Shield",
+      "+(17–23)% to Chaos Resistance",
+      "Cannot have Energy Shield",
+      "Regenerate 0.05 Life per second per Maximum Energy Shield"
+    ]
+  },
+  {
+    "name": "Atziri's Disdain",
+    "base": "Gold Circlet",
+    "modifiers": [
+      "+(60–100) to maximum Mana",
+      "(10–20)% increased Rarity of Items found",
+      "10% of Damage taken bypasses Energy Shield",
+      "Gain (10–15)% of maximum Life as Extra maximum Energy Shield"
+    ]
+  },
+  {
+    "name": "Crown of Eyes",
+    "base": "Coral Circlet",
+    "modifiers": [
+      "(100–140)% increased Energy Shield",
+      "+(150–200) to Accuracy Rating",
+      "+(10–15) to all Attributes",
+      "-10% to Fire Resistance",
+      "Increases and Reductions to Spell damage also apply to Attacks"
+    ]
+  },
+  {
+    "name": "Scold's Bridle",
+    "base": "Jade Tiara",
+    "modifiers": [
+      "+(75–150) to maximum Energy Shield",
+      "(60–100)% increased Spell Damage",
+      "+(80–100) to maximum Mana",
+      "15% reduced Cast Speed",
+      "Take (25–100)% of Mana Costs you pay for Skills as Physical Damage"
+    ]
+  },
+  {
+    "name": "Indigon",
+    "base": "Magus Tiara",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(80–120) to maximum Mana",
+      "(35–50)% increased Cost of Skills for each 200 total Mana Spent Recently",
+      "(35–50)% increased Spell damage for each 200 total Mana you have Spent Recently",
+      "Mana Recovery other than Regeneration cannot Recover Mana"
+    ]
+  },
+  {
+    "name": "Greymake",
+    "base": "Brimmed Helm",
+    "modifiers": [
+      "+(30–50) to Strength",
+      "+(30–50) to Dexterity",
+      "+(30–50) to Intelligence",
+      "-1 to all Attributes per Level"
+    ]
+  },
+  {
+    "name": "Erian's Cobble",
+    "base": "Guarded Helm",
+    "modifiers": [
+      "+(0–40) to Armour",
+      "+(0–30) to Evasion Rating",
+      "+(0–20) to maximum Energy Shield",
+      "+(0–60) to Accuracy Rating",
+      "+(0–30) to maximum Life",
+      "+(0–20) to maximum Mana",
+      "(0–20)% increased Rarity of Items found",
+      "(0–30)% increased Critical Hit Chance",
+      "+(0–10) to Strength",
+      "+(0–10) to Dexterity",
+      "+(0–10) to Intelligence",
+      "+(0–10)% to Fire Resistance",
+      "+(0–10)% to Cold Resistance",
+      "+(0–10)% to Lightning Resistance",
+      "(0–6) Life Regeneration per second"
+    ]
+  },
+  {
+    "name": "Ironride",
+    "base": "Visored Helm",
+    "modifiers": [
+      "(60–80)% increased Armour and Evasion",
+      "+(30–50) to maximum Life",
+      "+(30–50) to maximum Mana",
+      "+(10–15)% to Lightning Resistance",
+      "You have no Accuracy Penalty at Distance"
+    ]
+  },
+  {
+    "name": "The Smiling Knight",
+    "base": "Cowled Helm",
+    "modifiers": [
+      "+(50–100) to Accuracy Rating",
+      "(150–200)% increased Armour and Evasion",
+      "(15–25)% increased Critical Hit Chance",
+      "Aggravate Bleeding on targets you Critically Hit with Attacks"
+    ]
+  },
+  {
+    "name": "The Vile Knight",
+    "base": "Shielded Helm",
+    "modifiers": [
+      "(60–100)% increased Armour and Evasion",
+      "+(75–125) to Accuracy Rating",
+      "(10–15) Life Regeneration per second",
+      "Deal 4% increased Damage with Hits to Rare or Unique Enemies for each second they've ever been in your Presence, up to a maximum of 200%"
+    ]
+  },
+  {
+    "name": "Assailum",
+    "base": "Closed Helm",
+    "modifiers": [
+      "(50–100)% increased Armour and Evasion",
+      "+(200–400) to Accuracy Rating",
+      "(30–50)% increased Critical Hit Chance",
+      "Skills have a (100–150)% longer Perfect Timing window"
+    ]
+  },
+  {
+    "name": "The Bringer of Rain",
+    "base": "Decorated Helm",
+    "modifiers": [
+      "(600–800)% increased Armour and Evasion",
+      "+(200–300) to Accuracy Rating",
+      "100% increased Critical Hit Chance",
+      "(30–60) Life Regeneration per second",
+      "Can't use Body Armour",
+      "You can wield Two-Handed Axes, Maces and Swords in one hand"
+    ]
+  },
+  {
+    "name": "Crown of the Victor",
+    "base": "Iron Crown",
+    "modifiers": [
+      "(10–15)% increased Rarity of Items found",
+      "Gain 10 Life per Enemy Killed",
+      "Gain 10 Mana per Enemy Killed",
+      "+1 to Level of all Skills"
+    ]
+  },
+  {
+    "name": "Bronzebeard",
+    "base": "Horned Crown",
+    "modifiers": [
+      "10% reduced Movement Speed",
+      "(50–100)% increased Armour and Energy Shield",
+      "+100 to maximum Life",
+      "(35–50)% reduced Effect of Chill on you",
+      "(35–50)% reduced effect of Ignite on you",
+      "(35–50)% reduced effect of Shock on you"
+    ]
+  },
+  {
+    "name": "Crown of the Pale King",
+    "base": "Cultist Crown",
+    "modifiers": [
+      "(50–100)% increased Armour and Energy Shield",
+      "+(40–80) to maximum Life",
+      "10% increased Rarity of Items found",
+      "(10–15) to (20–25) Physical Thorns damage",
+      "Thorns can Retaliate against all Hits"
+    ]
+  },
+  {
+    "name": "Veil of the Night",
+    "base": "Martyr Crown",
+    "modifiers": [
+      "50% increased maximum Life",
+      "+(10–20) to all Attributes",
+      "40% reduced Light Radius",
+      "You have no Elemental Resistances"
+    ]
+  },
+  {
+    "name": "Cornathaum",
+    "base": "Heavy Crown",
+    "modifiers": [
+      "(10–20)% increased Rarity of Items found",
+      "+(40–50) to Intelligence",
+      "30% increased Light Radius",
+      "5% increased Experience gain"
+    ]
+  },
+  {
+    "name": "Keeper of the Arc",
+    "base": "Spiritbone Crown",
+    "modifiers": [
+      "(100–150)% increased Armour and Energy Shield",
+      "(15–25) Life Regeneration per second",
+      "(15–25)% increased Mana Regeneration Rate",
+      "Alternating every 5 seconds:",
+      "Take 30% less Damage from Hits",
+      "Take 30% less Damage over time"
+    ]
+  },
+  {
+    "name": "The Deepest Tower",
+    "base": "Spiritbone Crown",
+    "modifiers": [
+      "(70–130)% increased Armour and Energy Shield",
+      "+(70–100) to maximum Life",
+      "+(17–23)% to Chaos Resistance",
+      "50% reduced Presence Area of Effect",
+      "10% reduced Light Radius",
+      "Enemies in your Presence count as being on Low Life"
+    ]
+  },
+  {
+    "name": "The Hollow Mask",
+    "base": "Hewn Mask",
+    "modifiers": [
+      "+(60–80) to maximum Life",
+      "15% additional Physical Damage Reduction",
+      "-10% to all Elemental Resistances",
+      "+13% to Chaos Resistance"
+    ]
+  },
+  {
+    "name": "Mask of the Sanguimancer",
+    "base": "Face Mask",
+    "modifiers": [
+      "+(20–25) to Evasion Rating",
+      "+(10–15) to maximum Energy Shield",
+      "(20–40)% increased Critical Hit Chance for Spells",
+      "+(10–20) to Strength",
+      "+(10–20) to Intelligence",
+      "Blood Magic"
+    ]
+  },
+  {
+    "name": "Leer Cast",
+    "base": "Hooded Mask",
+    "modifiers": [
+      "+(30–50) to maximum Life",
+      "+(30–50) to maximum Mana",
+      "Allies in your Presence deal 50% increased Damage",
+      "+(10–20) to Dexterity",
+      "25% reduced Damage"
+    ]
+  },
+  {
+    "name": "Atsak's Sight",
+    "base": "Veiled Mask",
+    "modifiers": [
+      "(100–150)% increased Evasion and Energy Shield",
+      "(30–40)% increased Critical Hit Chance",
+      "+(10–20) to Dexterity",
+      "+(10–20) to Intelligence",
+      "Critical Hits Poison the enemy"
+    ]
+  },
+  {
+    "name": "The Vertex",
+    "base": "Tribal Mask",
+    "modifiers": [
+      "(100–150)% increased Evasion and Energy Shield",
+      "(20–30)% increased Critical Hit Chance",
+      "+(13–17)% to Chaos Resistance",
+      "Equipment and Skill Gems have 50% reduced Attribute Requirements"
+    ]
+  },
+  {
+    "name": "Glimpse of Chaos",
+    "base": "Tribal Mask",
+    "modifiers": [
+      "Can be modified while Corrupted",
+      "+(50–150) to maximum Life",
+      "+(50–150) to maximum Mana",
+      "(-30–30)% to Fire Resistance",
+      "(-30–30)% to Cold Resistance",
+      "(-30–30)% to Lightning Resistance",
+      "Chaos Resistance is zero"
+    ]
+  },
+  {
+    "name": "The Three Dragons",
+    "base": "Solid Mask",
+    "modifiers": [
+      "(40–60)% increased Evasion and Energy Shield",
+      "+(10–20)% to all Elemental Resistances",
+      "Fire Damage from Hits Contributes to Shock Chance instead of Ignite Chance and Magnitude",
+      "Cold Damage from Hits Contributes to Ignite Chance and Magnitude instead of Chill Magnitude or Freeze Buildup",
+      "Lightning Damage from Hits Contributes to Freeze Buildup instead of Shock Chance"
+    ]
+  },
+  {
+    "name": "Mind of the Council",
+    "base": "Death Mask",
+    "modifiers": [
+      "(60–90)% increased Evasion and Energy Shield",
+      "+(60–90) to maximum Mana",
+      "+(20–30)% to Lightning Resistance",
+      "Attacks cost an additional 6% of your maximum Mana",
+      "Attacks have Added maximum Lightning Damage equal to (6–9)% of maximum Mana"
+    ]
+  },
+  {
+    "name": "Treefingers",
+    "base": "Riveted Mitts",
+    "modifiers": [
+      "(30–60)% increased Armour",
+      "Adds (6–10) to (12–16) Physical Damage to Attacks",
+      "5% reduced Attack Speed",
+      "(20–30)% increased Stun Buildup",
+      "Giant's Blood"
+    ]
+  },
+  {
+    "name": "Lochtonial Caress",
+    "base": "Tempered Mitts",
+    "modifiers": [
+      "(10–15)% increased Skill Speed",
+      "+(15–25) to Armour",
+      "+(40–60) to maximum Life",
+      "(10–15)% reduced maximum Mana",
+      "Share Charges with Allies in your Presence"
+    ]
+  },
+  {
+    "name": "Dreadfist",
+    "base": "Bolstered Mitts",
+    "modifiers": [
+      "(60–100)% increased Armour",
+      "(20–30)% increased Critical Damage Bonus",
+      "Critical Hits inflict Impale",
+      "Critical Hits cannot Extract Impale",
+      "(20–31) to (31–49) Physical Thorns damage"
+    ]
+  },
+  {
+    "name": "Atziri's Acuity",
+    "base": "Moulded Mitts",
+    "modifiers": [
+      "(80–100)% increased Armour",
+      "(30–50)% increased Critical Hit Chance",
+      "+(20–30) to Intelligence",
+      "Leech from Critical Hits is instant"
+    ]
+  },
+  {
+    "name": "Hateforge",
+    "base": "Moulded Mitts",
+    "modifiers": [
+      "(50–80)% increased Armour",
+      "Gain (1–3) random Charge on reaching Maximum Rage",
+      "Lose all Rage on reaching Maximum Rage",
+      "(-10–10) to Maximum Rage"
+    ]
+  },
+  {
+    "name": "Empire's Grasp",
+    "base": "Titan Mitts",
+    "modifiers": [
+      "(150–200)% increased Armour",
+      "+(20–30) to Strength",
+      "Gain (30–50) Life per Enemy Killed",
+      "(10–20)% increased Global Physical Damage",
+      "Knockback direction is reversed"
+    ]
+  },
+  {
+    "name": "Northpaw",
+    "base": "Suede Bracers",
+    "modifiers": [
+      "+(15–25) to Evasion Rating",
+      "Adds (3–5) to (8–10) Physical Damage to Attacks",
+      "(10–15)% increased Critical Damage Bonus",
+      "Base Critical Hit Chance for Attacks with Weapons is 7%"
+    ]
+  },
+  {
+    "name": "Grip of Winter",
+    "base": "Firm Bracers",
+    "modifiers": [
+      "(30–50)% increased Evasion Rating",
+      "Adds (3–5) to (6–8) Cold damage to Attacks",
+      "+(20–30)% to Cold Resistance",
+      "(40–50)% increased Freeze Buildup",
+      "(20–30)% increased Magnitude of Chill you inflict"
+    ]
+  },
+  {
+    "name": "Idle Hands",
+    "base": "Sectioned Bracers",
+    "modifiers": [
+      "(40–60)% increased Evasion Rating",
+      "+(60–100) to Accuracy Rating",
+      "+(5–10) to Intelligence",
+      "25% increased Attack Speed while on Full Mana",
+      "You count as on Full Mana while at 90% of maximum Mana or above"
+    ]
+  },
+  {
+    "name": "Snakebite",
+    "base": "Spined Bracers",
+    "modifiers": [
+      "(40–60)% increased Evasion Rating",
+      "+(7–17)% to Chaos Resistance",
+      "(6–10) Life Regeneration per second",
+      "(20–30)% chance to Poison on Hit",
+      "Targets can be affected by +1 of your Poisons at the same time"
+    ]
+  },
+  {
+    "name": "Maligaro's Virtuosity",
+    "base": "Fine Bracers",
+    "modifiers": [
+      "(60–80)% increased Evasion Rating",
+      "(20–30)% increased Critical Hit Chance",
+      "5% increased Attack Speed",
+      "+(10–20) to Dexterity",
+      "Your Critical Damage Bonus is 300%"
+    ]
+  },
+  {
+    "name": "Painter's Servant",
+    "base": "Torn Gloves",
+    "modifiers": [
+      "Gain (5–10)% of Elemental Damage as Extra Cold Damage",
+      "Gain (5–10)% of Elemental Damage as Extra Fire Damage",
+      "Gain (5–10)% of Elemental Damage Damage as Extra Lightning Damage",
+      "33% of Elemental Damage Converted to Cold Damage",
+      "33% of Elemental Damage Converted to Fire Damage",
+      "33% of Elemental Damage Converted to Lightning Damage"
+    ]
+  },
+  {
+    "name": "Candlemaker",
+    "base": "Sombre Gloves",
+    "modifiers": [
+      "(50–80)% increased Energy Shield",
+      "(20–40)% increased Fire Damage",
+      "(10–20)% reduced Cold Damage",
+      "+(20–40)% to Fire Resistance",
+      "(-20–-10)% to Cold Resistance",
+      "Chance to Ignite is doubled"
+    ]
+  },
+  {
+    "name": "Doedre's Tenure",
+    "base": "Stitched Gloves",
+    "modifiers": [
+      "+(20–30) to maximum Energy Shield",
+      "100% increased Spell Damage",
+      "(15–25)% reduced Cast Speed",
+      "+(10–15) to Intelligence"
+    ]
+  },
+  {
+    "name": "Kitoko's Current",
+    "base": "Jewelled Gloves",
+    "modifiers": [
+      "(30–50)% increased Energy Shield",
+      "+(10–20) to Dexterity",
+      "(10–15)% reduced Attack and Cast Speed",
+      "Lightning damage from Hits Contributes to Electrocution Buildup"
+    ]
+  },
+  {
+    "name": "Demon Stitcher",
+    "base": "Intricate Gloves",
+    "modifiers": [
+      "+(40–60) to maximum Energy Shield",
+      "+(80–120) to maximum Life",
+      "(6–12)% increased Cast Speed",
+      "Sacrifice (5–15)% of Life to gain that much Energy Shield when you Cast a Spell"
+    ]
+  },
+  {
+    "name": "Nightscale",
+    "base": "Pauascale Gloves",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "(30–50)% increased Critical Hit Chance",
+      "+(10–20) to Intelligence",
+      "+(20–30)% to Cold Resistance",
+      "150% increased Mana Regeneration Rate if you've dealt a Critical Hit Recently",
+      "Cannot Regenerate Mana if you haven't dealt a Critical Hit Recently"
+    ]
+  },
+  {
+    "name": "Leopold's Applause",
+    "base": "Embroidered Gloves",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(60–100) to maximum Mana",
+      "(10–15)% increased Rarity of Items found",
+      "Damage Penetrates 10% Elemental Resistances",
+      "Your Hits can Penetrate Elemental Resistances down to a minimum of -50%"
+    ]
+  },
+  {
+    "name": "Jarngreipr",
+    "base": "Ringmail Gauntlets",
+    "modifiers": [
+      "50% increased Armour and Evasion",
+      "Adds (2–3) to (5–6) Physical Damage to Attacks",
+      "+(30–50) to maximum Life",
+      "(4–8)% increased Attack Speed",
+      "Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills"
+    ]
+  },
+  {
+    "name": "Aurseize",
+    "base": "Layered Gauntlets",
+    "modifiers": [
+      "(40–60)% increased Armour and Evasion",
+      "(40–50)% increased Rarity of Items found",
+      "Lose 2% of maximum Life on Kill"
+    ]
+  },
+  {
+    "name": "Deathblow",
+    "base": "Doubled Gauntlets",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "(5–10)% increased Attack Speed",
+      "Gain (20–30) Life per Enemy Killed",
+      "Gain (20–30) Mana per Enemy Killed",
+      "Culling Strike"
+    ]
+  },
+  {
+    "name": "Valako's Vice",
+    "base": "Plate Gauntlets",
+    "modifiers": [
+      "(50–100)% increased Armour and Evasion",
+      "(5–10)% increased Attack Speed",
+      "+(20–30) to Strength",
+      "+(20–30) to Dexterity",
+      "+(30–50)% to Lightning Resistance",
+      "100% of Fire damage Converted to Lightning damage"
+    ]
+  },
+  {
+    "name": "Aerisvane's Wings",
+    "base": "Burnished Gauntlets",
+    "modifiers": [
+      "(50–70)% increased Armour and Evasion",
+      "(5–10)% increased Attack Speed",
+      "+(20–30) to Intelligence",
+      "Decimating Strike"
+    ]
+  },
+  {
+    "name": "Death Articulated",
+    "base": "Ornate Gauntlets",
+    "modifiers": [
+      "(100–150)% increased Armour and Evasion",
+      "(5–10)% increased Attack Speed",
+      "+(17–23)% to Chaos Resistance",
+      "Lose 5% of maximum Life per second",
+      "Regenerate 5 Rage per second",
+      "No Inherent loss of Rage"
+    ]
+  },
+  {
+    "name": "Gravebind",
+    "base": "Rope Cuffs",
+    "modifiers": [
+      "(40–60)% increased Armour and Energy Shield",
+      "+(10–15)% to Cold Resistance",
+      "Gain (7–10) Life per Enemy Killed",
+      "Gain (4–6) Mana per Enemy Killed",
+      "Enemies in your Presence killed by anyone count as being killed by you instead"
+    ]
+  },
+  {
+    "name": "Shackles of the Wretched",
+    "base": "Aged Cuffs",
+    "modifiers": [
+      "(30–50)% increased Armour and Energy Shield",
+      "You cannot be Chilled for 6 seconds after being Chilled",
+      "You cannot be Frozen for 6 seconds after being Frozen",
+      "You cannot be Ignited for 6 seconds after being Ignited",
+      "You cannot be Shocked for 6 seconds after being Shocked",
+      "Curses you inflict are reflected back to you"
+    ]
+  },
+  {
+    "name": "Blueflame Bracers",
+    "base": "Goldcast Cuffs",
+    "modifiers": [
+      "+20 to maximum Energy Shield",
+      "+(10–20) to Intelligence",
+      "+(5–15)% to Fire Resistance",
+      "+(5–15)% to Cold Resistance",
+      "100% of Fire Damage Converted to Cold Damage"
+    ]
+  },
+  {
+    "name": "The Prisoner's Manacles",
+    "base": "Diviner Cuffs",
+    "modifiers": [
+      "(200–300)% increased Armour and Energy Shield",
+      "+100 to maximum Life",
+      "100% increased Attribute Requirements",
+      "+(20–40)% to Lightning Resistance",
+      "(15–30) Life Regeneration per second",
+      "Debuffs you inflict have (20–30)% increased Slow Magnitude",
+      "Cannot Immobilise enemies"
+    ]
+  },
+  {
+    "name": "Plaguefinger",
+    "base": "Gauze Wraps",
+    "modifiers": [
+      "(30–50)% increased Evasion and Energy Shield",
+      "(4–6)% increased Attack Speed",
+      "(20–30)% chance to Poison on Hit",
+      "All Damage from Hits Contributes to Poison Magnitude"
+    ]
+  },
+  {
+    "name": "Killjoy",
+    "base": "Linen Wraps",
+    "modifiers": [
+      "(30–60)% increased Evasion and Energy Shield",
+      "+(30–50) to maximum Life",
+      "(20–30)% increased Critical Damage Bonus",
+      "Life Flasks do not recover Life",
+      "On-Kill Effects happen twice"
+    ]
+  },
+  {
+    "name": "Blessed Bonds",
+    "base": "Linen Wraps",
+    "modifiers": [
+      "+(60–100) to Evasion Rating",
+      "+(30–50) to maximum Energy Shield",
+      "Gain (25–35) Mana per Enemy Killed",
+      "Inflict Cold Exposure on Igniting an Enemy",
+      "Inflict Fire Exposure on Shocking an Enemy",
+      "Inflict Lightning Exposure on Critical Hit"
+    ]
+  },
+  {
+    "name": "Hand of Wisdom and Action",
+    "base": "Spiral Wraps",
+    "modifiers": [
+      "+(15–25) to Dexterity",
+      "+(15–25) to Intelligence",
+      "1% increased Attack Speed per 20 Dexterity",
+      "Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence"
+    ]
+  },
+  {
+    "name": "Essentia Sanguis",
+    "base": "Furtive Wraps",
+    "modifiers": [
+      "(50–70)% increased Evasion and Energy Shield",
+      "Adds 1 to (30–50) Lightning damage to Attacks",
+      "+(15–25) to Intelligence",
+      "+(25–35)% to Lightning Resistance",
+      "Life Leech is Converted to Energy Shield Leech"
+    ]
+  },
+  {
+    "name": "Legionstride",
+    "base": "Rough Greaves",
+    "modifiers": [
+      "+(50–70) to Armour",
+      "+(50–70) to Stun Threshold",
+      "-10 Physical damage taken from Projectile Attacks",
+      "+10% to Block chance"
+    ]
+  },
+  {
+    "name": "Corpsewade",
+    "base": "Iron Greaves",
+    "modifiers": [
+      "Grants Skill: Level 4 Decompose",
+      "10% increased Movement Speed",
+      "(30–50)% increased Armour",
+      "+(5–10) to Strength",
+      "Trigger Decompose Skill on Step"
+    ]
+  },
+  {
+    "name": "The Infinite Pursuit",
+    "base": "Bronze Greaves",
+    "modifiers": [
+      "10% increased Movement Speed",
+      "(100–150)% increased Armour",
+      "+(80–100) to maximum Life",
+      "(80–100)% increased Chance to be afflicted by Ailments when Hit",
+      "25% increased Movement Speed while affected by an Ailment"
+    ]
+  },
+  {
+    "name": "Trampletoe",
+    "base": "Trimmed Greaves",
+    "modifiers": [
+      "15% increased Movement Speed",
+      "(50–100)% increased Armour",
+      "50% increased Attribute Requirements",
+      "Deal 30% of Overkill damage to enemies within 2 metres of the enemy killed"
+    ]
+  },
+  {
+    "name": "Birth of Fury",
+    "base": "Stone Greaves",
+    "modifiers": [
+      "20% increased Movement Speed",
+      "+(40–60) to maximum Life",
+      "+(20–30)% to Fire Resistance",
+      "Drop Ignited Ground while moving, which lasts 8 seconds and Ignites as though dealing Fire Damage equal to 10% of your maximum Life"
+    ]
+  },
+  {
+    "name": "Briarpatch",
+    "base": "Laced Boots",
+    "modifiers": [
+      "(10–20)% increased Movement Speed",
+      "+(40–60) to maximum Life",
+      "+(60–80) to Stun Threshold",
+      "+25% to Thorns Critical Hit Chance",
+      "(10–15) to (20–25) Physical Thorns damage"
+    ]
+  },
+  {
+    "name": "Gamblesprint",
+    "base": "Embossed Boots",
+    "modifiers": [
+      "(100–140)% increased Evasion Rating",
+      "+(10–15) to Dexterity",
+      "+(15–25)% to Lightning Resistance",
+      "Gain 0% to 40% increased Movement Speed at random when Hit, until Hit again"
+    ]
+  },
+  {
+    "name": "Thunderstep",
+    "base": "Steeltoe Boots",
+    "modifiers": [
+      "(10–20)% increased Movement Speed",
+      "(40–60)% increased Evasion Rating",
+      "+(3–5)% to Maximum Lightning Resistance",
+      "+(30–50)% to Lightning Resistance"
+    ]
+  },
+  {
+    "name": "Bushwhack",
+    "base": "Lizardscale Boots",
+    "modifiers": [
+      "(15–25)% increased Movement Speed",
+      "(50–80)% increased Evasion Rating",
+      "+(10–20) to Dexterity",
+      "Physical Damage is Pinning"
+    ]
+  },
+  {
+    "name": "Luminous Pace",
+    "base": "Straw Sandals",
+    "modifiers": [
+      "10% increased Movement Speed",
+      "+(20–30) to maximum Energy Shield",
+      "+(5–10) to Intelligence",
+      "(20–30)% reduced Energy Shield Recharge Rate",
+      "100% faster start of Energy Shield Recharge"
+    ]
+  },
+  {
+    "name": "Wanderlust",
+    "base": "Wrapped Sandals",
+    "modifiers": [
+      "20% increased Movement Speed",
+      "+(10–20) to maximum Energy Shield",
+      "+5 to Dexterity",
+      "Your speed is unaffected by Slows"
+    ]
+  },
+  {
+    "name": "Bones of Ullr",
+    "base": "Lattice Sandals",
+    "modifiers": [
+      "(40–60)% increased Energy Shield",
+      "+(20–40) to maximum Life",
+      "+(20–40) to maximum Mana",
+      "Undead Minions have 20% reduced Reservation"
+    ]
+  },
+  {
+    "name": "Wondertrap",
+    "base": "Silk Slippers",
+    "modifiers": [
+      "(10–20)% increased Movement Speed",
+      "+(30–50) to maximum Energy Shield",
+      "+(10–20) to Strength",
+      "+(10–20) to Dexterity",
+      "+(10–20) to Intelligence",
+      "50% increased Rarity of Items found when on Low Life"
+    ]
+  },
+  {
+    "name": "Windscream",
+    "base": "Feathered Sandals",
+    "modifiers": [
+      "(10–20)% increased Movement Speed",
+      "(50–100)% increased Energy Shield",
+      "+(10–20) to Intelligence",
+      "Curses have no Activation Delay"
+    ]
+  },
+  {
+    "name": "The Knight-errant",
+    "base": "Mail Sabatons",
+    "modifiers": [
+      "10% increased Movement Speed",
+      "(30–50)% increased Armour and Evasion",
+      "+(30–50) to Stun Threshold",
+      "+(30–50) to Ailment Threshold",
+      "Iron Reflexes"
+    ]
+  },
+  {
+    "name": "Darkray Vectors",
+    "base": "Braced Sabatons",
+    "modifiers": [
+      "(50–100)% increased Armour and Evasion",
+      "+(20–30)% to Lightning Resistance",
+      "25% reduced Light Radius",
+      "5% increased Movement Speed per Frenzy Charge",
+      "+1 to Maximum Frenzy Charges"
+    ]
+  },
+  {
+    "name": "Obern's Bastion",
+    "base": "Stacked Sabatons",
+    "modifiers": [
+      "(150–200)% increased Armour and Evasion",
+      "(20–25) Life Regeneration per second",
+      "200% increased Stun Recovery",
+      "(30–50)% reduced Chill Duration on you",
+      "(30–50)% reduced Freeze Duration on you",
+      "(30–50)% reduced Shock duration on you"
+    ]
+  },
+  {
+    "name": "Wake of Destruction",
+    "base": "Secured Leggings",
+    "modifiers": [
+      "10% increased Movement Speed",
+      "(30–60)% increased Armour and Energy Shield",
+      "Adds 1 to (30–50) Lightning damage to Attacks",
+      "Drop Shocked Ground while moving, lasting 8 seconds"
+    ]
+  },
+  {
+    "name": "Ghostmarch",
+    "base": "Threaded Shoes",
+    "modifiers": [
+      "(100–150)% increased Evasion and Energy Shield",
+      "+(30–50) to maximum Mana",
+      "+(17–23)% to Chaos Resistance",
+      "Dodge Roll passes through Enemies"
+    ]
+  },
+  {
+    "name": "Powertread",
+    "base": "Hunting Shoes",
+    "modifiers": [
+      "(10–15)% increased Movement Speed",
+      "(60–80)% increased Evasion and Energy Shield",
+      "+(10–20) to Intelligence",
+      "+1 to Maximum Power Charges",
+      "12% increased Critical Damage Bonus per Power Charge"
+    ]
+  },
+  {
+    "name": "Beetlebite",
+    "base": "Velour Shoes",
+    "modifiers": [
+      "(20–30)% increased Movement Speed",
+      "(60–120)% increased Evasion and Energy Shield",
+      "Aggravate Bleeding on Enemies when they Enter your Presence",
+      "100% increased Thorns damage"
+    ]
+  },
+  {
+    "name": "Dionadair Splintered",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(60–80)% increased Armour",
+      "+(10–15) to Strength",
+      "(3–5) Life Regeneration per second",
+      "20% reduced Stun Threshold",
+      "Double Stun Threshold while Shield is Raised"
+    ]
+  },
+  {
+    "name": "Wulfsbane Painted",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "+(40–60) to maximum Life",
+      "+(10–15) to Strength",
+      "+(60–80) to Stun Threshold",
+      "Permanently Intimidate enemies on Block"
+    ]
+  },
+  {
+    "name": "Doomgate Braced",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "80% increased Block chance",
+      "(100–150)% increased Armour",
+      "+(13–17)% to Chaos Resistance",
+      "You take 20% of damage from Blocked Hits",
+      "Enemies are Culled on Block"
+    ]
+  },
+  {
+    "name": "Window to Paradise Barricade",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(60–120)% increased Armour",
+      "+(60–100) to maximum Mana",
+      "+(10–15)% to all Elemental Resistances",
+      "Apply Elemental Exposure to Enemies 3 metres in front of you",
+      "for 4 seconds while Shield is raised"
+    ]
+  },
+  {
+    "name": "The Wailing Wall Effigial",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "10% reduced Movement Speed",
+      "(100–150)% increased Armour",
+      "+(100–150) to Stun Threshold",
+      "Can Block damage from all Hits",
+      "Cannot use Shield Skills"
+    ]
+  },
+  {
+    "name": "Lycosidae Rampart",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(30–40)% increased Block chance",
+      "(60–100)% increased Armour",
+      "Accuracy Rating is Doubled",
+      "Blocking Damage Poisons the Enemy as though dealing 200 Base Chaos Damage"
+    ]
+  },
+  {
+    "name": "Redblade Banner Heraldric",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(20–30)% increased Block chance",
+      "(60–100)% increased Armour",
+      "+(20–30) to Strength",
+      "+(100–150) to Stun Threshold",
+      "Enemies in your Presence count as having double Power"
+    ]
+  },
+  {
+    "name": "The Surrender Stone",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(40–60)% increased Block chance",
+      "(150–200)% increased Armour",
+      "+(150–200) to Stun Threshold",
+      "Recover 4% of maximum Life when you Block"
+    ]
+  },
+  {
+    "name": "Svalinn Crucible",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "Grants Skill: Level 14 Cast on Block",
+      "(100–150)% increased Armour",
+      "(-20–-10)% to maximum Block chance",
+      "Block chance is Lucky"
+    ]
+  },
+  {
+    "name": "Chernobog's Pillar Blacksteel",
+    "base": "Tower Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(100–150)% increased Armour",
+      "+(30–40)% to Fire Resistance",
+      "+(23–29)% to Chaos Resistance",
+      "+(150–200) to Stun Threshold",
+      "Gain 1% of damage as Fire damage per 1% Chance to Block"
+    ]
+  },
+  {
+    "name": "Arvil's Wheel",
+    "base": "Hardwood Targe",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(60–100)% increased Armour and Evasion",
+      "+(40–60) to maximum Life",
+      "+(40–60) to maximum Mana",
+      "Lose 1% of maximum Life on Kill",
+      "Lose 1% of maximum Mana on Kill",
+      "(30–50)% increased Skill Effect Duration"
+    ]
+  },
+  {
+    "name": "Merit of Service",
+    "base": "Pelage Targe",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(30–50)% increased Block chance",
+      "(60–80)% increased Armour and Evasion",
+      "+(60–80) to Stun Threshold",
+      "Allies in your Presence have Block Chance equal to yours"
+    ]
+  },
+  {
+    "name": "Feathered Fortress",
+    "base": "Crescent Targe",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "+(20–30) to Strength",
+      "+(20–30) to Dexterity",
+      "+(20–30)% to Fire Resistance",
+      "+(20–30)% to Cold Resistance",
+      "No Movement Speed Penalty while Shield is Raised"
+    ]
+  },
+  {
+    "name": "Alkem Eira Blazon",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(30–40)% increased Block chance",
+      "(30–50)% increased Armour and Energy Shield",
+      "+(50–70) to maximum Mana",
+      "Damage Blocked is Recouped as Mana"
+    ]
+  },
+  {
+    "name": "Oaksworn Sigil",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(40–60)% increased Block chance",
+      "(80–120)% increased Armour and Energy Shield",
+      "+(17–23)% to Chaos Resistance",
+      "50% increased Life Regeneration rate"
+    ]
+  },
+  {
+    "name": "Saffell's Frame Emblem",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "+(15–25)% to Fire Resistance",
+      "+(15–25)% to Cold Resistance",
+      "+(15–25)% to Lightning Resistance",
+      "You cannot Block",
+      "Modifiers to Maximum Block Chance instead apply to Maximum Resistances"
+    ]
+  },
+  {
+    "name": "Crest of Ardura Jingling",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(60–100)% increased Armour and Energy Shield",
+      "+(10–20) to Intelligence",
+      "(30–50)% increased Mana Regeneration Rate",
+      "(30–50)% increased Cooldown Recovery Rate"
+    ]
+  },
+  {
+    "name": "Mahuxotl's Machination Omen",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(333–666)% increased Armour and Energy Shield",
+      "100% increased effect of Socketed Soul Cores",
+      "Everlasting Sacrifice"
+    ]
+  },
+  {
+    "name": "Rise of the Phoenix Omen",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "+5% to Maximum Fire Resistance",
+      "+(20–25)% to Fire Resistance",
+      "+25% to Fire Resistance while on Low Life",
+      "Regenerate 3% of maximum Life per second",
+      "Regenerate 3% of maximum Life per second while on Low Life"
+    ]
+  },
+  {
+    "name": "Dunkelhalt",
+    "base": "Leather Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(30–50)% increased Block chance",
+      "+(20–30) to Evasion Rating",
+      "You take 50% of damage from Blocked Hits",
+      "50% increased Parried Debuff Magnitude"
+    ]
+  },
+  {
+    "name": "Nocturne",
+    "base": "Wooden Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "+(60–80) to maximum Mana",
+      "+(10–15)% to all Elemental Resistances",
+      "20% increased Accuracy Rating",
+      "Parried enemies take more Spell Damage instead of more Attack Damage",
+      "100% increased Parried Debuff Duration",
+      "parry skill art variation from item [2]"
+    ]
+  },
+  {
+    "name": "Rondel de Ezo",
+    "base": "Plated Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(50–150)% increased Evasion Rating",
+      "+(10–20) to Dexterity",
+      "5 Life Regeneration per second",
+      "100% increased Block chance against Projectiles",
+      "Curse Enemies with Enfeeble on Block"
+    ]
+  },
+  {
+    "name": "Bloodbarrier",
+    "base": "Iron Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(20–30)% increased Block chance",
+      "+(13–17)% to Chaos Resistance",
+      "(5–10) Life Regeneration per second",
+      "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% of",
+      "your maximum Life as Physical damage per second"
+    ]
+  },
+  {
+    "name": "Silverthorne",
+    "base": "Spiked Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(60–100)% increased Evasion Rating",
+      "+(10–15)% to all Elemental Resistances",
+      "Parrying applies 10 Stacks of Critical Weakness",
+      "100% increased Parry Damage"
+    ]
+  },
+  {
+    "name": "Calgyra's Arc",
+    "base": "Ornate Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(60–100)% increased Evasion Rating",
+      "+(60–100) to maximum Mana",
+      "+(10–20) to Intelligence",
+      "Infinite Projectile Parry Range",
+      "50% increased Parried Debuff Duration",
+      "parry skill art variation from item [1]"
+    ]
+  },
+  {
+    "name": "Sunsplinter",
+    "base": "Array Buckler",
+    "modifiers": [
+      "Grants Skill: Parry",
+      "(100–300)% increased Evasion Rating",
+      "+1% to Maximum Fire Resistance",
+      "+2% to Maximum Cold Resistance",
+      "+3% to Maximum Lightning Resistance",
+      "+2 to Level of all Cold Skills",
+      "+1 to Level of all Fire Skills",
+      "+3 to Level of all Lightning Skills"
+    ]
+  },
+  {
+    "name": "Deathrattle",
+    "base": "Twig Focus",
+    "modifiers": [
+      "+(10–20) to maximum Energy Shield",
+      "(20–40)% increased Spell Damage",
+      "+(5–10) to Intelligence",
+      "20% chance for Energy Shield Recharge to start when you Kill an Enemy"
+    ]
+  },
+  {
+    "name": "Threaded Light",
+    "base": "Woven Focus",
+    "modifiers": [
+      "(50–70)% increased Energy Shield",
+      "(30–40)% increased Mana Regeneration Rate",
+      "20% increased Light Radius",
+      "(8–12)% increased Spell Damage per 10 Spirit"
+    ]
+  },
+  {
+    "name": "Effigy of Cruelty",
+    "base": "Antler Focus",
+    "modifiers": [
+      "+(20–30) to maximum Energy Shield",
+      "(60–80)% increased Spell Damage",
+      "+10 to Intelligence",
+      "+(7–13)% to Chaos Resistance",
+      "Critical Hits with Spells apply (3–5) Stacks of Critical Weakness"
+    ]
+  },
+  {
+    "name": "Carrion Call",
+    "base": "Engraved Focus",
+    "modifiers": [
+      "+(30–40) to maximum Energy Shield",
+      "Minions have (20–30)% increased maximum Life",
+      "(20–30)% increased Mana Regeneration Rate",
+      "Minions' Resistances are equal to yours"
+    ]
+  },
+  {
+    "name": "Serpent's Lesson",
+    "base": "Tonal Focus",
+    "modifiers": [
+      "+(60–100) to maximum Life",
+      "+(60–100) to maximum Mana",
+      "You count as on Low Life while at 35% of maximum Mana or below",
+      "You count as on Low Mana while at 35% of maximum Life or below"
+    ]
+  },
+  {
+    "name": "The Eternal Spark",
+    "base": "Crystal Focus",
+    "modifiers": [
+      "(50–70)% increased Energy Shield",
+      "+5% to Maximum Lightning Resistance",
+      "+(20–30)% to Lightning Resistance",
+      "40% increased Mana Regeneration Rate",
+      "40% increased Mana Regeneration Rate while stationary"
+    ]
+  },
+  {
+    "name": "Apep's Supremacy",
+    "base": "Voodoo Focus",
+    "modifiers": [
+      "(100–200)% increased Energy Shield",
+      "(30–50)% increased Energy Shield Recharge Rate",
+      "(30–50)% faster start of Energy Shield Recharge",
+      "20% of Elemental damage from Hits taken as Chaos damage",
+      "+25% chance to be Poisoned"
+    ]
+  },
+  {
+    "name": "Tabula Rasa",
+    "base": "Garment",
+    "modifiers": [
+      "Has 6 Jewel Sockets"
+    ]
+  },
+  {
+    "name": "Skin of the Loyal",
+    "base": "Garment",
+    "modifiers": [
+      "+(5–40)% to all Elemental Resistances",
+      "Elemental Ailment Threshold is increased by Overcapped Chaos Resistance",
+      "Armour is increased by Overcapped Fire Resistance",
+      "Energy Shield is increased by Overcapped Cold Resistance",
+      "Evasion Rating is increased by Overcapped Lightning Resistance"
+    ]
+  },
+  {
+    "name": "Morior Invictus",
+    "base": "Grand Regalia",
+    "modifiers": [
+      "(200–300)% increased Armour, Evasion and Energy Shield",
+      "[3 Random Socket Modifiers]",
+      "[Has 4 Rune Sockets]"
+    ]
+  },
+  {
+    "name": "Solus Ipse",
+    "base": "Grand Visage",
+    "modifiers": [
+      "+(60–100) to maximum Mana",
+      "25% increased Light Radius",
+      "(100–150)% increased Armour, Evasion and Energy Shield",
+      "Equipment and Skill Gems have 25% increased Attribute Requirements",
+      "You can use each type of Support Gem an additional time in different Skills"
+    ]
+  },
+  {
+    "name": "Sine Aequo",
+    "base": "Grand Manchettes",
+    "modifiers": [
+      "(10–15)% increased Skill Speed",
+      "(40–60)% increased Armour, Evasion and Energy Shield",
+      "Immobilise enemies at 50% buildup instead of 100%",
+      "Enemies Immobilised by you take 25% less Damage"
+    ]
+  },
+  {
+    "name": "Ab Aeterno",
+    "base": "Grand Cuisses",
+    "modifiers": [
+      "(15–30)% increased Movement Speed",
+      "(60–80)% increased Armour, Evasion and Energy Shield",
+      "Dodge Roll avoids all Hits",
+      "10% less Movement and Skill Speed per Dodge Roll in the past 20 seconds"
+    ]
+  },
+  {
+    "name": "Demigod's Virtue",
+    "base": "Golden Visage",
+    "modifiers": [
+      "25% increased Rarity of Items found",
+      "Virtuous"
+    ]
+  },
+  {
+    "name": "Prism Guardian Intricate",
+    "base": "Crest Shield",
+    "modifiers": [
+      "Grants Skill: Raise Shield",
+      "(80–150)% increased Armour and Energy Shield",
+      "+(20–30) to Dexterity",
+      "+(10–20)% to all Elemental Resistances",
+      "+1 to Maximum Spirit per 25 Maximum Life"
+    ]
+  },
+  {
+    "name": "Rathpith Globe",
+    "base": "Sacred Focus",
+    "modifiers": [
+      "(60–100)% increased Energy Shield",
+      "+(60–100) to maximum Life",
+      "Non-Channelling Spells cost an additional 6% of your maximum Life",
+      "Non-Channelling Spells have 5% increased Critical Hit Chance per 100 maximum Life",
+      "Non-Channelling Spells deal 10% increased Damage per 100 maximum Life"
+    ]
+  }
+]
